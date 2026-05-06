@@ -32,8 +32,8 @@ export function ListeningPractice({ track }: { track: ListeningTrack }) {
       toast.error("Speech synthesis is not supported in this browser.");
       return;
     }
-    if (track.audioUrl) {
-      // Real file path — let the user use the audio element below
+    if (track.youtubeId) {
+      // Real audio is in the embedded YouTube player above; nothing to do here.
       return;
     }
     window.speechSynthesis.cancel();
@@ -101,14 +101,16 @@ export function ListeningPractice({ track }: { track: ListeningTrack }) {
           <CardTitle className="text-base">Audio</CardTitle>
         </CardHeader>
         <CardContent className="space-y-3">
-          {track.audioUrl ? (
-            <audio
-              src={track.audioUrl}
-              controls
-              className="w-full"
-              onPlay={() => setPlaying(true)}
-              onPause={() => setPlaying(false)}
-            />
+          {track.youtubeId ? (
+            <div className="aspect-video w-full overflow-hidden rounded-lg border border-border bg-black">
+              <iframe
+                src={`https://www.youtube-nocookie.com/embed/${track.youtubeId}?rel=0&modestbranding=1`}
+                title={track.title}
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+                className="h-full w-full"
+              />
+            </div>
           ) : (
             <div className="flex flex-wrap gap-2">
               {!playing ? (
@@ -123,29 +125,38 @@ export function ListeningPractice({ track }: { track: ListeningTrack }) {
               <Button onClick={restart} variant="ghost">
                 <SkipBack className="h-4 w-4" /> Restart
               </Button>
-              <Button
-                variant="ghost"
-                onClick={() => setShowTranscript((s) => !s)}
-              >
-                {showTranscript ? (
-                  <>
-                    <EyeOff className="h-4 w-4" /> Hide transcript
-                  </>
-                ) : (
-                  <>
-                    <Eye className="h-4 w-4" /> Show transcript
-                  </>
-                )}
-              </Button>
             </div>
           )}
-          {!track.audioUrl && (
-            <p className="text-xs text-muted-foreground">
-              Using your browser&apos;s text-to-speech engine. Real exam audio
-              will be in a British accent — pick a UK voice in your OS settings
-              for the most authentic experience.
-            </p>
-          )}
+          <div className="flex flex-wrap gap-2">
+            <Button
+              variant="ghost"
+              size="sm"
+              onClick={() => setShowTranscript((s) => !s)}
+            >
+              {showTranscript ? (
+                <>
+                  <EyeOff className="h-4 w-4" /> Hide transcript
+                </>
+              ) : (
+                <>
+                  <Eye className="h-4 w-4" /> Show transcript
+                </>
+              )}
+            </Button>
+          </div>
+          <p className="text-xs text-muted-foreground">
+            <strong>Source:</strong> {track.attribution}{" "}
+            <a
+              href={track.sourceUrl}
+              target="_blank"
+              rel="noreferrer noopener"
+              className="underline hover:text-foreground"
+            >
+              View original
+            </a>
+            {" · "}
+            Licence: {track.licence}
+          </p>
           {showTranscript && (
             <div className="rounded-lg border border-border bg-muted/20 p-3 text-xs space-y-1.5 max-h-72 overflow-y-auto scrollbar-thin">
               {track.transcript.map((line, i) => (

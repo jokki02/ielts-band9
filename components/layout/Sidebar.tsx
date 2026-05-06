@@ -14,6 +14,7 @@ import {
   BarChart3,
   Trophy,
   Lightbulb,
+  BookMarked,
   Settings,
 } from "lucide-react";
 import { cn } from "@/lib/utils";
@@ -30,6 +31,7 @@ const NAV = [
   { href: "/progress", label: "Progress", icon: BarChart3 },
   { href: "/achievements", label: "Achievements", icon: Trophy },
   { href: "/tips", label: "Tips", icon: Lightbulb },
+  { href: "/sources", label: "Sources", icon: BookMarked },
   { href: "/settings", label: "Settings", icon: Settings },
 ];
 

@@ -11,7 +11,7 @@ export default function ListeningHub() {
     <PageWrapper>
       <PageHeader
         title="Listening Lab"
-        description="Practise IELTS-style listening with browser-synthesised audio and full transcripts. Bring your own MP3s by configuring `audioUrl` in data/listening/audio.ts."
+        description="Real human-recorded TED-Ed lectures with verbatim transcripts and IELTS-style questions. Every track links to its original source under its open licence."
       />
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
         {LISTENING_TRACKS.map((t) => (
@@ -26,13 +26,20 @@ export default function ListeningHub() {
               </div>
               <CardDescription className="text-xs">{t.description}</CardDescription>
             </CardHeader>
-            <CardContent className="flex items-center justify-between text-sm">
-              <span className="text-muted-foreground">
-                {t.questions.length} questions
-              </span>
-              <Button asChild size="sm" variant="default">
-                <Link href={`/listening/${t.id}`}>Open lab</Link>
-              </Button>
+            <CardContent className="space-y-2 text-sm">
+              <div className="flex items-center justify-between">
+                <span className="text-muted-foreground">
+                  {t.questions.length} questions ·{" "}
+                  {Math.floor(t.durationSec / 60)}:
+                  {String(t.durationSec % 60).padStart(2, "0")}
+                </span>
+                <Button asChild size="sm" variant="default">
+                  <Link href={`/listening/${t.id}`}>Open lab</Link>
+                </Button>
+              </div>
+              <p className="text-[11px] text-muted-foreground">
+                {t.attribution}
+              </p>
             </CardContent>
           </Card>
         ))}

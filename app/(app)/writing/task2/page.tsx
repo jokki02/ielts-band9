@@ -20,6 +20,8 @@ export default function Task2Page({
         type: prompt.type,
         keyVocabulary: prompt.keyVocabulary,
         band9Tips: prompt.band9Tips,
+        source: prompt.source,
+        sourceUrl: prompt.sourceUrl,
       }}
       timeLimit={TIME_LIMITS.writing.task2}
       minWords={250}

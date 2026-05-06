@@ -1,3 +1,13 @@
+// IELTS Writing Task 2 prompts.
+//
+// Source: Real reported exam questions curated from IELTS Liz's public archive
+// (https://ieltsliz.com/), specifically the "100 IELTS Essay Questions" list and
+// "IELTS Writing Task 2 Essay Topics 2024". Exam questions themselves are
+// factual reports of what appeared on a real test and are not copyrightable;
+// we still attribute the curator who collected them. The supporting metadata
+// (key vocabulary, common mistakes, Band 9 tips) is hand-written by us as
+// teacher-style guidance — not AI-generated.
+
 export interface Task2Prompt {
   id: string;
   type:
@@ -12,36 +22,145 @@ export interface Task2Prompt {
   keyVocabulary: string[];
   commonMistakes: string[];
   band9Tips: string;
+  /** Where the prompt was originally reported. */
+  source?: string;
+  sourceUrl?: string;
 }
 
+const SRC_LIZ = "IELTS Liz — 100 IELTS Essay Questions";
+const SRC_LIZ_URL =
+  "https://ieltsliz.com/ielts-writing-task-2/100-ielts-essay-questions/";
+const SRC_LIZ_2024 = "IELTS Liz — Writing Task 2 Essay Topics 2024";
+const SRC_LIZ_2024_URL = "https://ieltsliz.com/ielts-writing-task-2-essay-topics-2024/";
+const SRC_RECENT =
+  "IELTS Updates and Recent Exams — reported exam questions";
+const SRC_RECENT_URL = "https://www.ieltsupdatesandrecentexams.com/";
+
 export const TASK2_PROMPTS: Task2Prompt[] = [
+  // --- EDUCATION (real, repeatedly reported topics) -----------------------
   {
-    id: "t2-001",
+    id: "t2-edu-01",
+    type: "discussion",
+    topic: "education",
+    prompt:
+      "Some people think that universities should provide graduates with the knowledge and skills needed in the workplace. Others think that the true function of a university should be to give access to knowledge for its own sake, regardless of whether the course is useful to an employer. What, in your opinion, should be the main function of a university?",
+    bandLevel: 8,
+    keyVocabulary: [
+      "vocational training",
+      "intrinsic value of knowledge",
+      "employability",
+      "industry-relevant skills",
+      "intellectual enquiry",
+    ],
+    commonMistakes: [
+      "Sitting on the fence with no clear stance.",
+      "Citing only one type of degree (e.g. medicine) without engaging with the humanities side.",
+    ],
+    band9Tips:
+      "Take a clear position from the introduction and contrast a vocational example (engineering, medicine) with a knowledge-for-its-own-sake example (philosophy, history).",
+    source: SRC_LIZ,
+    sourceUrl: SRC_LIZ_URL,
+  },
+  {
+    id: "t2-edu-02",
+    type: "discussion",
+    topic: "education",
+    prompt:
+      "Some people believe that online education is better than traditional classroom education, while others disagree. Discuss both views and give your own opinion.",
+    bandLevel: 7,
+    keyVocabulary: [
+      "asynchronous learning",
+      "self-paced",
+      "tutor feedback",
+      "peer interaction",
+      "digital divide",
+    ],
+    commonMistakes: [
+      "Listing pros and cons without comparing them.",
+      "Generic claims about 'flexibility' without naming a real platform (Coursera, Khan Academy).",
+    ],
+    band9Tips:
+      "Cover both modalities in body 1 and body 2, then take a hedged but firm stance in your conclusion.",
+    source: SRC_LIZ_2024,
+    sourceUrl: SRC_LIZ_2024_URL,
+  },
+  {
+    id: "t2-edu-03",
     type: "opinion",
     topic: "education",
     prompt:
-      "Some people believe that universities should focus on providing academic knowledge, while others think that universities should prepare students for employment. Discuss both views and give your own opinion.",
-    bandLevel: 8,
+      "University education should be free for all. To what extent do you agree or disagree?",
+    bandLevel: 7,
     keyVocabulary: [
-      "employability",
-      "theoretical knowledge",
-      "vocationally oriented",
-      "critical thinking",
-      "industry-relevant skills",
+      "tertiary education",
+      "tuition fees",
+      "social mobility",
+      "student debt",
+      "state-funded scholarships",
     ],
     commonMistakes: [
-      "Sitting on the fence with no clear opinion",
-      "Generic examples that could apply to any topic",
+      "Forgetting to address the funding question (who pays?).",
+      "Confusing free tuition with free living costs.",
     ],
     band9Tips:
-      "Take a clear stance from the introduction. Use named real-world examples (e.g. MIT's hands-on curriculum vs Oxford's tutorial system).",
+      "Reference real systems (Germany, Norway free universities; US and UK tuition-fee models) to anchor your argument.",
+    source: SRC_LIZ_2024,
+    sourceUrl: SRC_LIZ_2024_URL,
   },
   {
-    id: "t2-002",
+    id: "t2-edu-04",
+    type: "advantages-disadvantages",
+    topic: "education",
+    prompt:
+      "More and more people are educating themselves through online sources rather than at universities or schools. Do the advantages of this trend outweigh the disadvantages?",
+    bandLevel: 7,
+    keyVocabulary: [
+      "self-directed learning",
+      "MOOC",
+      "credentialing",
+      "structured curriculum",
+      "isolation from peers",
+    ],
+    commonMistakes: [
+      "Listing four advantages and only one disadvantage but still claiming balance.",
+      "Failing to take a clear stance in the conclusion.",
+    ],
+    band9Tips:
+      "Pick two strong advantages and two strong disadvantages, then commit to a side at the end.",
+    source: SRC_LIZ_2024,
+    sourceUrl: SRC_LIZ_2024_URL,
+  },
+  {
+    id: "t2-edu-05",
+    type: "discussion",
+    topic: "education",
+    prompt:
+      "While some parents think homework puts too much pressure on children, others believe it is essential for a child's educational development. Discuss both views and give your opinion.",
+    bandLevel: 7,
+    keyVocabulary: [
+      "academic pressure",
+      "consolidation of learning",
+      "burnout",
+      "independent study",
+      "parental involvement",
+    ],
+    commonMistakes: [
+      "Generic 'too much homework is bad' without quantifying.",
+      "Ignoring age — homework load varies massively by age band.",
+    ],
+    band9Tips:
+      "Distinguish primary vs secondary stages and note the OECD evidence on diminishing returns from homework above 4 hours/week.",
+    source: SRC_LIZ_2024,
+    sourceUrl: SRC_LIZ_2024_URL,
+  },
+
+  // --- ENVIRONMENT --------------------------------------------------------
+  {
+    id: "t2-env-01",
     type: "problem-solution",
     topic: "environment",
     prompt:
-      "Climate change is one of the biggest threats facing the world today. What are the causes of climate change and what measures can governments and individuals take to address this problem?",
+      "Some people believe that the world is getting hotter. What are the causes and possible solutions for global warming?",
     bandLevel: 8,
     keyVocabulary: [
       "greenhouse gas emissions",
@@ -51,629 +170,799 @@ export const TASK2_PROMPTS: Task2Prompt[] = [
       "carbon-neutral",
     ],
     commonMistakes: [
-      "Listing causes but only one solution",
-      "Vague solutions like 'people should care more'",
+      "Listing causes but offering only one solution.",
+      "Vague solutions like 'people should care more.'",
     ],
     band9Tips:
-      "Pair each cause with its specific solution. Quote a real policy (carbon tax in Sweden, EV subsidies in Norway).",
+      "Pair each cause with its specific solution and quote a real policy (carbon tax in Sweden, EV subsidies in Norway).",
+    source: SRC_LIZ_2024,
+    sourceUrl: SRC_LIZ_2024_URL,
   },
   {
-    id: "t2-003",
+    id: "t2-env-02",
     type: "opinion",
-    topic: "technology",
+    topic: "environment",
     prompt:
-      "Some people think that the use of mobile phones in public places is rude and disruptive. To what extent do you agree or disagree?",
+      "Environmental problems are now so significant that they should be tackled internationally rather than nationally. To what extent do you agree or disagree?",
     bandLevel: 7,
     keyVocabulary: [
-      "social etiquette",
-      "ubiquitous connectivity",
-      "intrusive",
-      "public courtesy",
-      "digital decorum",
-    ],
-    commonMistakes: ["Pure personal anecdote", "Hedging without committing"],
-    band9Tips:
-      "Distinguish between contexts (silent commute vs loud restaurant). Concede the opposing view, then refute it.",
-  },
-  {
-    id: "t2-004",
-    type: "discussion",
-    topic: "society",
-    prompt:
-      "Some people believe that children should be allowed to stay at home and play until they are six or seven years old. Others believe that it is important for young children to go to school as soon as possible. Discuss both views and give your opinion.",
-    bandLevel: 7,
-    keyVocabulary: [
-      "early childhood education",
-      "cognitive development",
-      "structured learning",
-      "social skills",
-      "play-based pedagogy",
+      "transboundary pollution",
+      "international treaty",
+      "Paris Agreement",
+      "national sovereignty",
+      "common but differentiated responsibility",
     ],
     commonMistakes: [
-      "Discussing only one view",
-      "Emotional language without evidence",
+      "Treating 'international' and 'national' as mutually exclusive.",
+      "No real-world example of cooperation.",
     ],
     band9Tips:
-      "Reference Finland's late-school-start model and its top PISA results to anchor your argument empirically.",
+      "Cite the Montreal Protocol (succeeded) and the Kyoto Protocol (limited) as contrasting evidence.",
+    source: SRC_LIZ_2024,
+    sourceUrl: SRC_LIZ_2024_URL,
   },
   {
-    id: "t2-005",
+    id: "t2-env-03",
     type: "advantages-disadvantages",
-    topic: "globalization",
+    topic: "environment",
     prompt:
-      "Many companies sponsor sport as a means of advertising themselves. Some people think that this is good for the world of sport, while others think it is negative. Discuss both views and give your own opinion.",
-    bandLevel: 8,
-    keyVocabulary: [
-      "commercial sponsorship",
-      "brand visibility",
-      "commodification",
-      "grassroots funding",
-      "conflict of interest",
-    ],
-    commonMistakes: [
-      "Listing pros/cons without weighing them",
-      "Ignoring the 'your opinion' part",
-    ],
-    band9Tips:
-      "Quantify the upside (e.g. 'sponsorship funds 65% of grassroots tennis programmes in the UK') vs the downside.",
-  },
-  {
-    id: "t2-006",
-    type: "opinion",
-    topic: "work",
-    prompt:
-      "It is more important for a building to serve its purpose than to look beautiful. Architects shouldn't worry about whether or not a building is a work of art. To what extent do you agree or disagree?",
-    bandLevel: 8,
-    keyVocabulary: [
-      "functional design",
-      "aesthetic value",
-      "form versus function",
-      "civic identity",
-      "biophilic architecture",
-    ],
-    commonMistakes: [
-      "Ignoring the false dichotomy in the prompt",
-      "Using only one example type",
-    ],
-    band9Tips:
-      "Argue that the dichotomy is false: cite the Sydney Opera House (both functional and iconic) to dismantle it.",
-  },
-  {
-    id: "t2-007",
-    type: "problem-solution",
-    topic: "health",
-    prompt:
-      "An increasing number of people are becoming seriously overweight. Some people say that increasing the price of fattening foods will solve this problem. To what extent do you agree or disagree? What other measures do you think might be effective?",
-    bandLevel: 8,
-    keyVocabulary: [
-      "sugar tax",
-      "obesity epidemic",
-      "sedentary lifestyle",
-      "nutritional literacy",
-      "fiscal disincentives",
-    ],
-    commonMistakes: [
-      "Yes-or-no answer without nuance",
-      "Failing to propose alternatives",
-    ],
-    band9Tips:
-      "Cite the UK Soft Drinks Industry Levy (2018) and its measurable reduction in sugar intake as concrete evidence.",
-  },
-  {
-    id: "t2-008",
-    type: "opinion",
-    topic: "media",
-    prompt:
-      "News media nowadays is influencing people's lives more than ever before, and is now seen as a negative influence in society. To what extent do you agree or disagree?",
+      "The government should encourage people to use electric cars instead of petrol or diesel ones. What are the advantages and disadvantages of electric cars?",
     bandLevel: 7,
     keyVocabulary: [
-      "media literacy",
-      "echo chambers",
-      "fourth estate",
-      "sensationalism",
-      "algorithmic curation",
+      "tailpipe emissions",
+      "lithium-ion battery",
+      "charging infrastructure",
+      "grid demand",
+      "well-to-wheel emissions",
     ],
-    commonMistakes: ["Treating 'media' as a single entity"],
+    commonMistakes: [
+      "Forgetting that the electricity itself may be generated from fossil fuels.",
+      "Treating 'cost' as a single advantage without breaking it down.",
+    ],
     band9Tips:
-      "Distinguish public-service broadcasters (BBC, NHK) from social-media-driven outlets to avoid sweeping generalisations.",
+      "Discuss lifecycle emissions, charging-network coverage, and battery-mineral supply chains for a Band-9 nuanced answer.",
+    source: SRC_LIZ_2024,
+    sourceUrl: SRC_LIZ_2024_URL,
   },
   {
-    id: "t2-009",
-    type: "discussion",
-    topic: "crime",
-    prompt:
-      "Some people believe that the best way to reduce youth crime is to educate parents in parenting skills. Others believe there are more effective ways. Discuss both views and give your own opinion.",
-    bandLevel: 7,
-    keyVocabulary: [
-      "youth offending",
-      "preventative policy",
-      "rehabilitation",
-      "socioeconomic deprivation",
-      "after-school programmes",
-    ],
-    commonMistakes: ["Conflating correlation with causation"],
-    band9Tips:
-      "Cite the Glasgow Violence Reduction Unit's public-health approach to violence as a successful alternative.",
-  },
-  {
-    id: "t2-010",
-    type: "direct-questions",
-    topic: "government",
-    prompt:
-      "Many governments think that economic progress is their most important goal. Some people, however, think that other types of progress are equally important for a country. Discuss both views and give your own opinion.",
-    bandLevel: 8,
-    keyVocabulary: [
-      "GDP",
-      "Gross National Happiness",
-      "human development index",
-      "sustainable growth",
-      "social cohesion",
-    ],
-    commonMistakes: ["GDP-only framing without questioning the metric"],
-    band9Tips:
-      "Reference Bhutan's Gross National Happiness index and New Zealand's Wellbeing Budget as concrete alternatives.",
-  },
-  {
-    id: "t2-011",
-    type: "opinion",
-    topic: "technology",
-    prompt:
-      "Some people say that artificial intelligence will replace many human jobs, with negative consequences for society. To what extent do you agree or disagree?",
-    bandLevel: 8,
-    keyVocabulary: [
-      "automation",
-      "labour market displacement",
-      "reskilling",
-      "augmented intelligence",
-      "structural unemployment",
-    ],
-    commonMistakes: ["Apocalyptic tone with no evidence"],
-    band9Tips:
-      "Distinguish task-automation from job-replacement; cite McKinsey's estimate that ~30% of tasks (not jobs) will be automated.",
-  },
-  {
-    id: "t2-012",
+    id: "t2-env-04",
     type: "problem-solution",
     topic: "environment",
     prompt:
-      "Cities around the world are expanding rapidly. What problems does this cause and what are some possible solutions?",
+      "Recycling is an important part of protecting the environment. Why is it important, and how could more people be encouraged to recycle?",
+    bandLevel: 7,
+    keyVocabulary: [
+      "circular economy",
+      "deposit-return scheme",
+      "kerbside collection",
+      "single-use packaging",
+      "extended producer responsibility",
+    ],
+    commonMistakes: [
+      "Conflating recycling with reducing/reusing.",
+      "Offering only educational solutions, no structural ones.",
+    ],
+    band9Tips:
+      "Cite the German Pfand bottle deposit scheme — recycling rates above 98% — as concrete evidence.",
+    source: SRC_LIZ_2024,
+    sourceUrl: SRC_LIZ_2024_URL,
+  },
+  {
+    id: "t2-env-05",
+    type: "problem-solution",
+    topic: "environment",
+    prompt:
+      "Plant and animal diversity is declining around the world. Why is this happening, and why is it a problem?",
+    bandLevel: 8,
+    keyVocabulary: [
+      "biodiversity loss",
+      "habitat fragmentation",
+      "ecosystem services",
+      "trophic cascade",
+      "extinction debt",
+    ],
+    commonMistakes: [
+      "Only blaming 'pollution' as a cause.",
+      "Failing to explain WHY biodiversity loss is harmful (the 'so what').",
+    ],
+    band9Tips:
+      "Use ecosystem-services framing: pollination, water filtration, climate regulation are all economic.",
+    source: SRC_LIZ_2024,
+    sourceUrl: SRC_LIZ_2024_URL,
+  },
+
+  // --- SOCIETY / TECHNOLOGY ----------------------------------------------
+  {
+    id: "t2-tech-01",
+    type: "advantages-disadvantages",
+    topic: "technology",
+    prompt:
+      "More business meetings are being conducted online rather than in person. What are the advantages and disadvantages of this trend?",
+    bandLevel: 7,
+    keyVocabulary: [
+      "videoconferencing",
+      "asynchronous communication",
+      "digital fatigue",
+      "rapport-building",
+      "non-verbal cues",
+    ],
+    commonMistakes: [
+      "Generic 'saves time' without quantifying.",
+      "Ignoring the well-documented productivity downsides (Zoom fatigue research).",
+    ],
+    band9Tips:
+      "Reference Microsoft's 'Work Trend Index' or Bailenson's research on Zoom fatigue.",
+    source: SRC_LIZ_2024,
+    sourceUrl: SRC_LIZ_2024_URL,
+  },
+  {
+    id: "t2-tech-02",
+    type: "advantages-disadvantages",
+    topic: "technology",
+    prompt:
+      "More and more people are streaming films and television series online rather than watching them on television. Is this a positive or negative development?",
+    bandLevel: 7,
+    keyVocabulary: [
+      "on-demand viewing",
+      "subscription fatigue",
+      "personalised algorithms",
+      "binge-watching",
+      "content fragmentation",
+    ],
+    commonMistakes: [
+      "Confusing streaming with social media in general.",
+      "Failing to mention algorithmic curation.",
+    ],
+    band9Tips:
+      "Distinguish ad-supported vs subscription models, and reference Netflix's 7,000+ title catalogue.",
+    source: SRC_LIZ_2024,
+    sourceUrl: SRC_LIZ_2024_URL,
+  },
+  {
+    id: "t2-tech-03",
+    type: "discussion",
+    topic: "technology",
+    prompt:
+      "Some people think social media has had a positive impact on individuals and society. Others, however, disagree. Discuss both views and give your opinion.",
+    bandLevel: 8,
+    keyVocabulary: [
+      "echo chamber",
+      "civic engagement",
+      "misinformation",
+      "social cohesion",
+      "filter bubble",
+    ],
+    commonMistakes: [
+      "Black-and-white framing — 'social media is good' or 'is bad'.",
+      "No specific platform mentioned.",
+    ],
+    band9Tips:
+      "Differentiate by use case: protest organising (positive) vs adolescent mental health (negative). Cite Facebook's role in the Arab Spring and Haidt's recent research on smartphones in adolescence.",
+    source: SRC_LIZ_2024,
+    sourceUrl: SRC_LIZ_2024_URL,
+  },
+
+  // --- WORK ---------------------------------------------------------------
+  {
+    id: "t2-work-01",
+    type: "discussion",
+    topic: "work",
+    prompt:
+      "Some people prefer to spend their lives doing the same things and avoiding change. Others, however, think that change is always a good thing. Discuss both views and give your opinion.",
+    bandLevel: 7,
+    keyVocabulary: [
+      "career stagnation",
+      "comfort zone",
+      "personal growth",
+      "job security",
+      "lifelong learning",
+    ],
+    commonMistakes: [
+      "Treating 'change' as a single concept across all life domains.",
+      "No real example.",
+    ],
+    band9Tips:
+      "Distinguish career change from lifestyle change and use a real example like ex-coal-miners retraining for renewables.",
+    source: SRC_LIZ,
+    sourceUrl: SRC_LIZ_URL,
+  },
+  {
+    id: "t2-work-02",
+    type: "opinion",
+    topic: "work",
+    prompt:
+      "More companies should employ older people. To what extent do you agree or disagree?",
+    bandLevel: 7,
+    keyVocabulary: [
+      "ageism",
+      "institutional memory",
+      "cognitive flexibility",
+      "phased retirement",
+      "intergenerational mentoring",
+    ],
+    commonMistakes: [
+      "Vague claims about 'experience' without naming a specific role.",
+      "Ignoring the productivity-vs-experience trade-off.",
+    ],
+    band9Tips:
+      "Pick a sector: healthcare and law benefit from older workers; tech debate is more contested.",
+    source: SRC_LIZ_2024,
+    sourceUrl: SRC_LIZ_2024_URL,
+  },
+  {
+    id: "t2-work-03",
+    type: "advantages-disadvantages",
+    topic: "work",
+    prompt:
+      "Working from home is becoming an increasingly common practice. Do the advantages of working from home outweigh the disadvantages?",
+    bandLevel: 7,
+    keyVocabulary: [
+      "hybrid working",
+      "work-life integration",
+      "presenteeism",
+      "team cohesion",
+      "commute time",
+    ],
+    commonMistakes: [
+      "Confusing 'working from home' with 'flexible hours'.",
+      "Generic 'less stress' claims.",
+    ],
+    band9Tips:
+      "Reference the post-COVID Stanford WFH study by Bloom — 13% productivity gain but 50% lower promotion rate.",
+    source: SRC_RECENT,
+    sourceUrl: SRC_RECENT_URL,
+  },
+
+  // --- HEALTH -------------------------------------------------------------
+  {
+    id: "t2-health-01",
+    type: "problem-solution",
+    topic: "health",
+    prompt:
+      "Obesity is a growing problem, especially among young people. What are the causes of this and what measures can be taken to solve this problem?",
+    bandLevel: 7,
+    keyVocabulary: [
+      "ultra-processed foods",
+      "sedentary lifestyle",
+      "calorie surplus",
+      "sugar tax",
+      "active commuting",
+    ],
+    commonMistakes: [
+      "Blaming only 'fast food' without naming specific items.",
+      "Solutions limited to 'people should exercise more'.",
+    ],
+    band9Tips:
+      "Reference the UK soft-drinks levy (2018) which cut sugar in drinks by 28%.",
+    source: SRC_LIZ_2024,
+    sourceUrl: SRC_LIZ_2024_URL,
+  },
+  {
+    id: "t2-health-02",
+    type: "problem-solution",
+    topic: "health",
+    prompt:
+      "Mental health problems are having a greater impact on people. Why is this happening, and what solutions can you suggest?",
+    bandLevel: 8,
+    keyVocabulary: [
+      "stigma",
+      "cognitive behavioural therapy",
+      "tele-therapy",
+      "burnout",
+      "resilience training",
+    ],
+    commonMistakes: [
+      "Confusing causes (work stress, social media) with symptoms (anxiety, depression).",
+      "Solutions limited to 'talk to a friend.'",
+    ],
+    band9Tips:
+      "Mention WHO data on the global treatment gap (over 60% of those with depression untreated) and cite IAPT in the UK.",
+    source: SRC_LIZ_2024,
+    sourceUrl: SRC_LIZ_2024_URL,
+  },
+
+  // --- FAMILY -------------------------------------------------------------
+  {
+    id: "t2-fam-01",
+    type: "opinion",
+    topic: "family",
+    prompt:
+      "Children can benefit from spending more time with their grandparents. To what extent do you agree?",
+    bandLevel: 7,
+    keyVocabulary: [
+      "intergenerational bonding",
+      "cultural transmission",
+      "extended family",
+      "emotional support",
+      "informal childcare",
+    ],
+    commonMistakes: [
+      "Ignoring counter-cases (estranged relationships).",
+      "Vague claims about 'love' and 'wisdom'.",
+    ],
+    band9Tips:
+      "Cite intergenerational studies (e.g., Mannheim cohort) showing measurable language and emotional gains.",
+    source: SRC_LIZ_2024,
+    sourceUrl: SRC_LIZ_2024_URL,
+  },
+  {
+    id: "t2-fam-02",
+    type: "discussion",
+    topic: "family",
+    prompt:
+      "Some people think that parents should be solely responsible for keeping their children safe online. Others think schools should also play a role. Discuss both views and give your opinion.",
+    bandLevel: 7,
+    keyVocabulary: [
+      "digital literacy",
+      "parental controls",
+      "online safeguarding",
+      "screen time",
+      "cyberbullying",
+    ],
+    commonMistakes: [
+      "Treating 'online safety' as a single skill set.",
+      "Ignoring practical limits of parental tech literacy.",
+    ],
+    band9Tips:
+      "Acknowledge both sides — parents own physical access, schools own peer-context — then synthesise.",
+    source: SRC_LIZ_2024,
+    sourceUrl: SRC_LIZ_2024_URL,
+  },
+
+  // --- TRANSPORT / URBAN -------------------------------------------------
+  {
+    id: "t2-tran-01",
+    type: "problem-solution",
+    topic: "transport",
+    prompt:
+      "Many cities suffer from severe traffic congestion. What are the main causes of this, and what measures could be taken to address it?",
     bandLevel: 7,
     keyVocabulary: [
       "urban sprawl",
-      "infrastructure strain",
-      "green belt",
-      "smart-city planning",
-      "transit-oriented development",
+      "park-and-ride",
+      "congestion charge",
+      "modal shift",
+      "active travel",
     ],
-    commonMistakes: ["One problem ↔ one solution mismatch"],
+    commonMistakes: [
+      "Naming only 'too many cars' without explaining why.",
+      "Solutions limited to 'build more roads' — usually counterproductive.",
+    ],
     band9Tips:
-      "Group problems thematically (housing / transport / pollution) and pair each with a targeted policy.",
+      "Cite the London Congestion Charge (2003) cutting central traffic by 30%.",
+    source: SRC_LIZ,
+    sourceUrl: SRC_LIZ_URL,
   },
   {
-    id: "t2-013",
+    id: "t2-tran-02",
+    type: "opinion",
+    topic: "transport",
+    prompt:
+      "Low-cost airline travel is damaging the environment. To what extent do you agree?",
+    bandLevel: 7,
+    keyVocabulary: [
+      "aviation emissions",
+      "carbon offset",
+      "sustainable aviation fuel",
+      "demand management",
+      "frequent-flyer levy",
+    ],
+    commonMistakes: [
+      "Treating all aviation as identical.",
+      "Forgetting other emissions sources for comparison.",
+    ],
+    band9Tips:
+      "Acknowledge that aviation is ~2.5% of global CO2 but disproportionately concentrated among frequent flyers.",
+    source: SRC_LIZ_2024,
+    sourceUrl: SRC_LIZ_2024_URL,
+  },
+
+  // --- TOURISM -----------------------------------------------------------
+  {
+    id: "t2-tour-01",
+    type: "advantages-disadvantages",
+    topic: "tourism",
+    prompt:
+      "Tourism is increasing in many remote and previously isolated places around the world. Do the advantages of this trend outweigh the disadvantages?",
+    bandLevel: 7,
+    keyVocabulary: [
+      "ecotourism",
+      "cultural commodification",
+      "carrying capacity",
+      "infrastructure strain",
+      "seasonal employment",
+    ],
+    commonMistakes: [
+      "Failing to engage with the 'remote' specificity.",
+      "Ignoring infrastructure constraints.",
+    ],
+    band9Tips:
+      "Compare Bhutan's 'high-value, low-impact' model with overtourism in Venice.",
+    source: SRC_LIZ_2024,
+    sourceUrl: SRC_LIZ_2024_URL,
+  },
+
+  // --- CRIME -------------------------------------------------------------
+  {
+    id: "t2-crime-01",
+    type: "discussion",
+    topic: "crime",
+    prompt:
+      "Some people think the best way to reduce crime is to give longer prison sentences. Others, however, believe there are better alternative ways. Discuss both views and give your opinion.",
+    bandLevel: 8,
+    keyVocabulary: [
+      "deterrence",
+      "rehabilitation",
+      "restorative justice",
+      "recidivism",
+      "non-custodial sentence",
+    ],
+    commonMistakes: [
+      "Treating 'longer sentences' as obviously effective without evidence.",
+      "Vague 'alternatives' without naming any.",
+    ],
+    band9Tips:
+      "Reference Norway's rehabilitation-focused prison system (recidivism ~20% vs US ~70%).",
+    source: SRC_LIZ,
+    sourceUrl: SRC_LIZ_URL,
+  },
+  {
+    id: "t2-crime-02",
+    type: "opinion",
+    topic: "crime",
+    prompt:
+      "Some films glorify criminal behaviour, which could tempt some people into crime. To what extent do you think such films should be banned?",
+    bandLevel: 7,
+    keyVocabulary: [
+      "media influence",
+      "moral panic",
+      "censorship",
+      "creative freedom",
+      "age-rating system",
+    ],
+    commonMistakes: [
+      "Confusing 'banning' with 'restricting access' (rating systems).",
+      "Generic claims about TV violence research.",
+    ],
+    band9Tips:
+      "Cite the inconclusive meta-analyses on media-violence-causes-crime debate (Ferguson 2015).",
+    source: SRC_LIZ_2024,
+    sourceUrl: SRC_LIZ_2024_URL,
+  },
+
+  // --- GOVERNMENT --------------------------------------------------------
+  {
+    id: "t2-gov-01",
+    type: "discussion",
+    topic: "government",
+    prompt:
+      "Some people think the government should spend more money on public services and increase taxes. Others believe taxes should be reduced and people should pay for services privately. Discuss both views and give your opinion.",
+    bandLevel: 8,
+    keyVocabulary: [
+      "progressive taxation",
+      "public goods",
+      "free-rider problem",
+      "means testing",
+      "social safety net",
+    ],
+    commonMistakes: [
+      "Treating 'public' and 'private' as binary in all sectors.",
+      "Generic claims about 'efficiency' without evidence.",
+    ],
+    band9Tips:
+      "Compare Nordic high-tax/high-service models with the US private-healthcare model — same outcome metric (life expectancy), very different cost.",
+    source: SRC_LIZ,
+    sourceUrl: SRC_LIZ_URL,
+  },
+
+  // --- COMMUNICATION & PERSONALITY ---------------------------------------
+  {
+    id: "t2-com-01",
+    type: "opinion",
+    topic: "communication",
+    prompt:
+      "Some people believe that face-to-face communication is more effective than other types of communication, such as letters, email, or telephone calls. To what extent do you agree?",
+    bandLevel: 7,
+    keyVocabulary: [
+      "non-verbal cues",
+      "asynchronous communication",
+      "rapport",
+      "context collapse",
+      "high-bandwidth communication",
+    ],
+    commonMistakes: [
+      "Forgetting that this question now usually means 'vs video calls'.",
+      "Ignoring contexts where async is clearly better (cross-time-zone work).",
+    ],
+    band9Tips:
+      "Distinguish high-stakes (face-to-face) from routine (email) and use a workplace example.",
+    source: SRC_LIZ,
+    sourceUrl: SRC_LIZ_URL,
+  },
+
+  // --- MEDIA & ADVERTISING -----------------------------------------------
+  {
+    id: "t2-adv-01",
+    type: "discussion",
+    topic: "advertising",
+    prompt:
+      "Some people think that advertising controls what we purchase, while others see adverts as a useful source of information about products. Discuss both views and give your opinion.",
+    bandLevel: 7,
+    keyVocabulary: [
+      "consumer autonomy",
+      "informational vs persuasive advertising",
+      "brand loyalty",
+      "subliminal influence",
+      "advertising regulation",
+    ],
+    commonMistakes: [
+      "Treating consumers as passive in all cases.",
+      "No real ad campaign as example.",
+    ],
+    band9Tips:
+      "Cite a real campaign (Apple 1984, Cadbury Gorilla) and the existence of consumer-protection bodies (ASA in the UK).",
+    source: SRC_LIZ_2024,
+    sourceUrl: SRC_LIZ_2024_URL,
+  },
+  {
+    id: "t2-adv-02",
+    type: "opinion",
+    topic: "advertising",
+    prompt:
+      "Fast food advertisements appear extensively on TV and social media, tempting people to eat unhealthy food. Should fast food advertising be banned?",
+    bandLevel: 7,
+    keyVocabulary: [
+      "watershed restrictions",
+      "advertising to minors",
+      "behavioural nudges",
+      "free speech",
+      "industry self-regulation",
+    ],
+    commonMistakes: [
+      "Confusing 'banning' with 'restricting'.",
+      "Ignoring partial bans already in place.",
+    ],
+    band9Tips:
+      "Reference UK 9pm watershed for HFSS ads (in force from October 2025) as concrete policy.",
+    source: SRC_LIZ_2024,
+    sourceUrl: SRC_LIZ_2024_URL,
+  },
+
+  // --- LANGUAGE / CULTURE ------------------------------------------------
+  {
+    id: "t2-lang-01",
+    type: "opinion",
+    topic: "language",
+    prompt:
+      "Some people think that all university students should study whatever they like. Others believe they should only be allowed to study subjects that will be useful in the future, such as those related to science and technology. Discuss both views and give your opinion.",
+    bandLevel: 8,
+    keyVocabulary: [
+      "STEM",
+      "humanities",
+      "transferable skills",
+      "labour-market signalling",
+      "intrinsic value of education",
+    ],
+    commonMistakes: [
+      "Dismissing the humanities entirely.",
+      "Treating 'usefulness' as easily predictable.",
+    ],
+    band9Tips:
+      "Note that 'useful' is itself contested — graduates of philosophy often go into law, finance.",
+    source: SRC_LIZ,
+    sourceUrl: SRC_LIZ_URL,
+  },
+  {
+    id: "t2-lang-02",
+    type: "opinion",
+    topic: "language",
+    prompt:
+      "It is sometimes said that everyone in the world will speak English in the future. Do you agree or disagree?",
+    bandLevel: 7,
+    keyVocabulary: [
+      "lingua franca",
+      "language preservation",
+      "linguistic diversity",
+      "global English",
+      "endangered languages",
+    ],
+    commonMistakes: [
+      "Treating 'speaking English' as binary.",
+      "No reference to bilingualism.",
+    ],
+    band9Tips:
+      "Distinguish English as L2 (likely majority) from English as L1 (very unlikely).",
+    source: SRC_LIZ,
+    sourceUrl: SRC_LIZ_URL,
+  },
+
+  // --- 2024 RECENT REPORTED EXAMS ----------------------------------------
+  {
+    id: "t2-recent-01",
+    type: "opinion",
+    topic: "leadership",
+    prompt:
+      "Some people believe women are better leaders than men. To what extent do you agree or disagree with this statement?",
+    bandLevel: 7,
+    keyVocabulary: [
+      "leadership style",
+      "transformational leadership",
+      "gender stereotypes",
+      "implicit bias",
+      "consensus-building",
+    ],
+    commonMistakes: [
+      "Treating leadership as a single skill.",
+      "Reinforcing stereotypes rather than evidence.",
+    ],
+    band9Tips:
+      "Reference Eagly's meta-analyses on leadership style or specific examples (Jacinda Ardern, Angela Merkel).",
+    source: SRC_RECENT,
+    sourceUrl: SRC_RECENT_URL,
+  },
+  {
+    id: "t2-recent-02",
+    type: "opinion",
+    topic: "tourism",
+    prompt:
+      "International tourism has brought great benefits to many places. However, there are serious concerns about its impact on the local environment and residents. Do the negative effects of international tourism outweigh the benefits?",
+    bandLevel: 8,
+    keyVocabulary: [
+      "overtourism",
+      "carrying capacity",
+      "cultural commodification",
+      "economic multiplier",
+      "carbon-intensive travel",
+    ],
+    commonMistakes: [
+      "Treating all destinations identically.",
+      "Generic 'tourism is good' or 'bad' framing.",
+    ],
+    band9Tips:
+      "Compare positive case (low-volume Bhutan, Costa Rica) with negative case (Venice, Barcelona protests).",
+    source: SRC_RECENT,
+    sourceUrl: SRC_RECENT_URL,
+  },
+  {
+    id: "t2-recent-03",
+    type: "discussion",
+    topic: "space",
+    prompt:
+      "Some people believe that using taxpayer funds to look for life on other planets is important. Others, however, think that it is a waste of public money because there are many more important issues requiring funding on our own planet. Discuss both views and give your opinion.",
+    bandLevel: 8,
+    keyVocabulary: [
+      "astrobiology",
+      "opportunity cost",
+      "blue-sky research",
+      "spin-off technology",
+      "scientific inspiration",
+    ],
+    commonMistakes: [
+      "Treating space spending as 'wasted in space' — most is spent on Earth.",
+      "No real mission as example.",
+    ],
+    band9Tips:
+      "Reference NASA's annual budget (<0.5% of US federal spending) and Mars rover spin-offs.",
+    source: SRC_RECENT,
+    sourceUrl: SRC_RECENT_URL,
+  },
+  {
+    id: "t2-recent-04",
+    type: "discussion",
+    topic: "crime",
+    prompt:
+      "Some people believe that more measures need to be taken to prevent crime, while others believe that crime is now being tackled effectively. Discuss both points of view and give your opinion.",
+    bandLevel: 7,
+    keyVocabulary: [
+      "crime prevention",
+      "community policing",
+      "CCTV",
+      "underreporting",
+      "criminological evidence",
+    ],
+    commonMistakes: [
+      "Treating 'crime' as monolithic — burglary trends differ from cybercrime.",
+      "Anecdotal evidence over statistics.",
+    ],
+    band9Tips:
+      "Distinguish recorded vs reported vs survey crime; cite Crime Survey for England and Wales.",
+    source: SRC_RECENT,
+    sourceUrl: SRC_RECENT_URL,
+  },
+  {
+    id: "t2-recent-05",
     type: "opinion",
     topic: "society",
     prompt:
-      "In some countries, more people prefer to live alone in recent years than in the past. Do you think this is a positive or negative development for society?",
-    bandLevel: 7,
+      "Some people think that countries should produce all the food their population needs, rather than importing it from other countries. To what extent do you agree?",
+    bandLevel: 8,
     keyVocabulary: [
-      "single-person households",
-      "social atomisation",
-      "personal autonomy",
-      "loneliness epidemic",
-      "intergenerational ties",
+      "food security",
+      "comparative advantage",
+      "food miles",
+      "import dependency",
+      "agricultural self-sufficiency",
     ],
-    commonMistakes: ["Confusing 'positive for individual' with 'positive for society'"],
-    band9Tips:
-      "Frame it as a societal-level question: cite Japan's koritsushi (lonely-deaths) data.",
-  },
-  {
-    id: "t2-014",
-    type: "advantages-disadvantages",
-    topic: "education",
-    prompt:
-      "Many students take a year off between leaving school and going to university. They might travel, work or do voluntary work. Do the advantages of taking such a 'gap year' outweigh the disadvantages?",
-    bandLevel: 7,
-    keyVocabulary: [
-      "gap year",
-      "experiential learning",
-      "academic momentum",
-      "career clarity",
-      "cultural immersion",
+    commonMistakes: [
+      "Ignoring climate constraints (you can't grow tropical fruit in northern Europe).",
+      "Treating self-sufficiency as obviously good.",
     ],
-    commonMistakes: ["Using only personal anecdotes"],
     band9Tips:
-      "Reference UK UCAS data showing gap-year students achieve higher first-year university grades.",
+      "Acknowledge strategic-staples logic (cereals) but reject blanket autarky for climate-mismatched goods.",
+    source: SRC_RECENT,
+    sourceUrl: SRC_RECENT_URL,
   },
+
+  // --- LIFESTYLE / SOCIETY -----------------------------------------------
   {
-    id: "t2-015",
+    id: "t2-soc-01",
     type: "opinion",
-    topic: "work",
+    topic: "society",
     prompt:
-      "Some people prefer to spend their lives doing the same things and avoiding change. Others, however, think that change is always a good thing. Discuss both these views and give your own opinion.",
+      "People in the past had more hobbies and interests, which made their lives more interesting compared to people today. To what extent do you agree?",
     bandLevel: 7,
     keyVocabulary: [
-      "comfort zone",
-      "personal growth",
-      "adaptability",
-      "risk aversion",
-      "incremental change",
+      "leisure time",
+      "passive consumption",
+      "active engagement",
+      "screen-mediated entertainment",
+      "social atomisation",
     ],
-    commonMistakes: ["Vague 'change is good' sloganeering"],
+    commonMistakes: [
+      "Romanticising the past without evidence.",
+      "Treating 'screen time' as automatically passive.",
+    ],
     band9Tips:
-      "Distinguish meaningful change from change for its own sake — cite research on growth mindset (Carol Dweck).",
+      "Cite Putnam's 'Bowling Alone' on the long-term decline of associational life in the US.",
+    source: SRC_LIZ_2024,
+    sourceUrl: SRC_LIZ_2024_URL,
   },
   {
-    id: "t2-016",
+    id: "t2-soc-02",
     type: "problem-solution",
     topic: "society",
     prompt:
-      "In many countries the proportion of older people is steadily increasing. Does this trend have positive or negative effects on society?",
-    bandLevel: 8,
+      "More and more elderly people are living at home alone with very little social contact. Why is this happening, and what can be done to improve the situation?",
+    bandLevel: 7,
     keyVocabulary: [
+      "social isolation",
+      "loneliness epidemic",
       "ageing population",
-      "dependency ratio",
-      "intergenerational equity",
-      "silver economy",
-      "pension sustainability",
+      "intergenerational housing",
+      "befriending schemes",
     ],
-    commonMistakes: ["Stating only the negatives"],
-    band9Tips:
-      "Mention the 'silver economy' as a positive: Japan's >65 cohort drives 40% of consumer spending.",
-  },
-  {
-    id: "t2-017",
-    type: "opinion",
-    topic: "media",
-    prompt:
-      "Some people think that the increasing use of computers and mobile phones for communication has had a negative effect on young people's reading and writing skills. To what extent do you agree or disagree?",
-    bandLevel: 7,
-    keyVocabulary: [
-      "digital natives",
-      "literacy outcomes",
-      "screen-based reading",
-      "cognitive offloading",
-      "informal register",
+    commonMistakes: [
+      "Confusing being alone with being lonely.",
+      "Solutions limited to 'visit grandparents more'.",
     ],
-    commonMistakes: ["Doom-mongering without data"],
     band9Tips:
-      "Quote PISA reading data: digital reading scores are no lower than print reading among teens.",
+      "Reference the UK's Loneliness Strategy (2018) and Japan's 'kodokushi' (lonely deaths) crisis.",
+    source: SRC_LIZ_2024,
+    sourceUrl: SRC_LIZ_2024_URL,
   },
+
+  // --- MONEY / BUSINESS --------------------------------------------------
   {
-    id: "t2-018",
+    id: "t2-money-01",
     type: "discussion",
-    topic: "education",
+    topic: "money",
     prompt:
-      "Some people say that learning a foreign language is best done in the country where it is spoken. Others, however, think that this is not necessary. Discuss both views and give your own opinion.",
+      "Some people think that saving money is the most important thing, while others believe it is better to spend money and enjoy life. Discuss both views and give your opinion.",
     bandLevel: 7,
     keyVocabulary: [
-      "immersion",
-      "second-language acquisition",
-      "communicative competence",
-      "linguistic pragmatics",
-      "interlanguage",
+      "deferred gratification",
+      "compound interest",
+      "discretionary spending",
+      "financial resilience",
+      "experiential vs material spending",
     ],
-    commonMistakes: ["Ignoring online immersion alternatives"],
-    band9Tips:
-      "Concede the immersion benefit, then argue that modern technology (Tandem, iTalki) replicates 80% of it.",
-  },
-  {
-    id: "t2-019",
-    type: "advantages-disadvantages",
-    topic: "globalization",
-    prompt:
-      "Multinational companies are becoming increasingly common in developing countries. What are the advantages and disadvantages of this?",
-    bandLevel: 8,
-    keyVocabulary: [
-      "foreign direct investment",
-      "technology transfer",
-      "labour exploitation",
-      "race to the bottom",
-      "trickle-down effect",
+    commonMistakes: [
+      "Treating saving and spending as fully opposed.",
+      "Ignoring the fact that most people must do both.",
     ],
-    commonMistakes: ["One-sided pro-MNC stance"],
     band9Tips:
-      "Cite Foxconn's role in Shenzhen's rise vs. its labour conditions controversy as a balanced example.",
-  },
-  {
-    id: "t2-020",
-    type: "opinion",
-    topic: "work",
-    prompt:
-      "Some people argue that the best way to improve public health is by increasing the number of sports facilities. Others, however, say that this would have little effect on public health and other measures are required. Discuss both views and give your own opinion.",
-    bandLevel: 7,
-    keyVocabulary: [
-      "preventative healthcare",
-      "active lifestyles",
-      "health inequalities",
-      "behavioural change",
-      "built environment",
-    ],
-    commonMistakes: ["Treating sports facilities as a silver bullet"],
-    band9Tips:
-      "Argue for a multi-pronged approach: facilities + active commuting infrastructure + nutrition policy.",
+      "Mention behavioural-economics research showing experiential purchases produce more durable happiness.",
+    source: SRC_LIZ_2024,
+    sourceUrl: SRC_LIZ_2024_URL,
   },
 ];
-
-// Auto-generate placeholder prompts to reach 100+ — these are real-style prompts
-// reused from common IELTS topic sets, with light variations.
-const TEMPLATES: Array<Omit<Task2Prompt, "id">> = [
-  // Opinion (5)
-  ...[
-    {
-      type: "opinion" as const,
-      topic: "education",
-      prompt:
-        "Some people think that schools should select students by their academic abilities, while others believe that it is better to have students of mixed abilities studying together. To what extent do you agree or disagree?",
-      bandLevel: 7,
-      keyVocabulary: ["streaming", "mixed-ability classroom", "academic selection", "peer learning", "differentiation"],
-      commonMistakes: ["Not addressing both options"],
-      band9Tips: "Reference the Finnish comprehensive system as a successful mixed-ability model.",
-    },
-    {
-      type: "opinion" as const,
-      topic: "technology",
-      prompt:
-        "Some people believe that social media has done more harm than good. To what extent do you agree or disagree?",
-      bandLevel: 7,
-      keyVocabulary: ["digital wellbeing", "online communities", "misinformation", "algorithmic feeds", "screen-time"],
-      commonMistakes: ["Pure anecdote"],
-      band9Tips: "Differentiate platform types and user behaviour rather than treating 'social media' as monolithic.",
-    },
-    {
-      type: "opinion" as const,
-      topic: "environment",
-      prompt:
-        "Some people believe that individual action is the most effective way to address environmental problems. Others argue that only governments can make a real difference. Discuss both views and give your opinion.",
-      bandLevel: 8,
-      keyVocabulary: ["systemic change", "individual responsibility", "regulatory frameworks", "carbon offsets", "collective action"],
-      commonMistakes: ["Either/or thinking"],
-      band9Tips: "Argue for a tiered approach: governments set the rules; individuals supply political will.",
-    },
-    {
-      type: "opinion" as const,
-      topic: "health",
-      prompt:
-        "Many people think that traditional medicine is more effective than modern medicine. To what extent do you agree or disagree?",
-      bandLevel: 7,
-      keyVocabulary: ["evidence-based medicine", "complementary therapies", "placebo effect", "clinical trials", "holistic care"],
-      commonMistakes: ["Conflating tradition with efficacy"],
-      band9Tips: "Concede some traditional remedies (e.g. artemisinin) work, but argue evidence-based testing is essential.",
-    },
-    {
-      type: "opinion" as const,
-      topic: "crime",
-      prompt:
-        "Some people think the best way to reduce crime is to give longer prison sentences. Others, however, believe there are better alternative ways. Discuss both views and give your own opinion.",
-      bandLevel: 8,
-      keyVocabulary: ["recidivism", "rehabilitation", "deterrence", "restorative justice", "decarceration"],
-      commonMistakes: ["Ignoring evidence on long sentences"],
-      band9Tips: "Cite Norway's Halden Prison and its <20% recidivism rate vs the US's >60%.",
-    },
-  ],
-  // Discussion (5)
-  ...[
-    {
-      type: "discussion" as const,
-      topic: "work",
-      prompt:
-        "Some people prefer to work for a large company. Others prefer to work for a small company. Discuss both views and give your own opinion.",
-      bandLevel: 7,
-      keyVocabulary: ["corporate hierarchy", "agility", "career progression", "job security", "entrepreneurial culture"],
-      commonMistakes: ["Personal anecdotes only"],
-      band9Tips: "Anchor the comparison: e.g. Google's 180k staff vs a 20-person start-up — different value propositions.",
-    },
-    {
-      type: "discussion" as const,
-      topic: "society",
-      prompt:
-        "Some people believe that the government is responsible for citizens' health, while others believe individuals are responsible. Discuss both views and give your opinion.",
-      bandLevel: 7,
-      keyVocabulary: ["public health", "personal autonomy", "preventative care", "sin taxes", "universal healthcare"],
-      commonMistakes: ["False dichotomy"],
-      band9Tips: "Cite the WHO's 'Health in All Policies' framework as a hybrid.",
-    },
-    {
-      type: "discussion" as const,
-      topic: "media",
-      prompt:
-        "Some people think the news has no connection to their lives, while others believe staying informed is a duty. Discuss both views and give your own opinion.",
-      bandLevel: 7,
-      keyVocabulary: ["civic engagement", "information overload", "doom-scrolling", "media literacy", "active citizenship"],
-      commonMistakes: ["Ignoring information-overload research"],
-      band9Tips: "Reference 'news avoidance' research from the Reuters Institute as a counterpoint.",
-    },
-    {
-      type: "discussion" as const,
-      topic: "globalization",
-      prompt:
-        "Some people think English should be the only international language. Others say multilingualism should be promoted. Discuss both views and give your own opinion.",
-      bandLevel: 8,
-      keyVocabulary: ["lingua franca", "linguistic diversity", "cognitive flexibility", "cultural hegemony", "code-switching"],
-      commonMistakes: ["Treating English-only as inevitable"],
-      band9Tips: "Cite UNESCO's evidence that multilingual children outperform monolingual peers in executive function.",
-    },
-    {
-      type: "discussion" as const,
-      topic: "technology",
-      prompt:
-        "Some people argue that all forms of advertising should be banned. Others say advertising is essential to a free economy. Discuss both views and give your own opinion.",
-      bandLevel: 8,
-      keyVocabulary: ["consumer information", "manipulative marketing", "free-market economics", "regulatory oversight", "advertorial content"],
-      commonMistakes: ["Ignoring the role of regulation"],
-      band9Tips: "Distinguish advertising types (info-vs-persuasion). Reference Sweden's ban on advertising to under-12s.",
-    },
-  ],
-  // Problem-Solution (5)
-  ...[
-    {
-      type: "problem-solution" as const,
-      topic: "environment",
-      prompt:
-        "Environmental pollution is a global problem. What are its main causes, and what can be done to reduce it?",
-      bandLevel: 7,
-      keyVocabulary: ["industrial emissions", "non-point pollution", "circular economy", "green technology", "extended producer responsibility"],
-      commonMistakes: ["Causes-only essays"],
-      band9Tips: "Match each major cause to one targeted, real-world policy.",
-    },
-    {
-      type: "problem-solution" as const,
-      topic: "society",
-      prompt:
-        "Many people in cities feel lonely and isolated. What are the causes, and what can be done to address this?",
-      bandLevel: 7,
-      keyVocabulary: ["urban anomie", "third places", "community cohesion", "loneliness epidemic", "social prescribing"],
-      commonMistakes: ["Vague 'people should socialise more' fix"],
-      band9Tips: "Reference the UK's appointment of a Minister for Loneliness and 'social prescribing' programmes.",
-    },
-    {
-      type: "problem-solution" as const,
-      topic: "education",
-      prompt:
-        "Many students struggle with mental health while at university. What are the causes, and what measures can universities take?",
-      bandLevel: 7,
-      keyVocabulary: ["academic burnout", "pastoral care", "early intervention", "stigma reduction", "tutorial support"],
-      commonMistakes: ["Generic 'more counsellors' fix"],
-      band9Tips: "Reference Stanford's Resilience Project as a structured intervention example.",
-    },
-    {
-      type: "problem-solution" as const,
-      topic: "crime",
-      prompt:
-        "In many cities, the rise in cybercrime is a serious concern. What problems does it cause and what can be done about it?",
-      bandLevel: 8,
-      keyVocabulary: ["phishing", "ransomware", "digital forensics", "cyber-hygiene", "two-factor authentication"],
-      commonMistakes: ["Vague tech jargon"],
-      band9Tips: "Cite specific incidents (Colonial Pipeline 2021) and specific defences (zero-trust architecture).",
-    },
-    {
-      type: "problem-solution" as const,
-      topic: "health",
-      prompt:
-        "Many young people are not getting enough sleep. What are the main reasons, and what can be done about it?",
-      bandLevel: 7,
-      keyVocabulary: ["circadian rhythm", "sleep hygiene", "blue-light exposure", "academic pressure", "screen-time guidelines"],
-      commonMistakes: ["'Just use phone less' style answers"],
-      band9Tips: "Cite high-school start-time research showing 8:30am starts improve outcomes.",
-    },
-  ],
-  // Advantages-Disadvantages (5)
-  ...[
-    {
-      type: "advantages-disadvantages" as const,
-      topic: "education",
-      prompt:
-        "Online learning is becoming increasingly popular. Do the advantages outweigh the disadvantages?",
-      bandLevel: 7,
-      keyVocabulary: ["asynchronous learning", "digital divide", "self-paced study", "engagement metrics", "blended learning"],
-      commonMistakes: ["Listing without weighing"],
-      band9Tips: "Use 'on balance' language and a clear final verdict.",
-    },
-    {
-      type: "advantages-disadvantages" as const,
-      topic: "work",
-      prompt:
-        "Working from home is now widespread in many industries. Do the advantages outweigh the disadvantages?",
-      bandLevel: 7,
-      keyVocabulary: ["remote work", "presenteeism", "asynchronous collaboration", "work-life integration", "office overhead"],
-      commonMistakes: ["Ignoring industry-specific differences"],
-      band9Tips: "Distinguish knowledge work from service/manufacturing work.",
-    },
-    {
-      type: "advantages-disadvantages" as const,
-      topic: "globalization",
-      prompt:
-        "International tourism has greatly increased over the past decades. Do the advantages outweigh the disadvantages?",
-      bandLevel: 7,
-      keyVocabulary: ["overtourism", "cultural exchange", "ecological footprint", "tourist revenue", "Venice carrying capacity"],
-      commonMistakes: ["Tourist-perspective only"],
-      band9Tips: "Mention overtourism in Venice and Barcelona's response (limits on cruise ships).",
-    },
-    {
-      type: "advantages-disadvantages" as const,
-      topic: "technology",
-      prompt:
-        "Cashless payments are becoming the norm in many countries. Do the advantages outweigh the disadvantages?",
-      bandLevel: 7,
-      keyVocabulary: ["financial inclusion", "transaction fees", "digital literacy", "surveillance capitalism", "frictionless commerce"],
-      commonMistakes: ["Ignoring excluded populations"],
-      band9Tips: "Reference Sweden's near-cashless economy AND its push-back from elderly residents.",
-    },
-    {
-      type: "advantages-disadvantages" as const,
-      topic: "society",
-      prompt:
-        "More and more people are choosing to live in big cities. Do the advantages outweigh the disadvantages?",
-      bandLevel: 7,
-      keyVocabulary: ["agglomeration economies", "urbanisation", "cost of living", "social mobility", "rural depopulation"],
-      commonMistakes: ["Stereotyping rural areas"],
-      band9Tips: "Cite Glaeser's research: cities raise productivity ~15% per doubling of population.",
-    },
-  ],
-  // Direct-questions (5)
-  ...[
-    {
-      type: "direct-questions" as const,
-      topic: "education",
-      prompt:
-        "Many people believe that homework is essential, while others say it is unnecessary. What is your opinion? Should homework be reduced or abolished?",
-      bandLevel: 7,
-      keyVocabulary: ["homework efficacy", "Hattie effect-size", "executive function", "differentiated tasks", "spaced practice"],
-      commonMistakes: ["Skipping the second sub-question"],
-      band9Tips: "Quote Hattie's effect-size research (homework: small effect at primary, larger at secondary).",
-    },
-    {
-      type: "direct-questions" as const,
-      topic: "environment",
-      prompt:
-        "Plastic waste is polluting our oceans. Why has this become such a serious issue, and what can governments do to tackle it?",
-      bandLevel: 8,
-      keyVocabulary: ["microplastics", "single-use packaging", "extended producer responsibility", "deposit return scheme", "marine debris"],
-      commonMistakes: ["Causes only"],
-      band9Tips: "Cite the EU's 2021 Single-Use Plastics Directive as a landmark policy.",
-    },
-    {
-      type: "direct-questions" as const,
-      topic: "media",
-      prompt:
-        "Newspapers are losing readers as more people get their news online. Is this a positive or negative development? What might be the consequences for journalism?",
-      bandLevel: 8,
-      keyVocabulary: ["paywalls", "investigative journalism", "media pluralism", "click-bait economy", "subscription model"],
-      commonMistakes: ["Doom-loop without nuance"],
-      band9Tips: "Reference The New York Times' successful digital paywall (>10m subscribers) as a counter-example.",
-    },
-    {
-      type: "direct-questions" as const,
-      topic: "work",
-      prompt:
-        "Salaries in some sectors are far higher than in others. Is this fair, and what can be done to address growing income inequality?",
-      bandLevel: 8,
-      keyVocabulary: ["wage compression", "Gini coefficient", "minimum wage", "tax progressivity", "wage stagnation"],
-      commonMistakes: ["Avoiding the 'fair' question"],
-      band9Tips: "Cite OECD data and reference progressive Nordic taxation as a working model.",
-    },
-    {
-      type: "direct-questions" as const,
-      topic: "globalization",
-      prompt:
-        "Many traditional cultures are disappearing. Why is this happening, and what can be done to preserve them?",
-      bandLevel: 7,
-      keyVocabulary: ["cultural homogenisation", "intangible heritage", "language attrition", "UNESCO inscription", "cultural revitalisation"],
-      commonMistakes: ["Romanticising the past"],
-      band9Tips: "Reference UNESCO's Intangible Cultural Heritage list as a concrete preservation tool.",
-    },
-  ],
-];
-
-// Wrap and assign IDs to fill out the prompt list (25 templates × 4 = 100 items
-// when combined with the original 20 hand-written prompts).
-let counter = TASK2_PROMPTS.length;
-for (let copy = 0; copy < 4; copy++) {
-  for (const t of TEMPLATES) {
-    counter++;
-    TASK2_PROMPTS.push({
-      id: `t2-${String(counter).padStart(3, "0")}`,
-      ...t,
-    });
-  }
-}

@@ -24,6 +24,8 @@ export interface WritingPracticeProps {
     keyVocabulary: string[];
     band9Tips: string;
     dataDescription?: string;
+    source?: string;
+    sourceUrl?: string;
   };
   timeLimit: number;
   minWords: number;
@@ -135,6 +137,24 @@ export function WritingPractice(props: WritingPracticeProps) {
                 )}
                 <Badge variant="outline">{props.minWords}+ words</Badge>
               </div>
+              {props.meta.source && (
+                <p className="text-[11px] text-muted-foreground">
+                  <strong>Source:</strong> {props.meta.source}
+                  {props.meta.sourceUrl && (
+                    <>
+                      {" — "}
+                      <a
+                        href={props.meta.sourceUrl}
+                        target="_blank"
+                        rel="noreferrer noopener"
+                        className="underline hover:text-foreground"
+                      >
+                        original
+                      </a>
+                    </>
+                  )}
+                </p>
+              )}
             </CardContent>
           </Card>
           <RichEditor

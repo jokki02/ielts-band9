@@ -11,7 +11,7 @@ export default function TipsPage() {
     <PageWrapper>
       <PageHeader
         title="Tips Hub"
-        description="Concentrated, evidence-based study advice — filterable by module."
+        description="Concentrated study advice paraphrased from official IELTS partners (British Council, IDP, Cambridge English) and respected examiner blogs (IELTS Liz, IELTS Simon). Every tip cites its source."
       />
       <Tabs defaultValue="all">
         <TabsList className="overflow-x-auto max-w-full">
@@ -38,8 +38,21 @@ export default function TipsPage() {
                     </div>
                   </div>
                 </CardHeader>
-                <CardContent className="text-sm text-muted-foreground leading-relaxed">
-                  {t.body}
+                <CardContent className="space-y-2 text-sm text-muted-foreground leading-relaxed">
+                  <p>{t.body}</p>
+                  <p className="text-[11px]">
+                    <strong className="text-foreground">Source:</strong>{" "}
+                    {t.source}
+                    {" — "}
+                    <a
+                      href={t.sourceUrl}
+                      target="_blank"
+                      rel="noreferrer noopener"
+                      className="underline hover:text-foreground"
+                    >
+                      read original
+                    </a>
+                  </p>
                 </CardContent>
               </Card>
             ))}

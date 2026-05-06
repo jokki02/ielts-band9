@@ -1,0 +1,3992 @@
+[
+  {
+    "word": "abandon",
+    "partOfSpeech": "verb",
+    "definition": "To give up or relinquish control of, to surrender or to give oneself over, or to yield to one's emotions.",
+    "example": "",
+    "sublist": 8
+  },
+  {
+    "word": "abstract",
+    "partOfSpeech": "noun",
+    "definition": "An abridgement or summary of a longer publication.",
+    "example": "",
+    "sublist": 6
+  },
+  {
+    "word": "academy",
+    "partOfSpeech": "noun",
+    "definition": "An institution for the study of higher learning; a college or a university; typically a private school.",
+    "example": "",
+    "sublist": 5
+  },
+  {
+    "word": "access",
+    "partOfSpeech": "noun",
+    "definition": "A way or means of approaching or entering; an entrance; a passage.",
+    "example": "The door provides access to the premises.",
+    "sublist": 4
+  },
+  {
+    "word": "accommodate",
+    "partOfSpeech": "verb",
+    "definition": "To render fit, suitable, or correspondent; to adapt.",
+    "example": "to accommodate ourselves to circumstances",
+    "sublist": 9
+  },
+  {
+    "word": "accompany",
+    "partOfSpeech": "verb",
+    "definition": "To go with or attend as a companion or associate; to keep company with; to go along with.",
+    "example": "Geoffrey accompanied the group on their pilgrimage.",
+    "sublist": 8
+  },
+  {
+    "word": "accumulate",
+    "partOfSpeech": "verb",
+    "definition": "To heap up in a mass; to pile up; to collect or bring together (either literally or figuratively), often gradually and without active intent.",
+    "example": "He wishes to accumulate a sum of money.",
+    "sublist": 8
+  },
+  {
+    "word": "accurate",
+    "partOfSpeech": "adjective",
+    "definition": "Telling the truth or giving a true result; exact; not defective or faulty.",
+    "example": "an accurate calculator",
+    "sublist": 6
+  },
+  {
+    "word": "achieve",
+    "partOfSpeech": "verb",
+    "definition": "To succeed in something, now especially in academic performance.",
+    "example": "",
+    "sublist": 2
+  },
+  {
+    "word": "acknowledge",
+    "partOfSpeech": "verb",
+    "definition": "To admit the knowledge of; to recognize as a fact or truth; to declare one's belief in.",
+    "example": "to acknowledge the being of a god",
+    "sublist": 6
+  },
+  {
+    "word": "acquire",
+    "partOfSpeech": "verb",
+    "definition": "To gain, usually by one's own exertions; to get as one's own.",
+    "example": "to acquire a skill",
+    "sublist": 2
+  },
+  {
+    "word": "adapt",
+    "partOfSpeech": "verb",
+    "definition": "To make suitable; to make to correspond; to fit or suit.",
+    "example": "",
+    "sublist": 7
+  },
+  {
+    "word": "adequate",
+    "partOfSpeech": "adjective",
+    "definition": "Equal to or fulfilling some requirement.",
+    "example": "powers adequate to a great work",
+    "sublist": 4
+  },
+  {
+    "word": "adjacent",
+    "partOfSpeech": "adjective",
+    "definition": "Lying next to, close, or contiguous; neighboring; bordering on.",
+    "example": "Because the conference room is filled, we will have our meeting in the adjacent room.",
+    "sublist": 10
+  },
+  {
+    "word": "adjust",
+    "partOfSpeech": "verb",
+    "definition": "To modify.",
+    "example": "Morimoto's recipes are adjusted to suit the American palate.",
+    "sublist": 5
+  },
+  {
+    "word": "administration",
+    "partOfSpeech": "noun",
+    "definition": "The act of administering; government of public affairs; the service rendered, or duties assumed, in conducting affairs; the conducting of any office or employment; direction.",
+    "example": "",
+    "sublist": 2
+  },
+  {
+    "word": "adult",
+    "partOfSpeech": "noun",
+    "definition": "An animal that is full-grown.",
+    "example": "",
+    "sublist": 7
+  },
+  {
+    "word": "advocate",
+    "partOfSpeech": "noun",
+    "definition": "Someone whose job is to speak for someone's case in a court of law; a counsel.",
+    "example": "",
+    "sublist": 7
+  },
+  {
+    "word": "affect",
+    "partOfSpeech": "verb",
+    "definition": "To influence or alter.",
+    "example": "The experience affected me deeply.",
+    "sublist": 2
+  },
+  {
+    "word": "aggregate",
+    "partOfSpeech": "noun",
+    "definition": "A mass, assemblage, or sum of particulars; something consisting of elements but considered as a whole.",
+    "example": "",
+    "sublist": 6
+  },
+  {
+    "word": "aid",
+    "partOfSpeech": "symbol",
+    "definition": "ISO 639-3 language code for Alngith.",
+    "example": "",
+    "sublist": 7
+  },
+  {
+    "word": "albeit",
+    "partOfSpeech": "conjunction",
+    "definition": "Although, despite (it) being.",
+    "example": "",
+    "sublist": 10
+  },
+  {
+    "word": "allocate",
+    "partOfSpeech": "verb",
+    "definition": "To set aside for a purpose.",
+    "example": "Please do not eat the meringue, as it is allocated for the dinner party tomorrow.",
+    "sublist": 6
+  },
+  {
+    "word": "alter",
+    "partOfSpeech": "verb",
+    "definition": "To change the form or structure of.",
+    "example": "",
+    "sublist": 5
+  },
+  {
+    "word": "alternative",
+    "partOfSpeech": "adjective",
+    "definition": "Relating to a choice between two or more possibilities.",
+    "example": "an alternative proposition",
+    "sublist": 3
+  },
+  {
+    "word": "ambiguous",
+    "partOfSpeech": "adjective",
+    "definition": "Open to multiple interpretations.",
+    "example": "The politician was criticized for his ambiguous statements and lack of precision.",
+    "sublist": 8
+  },
+  {
+    "word": "amend",
+    "partOfSpeech": "verb",
+    "definition": "To make better; improve.",
+    "example": "",
+    "sublist": 5
+  },
+  {
+    "word": "analogy",
+    "partOfSpeech": "noun",
+    "definition": "A relationship of resemblance or equivalence between two situations, people, or objects, especially when used as a basis for explanation or extrapolation.",
+    "example": "",
+    "sublist": 9
+  },
+  {
+    "word": "analyse",
+    "sublist": 1,
+    "partOfSpeech": "verb",
+    "definition": "To subject to analysis.",
+    "example": ""
+  },
+  {
+    "word": "annual",
+    "partOfSpeech": "adjective",
+    "definition": "Happening once every year.",
+    "example": "an annual general meeting;&nbsp; an annual publication",
+    "sublist": 4
+  },
+  {
+    "word": "anticipate",
+    "partOfSpeech": "verb",
+    "definition": "To act before (someone), especially to prevent an action.",
+    "example": "",
+    "sublist": 9
+  },
+  {
+    "word": "apparent",
+    "partOfSpeech": "adjective",
+    "definition": "Capable of being seen, or easily seen; open to view; visible to the eye; within sight or view.",
+    "example": "Her disappointment was apparent to everyone.",
+    "sublist": 4
+  },
+  {
+    "word": "append",
+    "partOfSpeech": "verb",
+    "definition": "To hang or attach to, as by a string, so that the thing is suspended",
+    "example": "a seal appended to a record",
+    "sublist": 8
+  },
+  {
+    "word": "appreciate",
+    "partOfSpeech": "verb",
+    "definition": "To be grateful or thankful for.",
+    "example": "I appreciate your efforts.",
+    "sublist": 8
+  },
+  {
+    "word": "approach",
+    "partOfSpeech": "verb",
+    "definition": "To come or go near, in place or time; to move toward; to advance nearer; to draw nigh.",
+    "example": "She approached the door cautiously.",
+    "sublist": 1
+  },
+  {
+    "word": "appropriate",
+    "partOfSpeech": "verb",
+    "definition": "To take to oneself; to claim or use, especially as by an exclusive right.",
+    "example": "Let no man appropriate the use of a common benefit.",
+    "sublist": 2
+  },
+  {
+    "word": "approximate",
+    "partOfSpeech": "adjective",
+    "definition": "Approaching; proximate; nearly resembling.",
+    "example": "",
+    "sublist": 4
+  },
+  {
+    "word": "arbitrary",
+    "partOfSpeech": "adjective",
+    "definition": "Based on individual discretion or judgment; not based on any objective distinction, perhaps even made at random.",
+    "example": "Benjamin Franklin's designation of \"positive\" and \"negative\" to different charges was arbitrary.",
+    "sublist": 8
+  },
+  {
+    "word": "area",
+    "partOfSpeech": "noun",
+    "definition": "A measure of the extent of a surface; it is measured in square units.",
+    "example": "",
+    "sublist": 1
+  },
+  {
+    "word": "aspect",
+    "partOfSpeech": "noun",
+    "definition": "Any specific feature, part, or element of something.",
+    "example": "Japan's aging population is an important aspect of its economy.",
+    "sublist": 2
+  },
+  {
+    "word": "assemble",
+    "partOfSpeech": "verb",
+    "definition": "To put together.",
+    "example": "He assembled the model ship.",
+    "sublist": 10
+  },
+  {
+    "word": "assess",
+    "partOfSpeech": "verb",
+    "definition": "To determine, estimate or judge the value of; to evaluate; to estimate.",
+    "example": "He assessed the situation.",
+    "sublist": 1
+  },
+  {
+    "word": "assign",
+    "partOfSpeech": "verb",
+    "definition": "To designate or set apart (something) for some purpose.",
+    "example": "to assign a day for trial",
+    "sublist": 6
+  },
+  {
+    "word": "assist",
+    "partOfSpeech": "verb",
+    "definition": "To help.",
+    "example": "This book will assist you in getting your life in order.",
+    "sublist": 2
+  },
+  {
+    "word": "assume",
+    "partOfSpeech": "verb",
+    "definition": "To authenticate by means of belief; to surmise; to suppose to be true, especially without proof.",
+    "example": "We assume that, as her parents were dentists, she knows quite a bit about dentistry.",
+    "sublist": 1
+  },
+  {
+    "word": "assure",
+    "partOfSpeech": "verb",
+    "definition": "To make sure and secure; ensure.",
+    "example": "",
+    "sublist": 9
+  },
+  {
+    "word": "attach",
+    "partOfSpeech": "verb",
+    "definition": "To fasten, to join to (literally and figuratively).",
+    "example": "You need to attach the carabiner to your harness.",
+    "sublist": 6
+  },
+  {
+    "word": "attain",
+    "partOfSpeech": "verb",
+    "definition": "To come to or reach (a place) by motion or progression. To arrive at (a certain age or time, condition or state, etc.); to reach. To gain (a desired result or other objective) through effort; to accomplish, to achieve.",
+    "example": "To attain such a high level of proficiency requires hours of practice each day.",
+    "sublist": 9
+  },
+  {
+    "word": "attitude",
+    "partOfSpeech": "noun",
+    "definition": "The position of the body or way of carrying oneself.",
+    "example": "The ballet dancer walked with a graceful attitude.",
+    "sublist": 4
+  },
+  {
+    "word": "attribute",
+    "partOfSpeech": "noun",
+    "definition": "A characteristic or quality of a thing.",
+    "example": "His finest attribute is his kindness.",
+    "sublist": 4
+  },
+  {
+    "word": "author",
+    "partOfSpeech": "noun",
+    "definition": "The originator or creator of a work, especially of a literary composition; or, one of the creators of a collaborative work.",
+    "example": "The copyright of any original writing belongs initially and properly to its author.",
+    "sublist": 6
+  },
+  {
+    "word": "authority",
+    "partOfSpeech": "noun",
+    "definition": "Power or right to make or enforce rules, give orders, or impose obligation; or a position having such power or right.",
+    "example": "I have the authority to penalise the staff in my department, but not the authority to sack them.",
+    "sublist": 1
+  },
+  {
+    "word": "automate",
+    "partOfSpeech": "verb",
+    "definition": "To replace or enhance human labor with machines.",
+    "example": "Many offices still need to automate.",
+    "sublist": 8
+  },
+  {
+    "word": "available",
+    "partOfSpeech": "adjective",
+    "definition": "Such as one may avail oneself of; capable of being used for the accomplishment of a purpose.",
+    "example": "We have an available candidate.",
+    "sublist": 1
+  },
+  {
+    "word": "aware",
+    "partOfSpeech": "adjective",
+    "definition": "Vigilant or on one's guard against danger or difficulty.",
+    "example": "Stay aware! Don't let your guard down.",
+    "sublist": 5
+  },
+  {
+    "word": "behalf",
+    "partOfSpeech": "noun",
+    "definition": "The interest, benefit, or wellbeing of someone or something.",
+    "example": "",
+    "sublist": 9
+  },
+  {
+    "word": "benefit",
+    "partOfSpeech": "noun",
+    "definition": "An advantage; help or aid from something.",
+    "example": "She can't read, so the voice recording was made for her benefit.",
+    "sublist": 1
+  },
+  {
+    "word": "bias",
+    "partOfSpeech": "noun",
+    "definition": "Inclination towards something.",
+    "example": "",
+    "sublist": 8
+  },
+  {
+    "word": "bond",
+    "partOfSpeech": "noun",
+    "definition": "A document constituting evidence of a long-term debt, by which the bond issuer (the borrower) is obliged to pay interest when due, and repay the principal at maturity, as specified on the face of the bond certificate. The rights of the holder are specified in the bond indenture, which contains the legal terms and conditions under which the bond was issued. Bonds are available in two forms: registered bonds, and bearer bonds.",
+    "example": "",
+    "sublist": 6
+  },
+  {
+    "word": "brief",
+    "partOfSpeech": "adjective",
+    "definition": "Of short duration; happening quickly.",
+    "example": "Her reign was brief but spectacular.",
+    "sublist": 6
+  },
+  {
+    "word": "bulk",
+    "partOfSpeech": "noun",
+    "definition": "Size, specifically, volume.",
+    "example": "",
+    "sublist": 9
+  },
+  {
+    "word": "capable",
+    "partOfSpeech": "adjective",
+    "definition": "Able and efficient; having the ability needed for a specific task; having the disposition to do something; permitting or being susceptible to something.",
+    "example": "She is capable and efficient.",
+    "sublist": 6
+  },
+  {
+    "word": "capacity",
+    "partOfSpeech": "noun",
+    "definition": "The ability to hold, receive, or absorb.",
+    "example": "",
+    "sublist": 5
+  },
+  {
+    "word": "category",
+    "partOfSpeech": "noun",
+    "definition": "A group, often named or numbered, to which items are assigned based on similarity or defined criteria.",
+    "example": "This steep and dangerous climb belongs to the most difficult category.",
+    "sublist": 2
+  },
+  {
+    "word": "cease",
+    "partOfSpeech": "verb",
+    "definition": "To stop.",
+    "example": "And with that, his twitching ceased.",
+    "sublist": 9
+  },
+  {
+    "word": "challenge",
+    "partOfSpeech": "noun",
+    "definition": "A confrontation; a dare. An antagonization or instigation intended to convince a person to perform an action they otherwise would not. A bid to overcome something.",
+    "example": "a challenge to the king's authority",
+    "sublist": 5
+  },
+  {
+    "word": "channel",
+    "partOfSpeech": "noun",
+    "definition": "The hollow bed of running waters; the bed of the sea or other body of water.",
+    "example": "The water coming out of the waterwheel created a standing wave in the channel.",
+    "sublist": 7
+  },
+  {
+    "word": "chapter",
+    "partOfSpeech": "noun",
+    "definition": "One of the main sections into which a published work is divided, especially a book.",
+    "example": "Detective novel writers try to keep up the suspense until the last chapter.",
+    "sublist": 2
+  },
+  {
+    "word": "chart",
+    "partOfSpeech": "noun",
+    "definition": "A map. A map illustrating the geography of a specific phenomenon. A navigator's map.",
+    "example": "",
+    "sublist": 8
+  },
+  {
+    "word": "chemical",
+    "partOfSpeech": "adjective",
+    "definition": "Of or relating to chemistry.",
+    "example": "chemical experiments",
+    "sublist": 7
+  },
+  {
+    "word": "circumstance",
+    "partOfSpeech": "noun",
+    "definition": "Something which is related to, or in some way affects, a fact or event.",
+    "example": "The report should focus on to the current circumstances of the organisation, to help us find a way to grow in the future.",
+    "sublist": 3
+  },
+  {
+    "word": "cite",
+    "partOfSpeech": "verb",
+    "definition": "To quote; to repeat, as a passage from a book, or the words of another.",
+    "example": "",
+    "sublist": 6
+  },
+  {
+    "word": "civil",
+    "partOfSpeech": "adjective",
+    "definition": "Having to do with people and government office as opposed to the military or religion.",
+    "example": "She went into civil service because she wanted to help the people.",
+    "sublist": 4
+  },
+  {
+    "word": "clarify",
+    "partOfSpeech": "verb",
+    "definition": "To make or become clear or bright by freeing from impurities or turbidity.",
+    "example": "What's the best way to clarify cooking oil?",
+    "sublist": 8
+  },
+  {
+    "word": "classic",
+    "partOfSpeech": "adjective",
+    "definition": "Of or relating to the first class or rank, especially in literature or art.",
+    "example": "",
+    "sublist": 7
+  },
+  {
+    "word": "clause",
+    "partOfSpeech": "noun",
+    "definition": "A group of words that contains a subject and a verb; it may be part of a sentence or may constitute the whole sentence, depending on the syntax in each instance.",
+    "example": "",
+    "sublist": 5
+  },
+  {
+    "word": "code",
+    "partOfSpeech": "noun",
+    "definition": "A short textual designation, often with little relation to the item it represents.",
+    "example": "This flavour of soup has been assigned the code WRT-9.",
+    "sublist": 4
+  },
+  {
+    "word": "coherent",
+    "partOfSpeech": "adjective",
+    "definition": "Unified; sticking together; making up a whole.",
+    "example": "",
+    "sublist": 9
+  },
+  {
+    "word": "coincide",
+    "partOfSpeech": "verb",
+    "definition": "To occupy exactly the same space.",
+    "example": "The two squares coincide nicely.",
+    "sublist": 9
+  },
+  {
+    "word": "collapse",
+    "partOfSpeech": "verb",
+    "definition": "To break apart and fall down suddenly; to cave in.",
+    "example": "",
+    "sublist": 10
+  },
+  {
+    "word": "colleague",
+    "partOfSpeech": "noun",
+    "definition": "A fellow member of a profession, staff, academic faculty or other organization; an associate, a workmate.",
+    "example": "",
+    "sublist": 10
+  },
+  {
+    "word": "commence",
+    "partOfSpeech": "verb",
+    "definition": "To begin, start.",
+    "example": "",
+    "sublist": 9
+  },
+  {
+    "word": "comment",
+    "partOfSpeech": "noun",
+    "definition": "A spoken or written remark.",
+    "example": "I have no comment on that.",
+    "sublist": 3
+  },
+  {
+    "word": "commission",
+    "partOfSpeech": "noun",
+    "definition": "A sending or mission (to do or accomplish something).",
+    "example": "",
+    "sublist": 2
+  },
+  {
+    "word": "commit",
+    "partOfSpeech": "verb",
+    "definition": "To give in trust; to put into charge or keeping; to entrust; to consign; used with to or formerly unto.",
+    "example": "Commit these numbers to memory.",
+    "sublist": 4
+  },
+  {
+    "word": "commodity",
+    "partOfSpeech": "noun",
+    "definition": "Anything movable (a good) that is bought and sold.",
+    "example": "",
+    "sublist": 8
+  },
+  {
+    "word": "communicate",
+    "partOfSpeech": "verb",
+    "definition": "To impart. To impart or transmit (information or knowledge) to someone; to make known, to tell.",
+    "example": "It is vital that I communicate this information to you.",
+    "sublist": 4
+  },
+  {
+    "word": "community",
+    "partOfSpeech": "noun",
+    "definition": "A group sharing common characteristics, such as the same language, law, religion, or tradition.",
+    "example": "",
+    "sublist": 2
+  },
+  {
+    "word": "compatible",
+    "partOfSpeech": "adjective",
+    "definition": "Capable of easy interaction.",
+    "example": "This printer isn't compatible with my computer.",
+    "sublist": 9
+  },
+  {
+    "word": "compensate",
+    "partOfSpeech": "verb",
+    "definition": "To do (something good) after (something bad) happens.",
+    "example": "",
+    "sublist": 3
+  },
+  {
+    "word": "compile",
+    "partOfSpeech": "verb",
+    "definition": "To make by gathering pieces from various sources.",
+    "example": "Samuel Johnson compiled one of the most influential dictionaries of the English language.",
+    "sublist": 10
+  },
+  {
+    "word": "complement",
+    "partOfSpeech": "noun",
+    "definition": "The totality, the full amount or number which completes something.",
+    "example": "",
+    "sublist": 8
+  },
+  {
+    "word": "complex",
+    "partOfSpeech": "adjective",
+    "definition": "Made up of multiple parts; composite; not simple.",
+    "example": "a complex being; a complex idea",
+    "sublist": 2
+  },
+  {
+    "word": "component",
+    "partOfSpeech": "noun",
+    "definition": "A smaller, self-contained part of a larger entity. Often refers to a manufactured object that is part of a larger device.",
+    "example": "A CPU is a component of a computer.",
+    "sublist": 3
+  },
+  {
+    "word": "compound",
+    "partOfSpeech": "noun",
+    "definition": "An enclosure within which workers, prisoners, or soldiers are confined.",
+    "example": "",
+    "sublist": 5
+  },
+  {
+    "word": "comprehensive",
+    "partOfSpeech": "adjective",
+    "definition": "Broadly or completely covering; including a large proportion of something.",
+    "example": "When there are diametrically opposing views on a big issue that concerns millions of people, doing comprehensive research just makes sense.",
+    "sublist": 7
+  },
+  {
+    "word": "comprise",
+    "partOfSpeech": "verb",
+    "definition": "To be made up of; to consist of (especially a comprehensive list of parts).",
+    "example": "The whole comprises the parts.",
+    "sublist": 7
+  },
+  {
+    "word": "compute",
+    "partOfSpeech": "verb",
+    "definition": "To reckon, calculate.",
+    "example": "Can anyone here compute the square root of 10201?",
+    "sublist": 2
+  },
+  {
+    "word": "conceive",
+    "partOfSpeech": "verb",
+    "definition": "To have a child; to become pregnant (with).",
+    "example": "Assisted procreation can help those trying to conceive.",
+    "sublist": 10
+  },
+  {
+    "word": "concentrate",
+    "partOfSpeech": "verb",
+    "definition": "To bring to, or direct toward, a common center; to unite more closely; to gather into one body, mass, or force.",
+    "example": "to concentrate rays of light into a focus",
+    "sublist": 4
+  },
+  {
+    "word": "concept",
+    "partOfSpeech": "noun",
+    "definition": "An abstract and general idea; an abstraction.",
+    "example": "",
+    "sublist": 1
+  },
+  {
+    "word": "conclude",
+    "partOfSpeech": "verb",
+    "definition": "To end; to come to an end.",
+    "example": "The story concluded with a moral.",
+    "sublist": 2
+  },
+  {
+    "word": "concurrent",
+    "partOfSpeech": "adjective",
+    "definition": "Happening at the same time; simultaneous.",
+    "example": "",
+    "sublist": 9
+  },
+  {
+    "word": "conduct",
+    "partOfSpeech": "noun",
+    "definition": "The act or method of controlling or directing.",
+    "example": "",
+    "sublist": 2
+  },
+  {
+    "word": "confer",
+    "partOfSpeech": "verb",
+    "definition": "To grant as a possession; to bestow.",
+    "example": "The college has conferred an honorary degree upon the visiting Prime Minister.",
+    "sublist": 4
+  },
+  {
+    "word": "confine",
+    "partOfSpeech": "verb",
+    "definition": "To have a common boundary with; to border on.",
+    "example": "",
+    "sublist": 9
+  },
+  {
+    "word": "confirm",
+    "partOfSpeech": "verb",
+    "definition": "To strengthen; to make firm or resolute.",
+    "example": "",
+    "sublist": 7
+  },
+  {
+    "word": "conflict",
+    "partOfSpeech": "noun",
+    "definition": "A clash or disagreement, often violent, between two or more opposing groups or individuals.",
+    "example": "The conflict between the government and the rebels began three years ago.",
+    "sublist": 5
+  },
+  {
+    "word": "conform",
+    "partOfSpeech": "verb",
+    "definition": "To adapt to something by more closely matching it, especially something normative. To change to more closely match typical characteristics or behavior.",
+    "example": "",
+    "sublist": 8
+  },
+  {
+    "word": "consent",
+    "partOfSpeech": "verb",
+    "definition": "To express willingness, to give permission.",
+    "example": "After reflecting a little bit, I've decided to consent to her practising the piano in the house.",
+    "sublist": 3
+  },
+  {
+    "word": "consequent",
+    "partOfSpeech": "adjective",
+    "definition": "Following as a result, inference, or natural effect.",
+    "example": "His retirement and consequent spare time enabled him to travel more.",
+    "sublist": 2
+  },
+  {
+    "word": "considerable",
+    "partOfSpeech": "adjective",
+    "definition": "Significant; worth considering.",
+    "example": "Soon I became a considerable figure in the music industry.",
+    "sublist": 3
+  },
+  {
+    "word": "consist",
+    "partOfSpeech": "verb",
+    "definition": "To exist or be compatible.",
+    "example": "",
+    "sublist": 1
+  },
+  {
+    "word": "constant",
+    "partOfSpeech": "adjective",
+    "definition": "Unchanged through time or space; permanent.",
+    "example": "",
+    "sublist": 3
+  },
+  {
+    "word": "constitute",
+    "partOfSpeech": "verb",
+    "definition": "To set up; to establish; to enact.",
+    "example": "",
+    "sublist": 1
+  },
+  {
+    "word": "constrain",
+    "partOfSpeech": "verb",
+    "definition": "To force physically, by strong persuasion or pressuring; to compel; to oblige.",
+    "example": "",
+    "sublist": 3
+  },
+  {
+    "word": "construct",
+    "partOfSpeech": "noun",
+    "definition": "Something constructed from parts.",
+    "example": "The artwork was a construct of wire and tubes.",
+    "sublist": 2
+  },
+  {
+    "word": "consult",
+    "partOfSpeech": "noun",
+    "definition": "A visit to consult somebody, such as a doctor; a consultation.",
+    "example": "",
+    "sublist": 5
+  },
+  {
+    "word": "consume",
+    "partOfSpeech": "verb",
+    "definition": "To use up.",
+    "example": "The power plant consumes 30 tons of coal per hour.",
+    "sublist": 2
+  },
+  {
+    "word": "contact",
+    "partOfSpeech": "noun",
+    "definition": "The act of touching physically; being in close association.",
+    "example": "",
+    "sublist": 5
+  },
+  {
+    "word": "contemporary",
+    "partOfSpeech": "adjective",
+    "definition": "From the same time period, coexistent in time; contemporaneous.",
+    "example": "",
+    "sublist": 8
+  },
+  {
+    "word": "context",
+    "partOfSpeech": "noun",
+    "definition": "The surroundings, circumstances, environment, background or settings that determine, specify, or clarify the meaning of an event or other occurrence.",
+    "example": "—In what context did your attack on him happen? —We had a pretty tense relationship at the time, and when he insulted me I snapped.",
+    "sublist": 1
+  },
+  {
+    "word": "contract",
+    "partOfSpeech": "noun",
+    "definition": "An agreement between two or more parties, to perform a specific job or work order, often temporary or of fixed duration and usually governed by a written agreement.",
+    "example": "sign a contract",
+    "sublist": 1
+  },
+  {
+    "word": "contradict",
+    "partOfSpeech": "verb",
+    "definition": "To deny the truth or validity of (a statement or statements).",
+    "example": "His testimony contradicts hers.",
+    "sublist": 8
+  },
+  {
+    "word": "contrary",
+    "partOfSpeech": "adjective",
+    "definition": "Opposite; in an opposite direction; in opposition; adverse.",
+    "example": "contrary winds",
+    "sublist": 7
+  },
+  {
+    "word": "contrast",
+    "partOfSpeech": "noun",
+    "definition": "A difference in lightness, brightness or hue between two colours that makes them more or less distinguishable. The degree of this difference.",
+    "example": "The red and the orange don't have much contrast between them — I can hardly tell them apart.",
+    "sublist": 4
+  },
+  {
+    "word": "contribute",
+    "partOfSpeech": "verb",
+    "definition": "To give something that is or becomes part of a larger whole.",
+    "example": "to contribute money to a church fund",
+    "sublist": 3
+  },
+  {
+    "word": "controversy",
+    "partOfSpeech": "noun",
+    "definition": "A debate or discussion of opposing opinions; strife.",
+    "example": "",
+    "sublist": 9
+  },
+  {
+    "word": "convene",
+    "partOfSpeech": "verb",
+    "definition": "To come together; to meet; to unite.",
+    "example": "",
+    "sublist": 3
+  },
+  {
+    "word": "converse",
+    "partOfSpeech": "verb",
+    "definition": "To talk; to engage in conversation.",
+    "example": "",
+    "sublist": 9
+  },
+  {
+    "word": "convert",
+    "partOfSpeech": "verb",
+    "definition": "To transform or change (something) into another form, substance, state, or product.",
+    "example": "A kettle converts water into steam.",
+    "sublist": 7
+  },
+  {
+    "word": "convince",
+    "partOfSpeech": "verb",
+    "definition": "To make someone believe, or feel sure about something, especially by using logic, argument or evidence.",
+    "example": "I wouldn't have or do something, unless I'm convinced that it's good.",
+    "sublist": 10
+  },
+  {
+    "word": "cooperate",
+    "partOfSpeech": "verb",
+    "definition": "To work or act together, especially for a common purpose or benefit.",
+    "example": "",
+    "sublist": 6
+  },
+  {
+    "word": "coordinate",
+    "partOfSpeech": "adjective",
+    "definition": "Of the same rank; equal.",
+    "example": "two coordinate terms",
+    "sublist": 3
+  },
+  {
+    "word": "core",
+    "partOfSpeech": "noun",
+    "definition": "In general usage, an essential part of a thing surrounded by other essential things. The central part of a fruit, containing the kernels or seeds.",
+    "example": "the core of an apple or quince",
+    "sublist": 3
+  },
+  {
+    "word": "corporate",
+    "partOfSpeech": "adjective",
+    "definition": "Of or relating to the whole company.",
+    "example": "The one on Seventh Street is a corporate franchise.",
+    "sublist": 3
+  },
+  {
+    "word": "correspond",
+    "partOfSpeech": "verb",
+    "definition": "To be equivalent or similar in character, quantity, quality, origin, structure, function etc.",
+    "example": "",
+    "sublist": 3
+  },
+  {
+    "word": "couple",
+    "partOfSpeech": "noun",
+    "definition": "Two of the same kind connected or considered together.",
+    "example": "A couple of police officers appeared at the door.",
+    "sublist": 7
+  },
+  {
+    "word": "create",
+    "partOfSpeech": "verb",
+    "definition": "To bring into existence",
+    "example": "You can create the color orange by mixing yellow and red.",
+    "sublist": 1
+  },
+  {
+    "word": "credit",
+    "partOfSpeech": "verb",
+    "definition": "To believe; to put credence in.",
+    "example": "Someone said there were over 100,000 people there, but I can't credit that.",
+    "sublist": 2
+  },
+  {
+    "word": "criteria",
+    "partOfSpeech": "noun",
+    "definition": "A single criterion.",
+    "example": "",
+    "sublist": 3
+  },
+  {
+    "word": "crucial",
+    "partOfSpeech": "adjective",
+    "definition": "Essential or decisive for determining the outcome or future of something; extremely important; vital.",
+    "example": "The battle of Tali-Ihantala in 1944 is one of the crucial moments in the history of Finland.",
+    "sublist": 8
+  },
+  {
+    "word": "culture",
+    "partOfSpeech": "noun",
+    "definition": "The arts, customs, lifestyles, background, and habits that characterize humankind, or a particular society or nation.",
+    "example": "",
+    "sublist": 2
+  },
+  {
+    "word": "currency",
+    "partOfSpeech": "noun",
+    "definition": "Money or other items used to facilitate transactions.",
+    "example": "Wampum was used as a currency by Amerindians.",
+    "sublist": 8
+  },
+  {
+    "word": "cycle",
+    "partOfSpeech": "noun",
+    "definition": "An interval of space or time in which one set of events or phenomena is completed.",
+    "example": "the cycle of the seasons, or of the year",
+    "sublist": 4
+  },
+  {
+    "word": "data",
+    "partOfSpeech": "noun",
+    "definition": "A representation of information in a computer (as symbols, quantities, sound, images or videos) which is stored, processed or transmitted in the form of electrical signals, records on magnetic tape or punched cards, etc.",
+    "example": "Data can be sent through email.",
+    "sublist": 1
+  },
+  {
+    "word": "debate",
+    "partOfSpeech": "verb",
+    "definition": "To participate in a debate; to dispute, argue, especially in a public arena.",
+    "example": "\"Debate me, coward!\" snarled the completely normal intellectual.",
+    "sublist": 4
+  },
+  {
+    "word": "decade",
+    "partOfSpeech": "noun",
+    "definition": "A group, set, or series of ten , particularly",
+    "example": "a decade of soldiers",
+    "sublist": 7
+  },
+  {
+    "word": "decline",
+    "partOfSpeech": "noun",
+    "definition": "Downward movement, fall.",
+    "example": "The aircraft went into a sudden decline before the pilot regained control.",
+    "sublist": 5
+  },
+  {
+    "word": "deduce",
+    "partOfSpeech": "verb",
+    "definition": "To reach (a conclusion) by applying rules of logic or other forms of reasoning to given premises or known facts.",
+    "example": "",
+    "sublist": 3
+  },
+  {
+    "word": "define",
+    "partOfSpeech": "verb",
+    "definition": "To determine with precision; to mark out with distinctness; to ascertain or exhibit clearly.",
+    "example": "the defining power of an optical instrument",
+    "sublist": 1
+  },
+  {
+    "word": "definite",
+    "partOfSpeech": "adjective",
+    "definition": "Having distinct limits.",
+    "example": "definite dimensions; a definite measure; a definite period or interval",
+    "sublist": 7
+  },
+  {
+    "word": "demonstrate",
+    "partOfSpeech": "verb",
+    "definition": "To show how to use (something).",
+    "example": "Can you demonstrate the new tools for us?",
+    "sublist": 3
+  },
+  {
+    "word": "denote",
+    "partOfSpeech": "verb",
+    "definition": "To indicate; to mark.",
+    "example": "The yellow blazes denote the trail.",
+    "sublist": 8
+  },
+  {
+    "word": "deny",
+    "partOfSpeech": "verb",
+    "definition": "To disallow or reject.",
+    "example": "I wanted to go to the party, but I was denied.",
+    "sublist": 7
+  },
+  {
+    "word": "depress",
+    "partOfSpeech": "verb",
+    "definition": "To press down.",
+    "example": "Depress the upper lever to start the machine.",
+    "sublist": 10
+  },
+  {
+    "word": "derive",
+    "partOfSpeech": "verb",
+    "definition": "To obtain or receive (something) from something else.",
+    "example": "Reading books is the best way to derive knowledge.",
+    "sublist": 1
+  },
+  {
+    "word": "design",
+    "partOfSpeech": "noun",
+    "definition": "A specification of an object or process, referring to requirements to be satisfied and thus conditions to be met for them to solve a problem.",
+    "example": "",
+    "sublist": 2
+  },
+  {
+    "word": "despite",
+    "partOfSpeech": "preposition",
+    "definition": "In spite of, not with standing.",
+    "example": "Despite being a near-mirror image my of right, my left hand is terrible at these stuff.",
+    "sublist": 4
+  },
+  {
+    "word": "detect",
+    "partOfSpeech": "verb",
+    "definition": "To discover or find by careful search, examination, or probing.",
+    "example": "",
+    "sublist": 8
+  },
+  {
+    "word": "deviate",
+    "partOfSpeech": "verb",
+    "definition": "To go off course from; to change course; to change plans.",
+    "example": "",
+    "sublist": 8
+  },
+  {
+    "word": "device",
+    "partOfSpeech": "noun",
+    "definition": "Any piece of equipment made for a particular purpose, especially a mechanical or electrical one.",
+    "example": "",
+    "sublist": 9
+  },
+  {
+    "word": "devote",
+    "partOfSpeech": "verb",
+    "definition": "to give one's time, focus one's efforts, commit oneself, etc. entirely for, on, or to a certain matter; to consecrate.",
+    "example": "They devoted their lives to following Jesus Christ.",
+    "sublist": 9
+  },
+  {
+    "word": "differentiate",
+    "partOfSpeech": "verb",
+    "definition": "To modify so as to create a difference or distinction. To show or be the difference or distinction between things.",
+    "example": "What differentiates an alligator from a crocodile?",
+    "sublist": 7
+  },
+  {
+    "word": "dimension",
+    "partOfSpeech": "noun",
+    "definition": "A single aspect of a given thing.",
+    "example": "This film can be enjoyed on many dimensions - the script is great, the acting is realistic, and the special effects will simply take you aback.",
+    "sublist": 4
+  },
+  {
+    "word": "diminish",
+    "partOfSpeech": "verb",
+    "definition": "To make smaller.",
+    "example": "",
+    "sublist": 9
+  },
+  {
+    "word": "discrete",
+    "partOfSpeech": "adjective",
+    "definition": "Separate; distinct; individual; non-continuous.",
+    "example": "a government with three discrete divisions",
+    "sublist": 5
+  },
+  {
+    "word": "discriminate",
+    "partOfSpeech": "verb",
+    "definition": "To make distinctions.",
+    "example": "Since he was color blind he was unable to discriminate between the blue and green bottles.",
+    "sublist": 6
+  },
+  {
+    "word": "displace",
+    "partOfSpeech": "verb",
+    "definition": "To put out of place; to disarrange.",
+    "example": "",
+    "sublist": 8
+  },
+  {
+    "word": "display",
+    "partOfSpeech": "noun",
+    "definition": "A show or spectacle.",
+    "example": "The trapeze artist put on an amazing acrobatic display.",
+    "sublist": 6
+  },
+  {
+    "word": "dispose",
+    "partOfSpeech": "verb",
+    "definition": "To eliminate or to get rid of something.",
+    "example": "I dispose of my trash in the garbage can.",
+    "sublist": 7
+  },
+  {
+    "word": "distinct",
+    "partOfSpeech": "adjective",
+    "definition": "Capable of being perceived very clearly.",
+    "example": "Her voice was distinct despite the heavy traffic.",
+    "sublist": 2
+  },
+  {
+    "word": "distort",
+    "partOfSpeech": "verb",
+    "definition": "To bring something out of shape, to misshape.",
+    "example": "",
+    "sublist": 9
+  },
+  {
+    "word": "distribute",
+    "partOfSpeech": "verb",
+    "definition": "To divide into portions and dispense.",
+    "example": "He distributed the bread amongst his followers.",
+    "sublist": 1
+  },
+  {
+    "word": "diverse",
+    "partOfSpeech": "adjective",
+    "definition": "Consisting of different elements; various.",
+    "example": "",
+    "sublist": 6
+  },
+  {
+    "word": "document",
+    "partOfSpeech": "noun",
+    "definition": "An original or official paper used as the basis, proof, or support of anything else, including any writing, book, or other instrument conveying information pertinent to such proof or support.",
+    "example": "",
+    "sublist": 3
+  },
+  {
+    "word": "domain",
+    "partOfSpeech": "noun",
+    "definition": "A geographic area owned or controlled by a single person or organization.",
+    "example": "The king ruled his domain harshly.",
+    "sublist": 6
+  },
+  {
+    "word": "domestic",
+    "partOfSpeech": "adjective",
+    "definition": "Of or relating to the home.",
+    "example": "",
+    "sublist": 4
+  },
+  {
+    "word": "dominate",
+    "partOfSpeech": "verb",
+    "definition": "To govern, rule or control by superior authority or power",
+    "example": "",
+    "sublist": 3
+  },
+  {
+    "word": "draft",
+    "partOfSpeech": "noun",
+    "definition": "A current of air, usually coming into a room or vehicle. The draw through a flue of gasses or smoke resulting from a combustion process. An act of drinking. The quantity of liquid (such as water, alcohol, or medicine) drunk in one swallow.",
+    "example": "to drink at a draft",
+    "sublist": 5
+  },
+  {
+    "word": "drama",
+    "partOfSpeech": "noun",
+    "definition": "A composition, normally in prose, telling a story and intended to be represented by actors impersonating the characters and speaking the dialogue",
+    "example": "The author released her latest drama, which became a best-seller.",
+    "sublist": 8
+  },
+  {
+    "word": "duration",
+    "partOfSpeech": "noun",
+    "definition": "An amount of time or a particular time interval.",
+    "example": "The duration of the flight will be about 2 hours 45 minutes.",
+    "sublist": 9
+  },
+  {
+    "word": "dynamic",
+    "partOfSpeech": "adjective",
+    "definition": "Changing; active; in motion.",
+    "example": "The environment is dynamic, changing with the years and the seasons.",
+    "sublist": 7
+  },
+  {
+    "word": "economy",
+    "partOfSpeech": "noun",
+    "definition": "Effective management of a community or system, or especially its resources. The regular operation of nature in the generation, nutrition and preservation of animals or plants.",
+    "example": "animal economy, vegetable economy",
+    "sublist": 1
+  },
+  {
+    "word": "edit",
+    "partOfSpeech": "noun",
+    "definition": "A change to the text of a document.",
+    "example": "",
+    "sublist": 6
+  },
+  {
+    "word": "element",
+    "partOfSpeech": "noun",
+    "definition": "One of the simplest or essential parts or principles of which anything consists, or upon which the constitution or fundamental powers of anything are based.",
+    "example": "Letters are the elements of written language.",
+    "sublist": 2
+  },
+  {
+    "word": "eliminate",
+    "partOfSpeech": "verb",
+    "definition": "To completely remove, get rid of, put an end to.",
+    "example": "",
+    "sublist": 7
+  },
+  {
+    "word": "emerge",
+    "partOfSpeech": "verb",
+    "definition": "To come into view.",
+    "example": "",
+    "sublist": 4
+  },
+  {
+    "word": "emphasis",
+    "partOfSpeech": "noun",
+    "definition": "Special weight or forcefulness given to something considered important.",
+    "example": "He paused for emphasis before saying who had won.",
+    "sublist": 3
+  },
+  {
+    "word": "empirical",
+    "partOfSpeech": "adjective",
+    "definition": "Pertaining to or based on experience, as opposed to theory.",
+    "example": "The lengths were calculated according to the empirical rules of the trade.",
+    "sublist": 7
+  },
+  {
+    "word": "enable",
+    "partOfSpeech": "verb",
+    "definition": "To make somebody able (to do, or to be, something); to give sufficient ability or power to do or to be; to give strength or ability to.",
+    "example": "",
+    "sublist": 5
+  },
+  {
+    "word": "encounter",
+    "partOfSpeech": "verb",
+    "definition": "To meet (someone) or find (something), especially unexpectedly.",
+    "example": "",
+    "sublist": 10
+  },
+  {
+    "word": "energy",
+    "partOfSpeech": "noun",
+    "definition": "The impetus behind all motion and all activity.",
+    "example": "",
+    "sublist": 5
+  },
+  {
+    "word": "enforce",
+    "partOfSpeech": "verb",
+    "definition": "To keep up, impose or bring into effect something, not necessarily by force.",
+    "example": "The police are there to enforce the law.",
+    "sublist": 5
+  },
+  {
+    "word": "enhance",
+    "partOfSpeech": "verb",
+    "definition": "To lift, raise up.",
+    "example": "",
+    "sublist": 6
+  },
+  {
+    "word": "enormous",
+    "partOfSpeech": "adjective",
+    "definition": "Deviating from the norm; unusual, extraordinary.",
+    "example": "",
+    "sublist": 10
+  },
+  {
+    "word": "ensure",
+    "partOfSpeech": "verb",
+    "definition": "To make sure or certain of something (usually some future event or condition).",
+    "example": "I use an alarm clock to ensure that I get up on time.",
+    "sublist": 3
+  },
+  {
+    "word": "entity",
+    "partOfSpeech": "noun",
+    "definition": "That which has a distinct existence as an individual unit, often used for organizations which have no physical form.",
+    "example": "",
+    "sublist": 5
+  },
+  {
+    "word": "environment",
+    "partOfSpeech": "noun",
+    "definition": "The surroundings of, and influences on, a particular item of interest.",
+    "example": "",
+    "sublist": 1
+  },
+  {
+    "word": "equate",
+    "partOfSpeech": "verb",
+    "definition": "To consider equal or equivalent (to or with).",
+    "example": "",
+    "sublist": 2
+  },
+  {
+    "word": "equip",
+    "partOfSpeech": "verb",
+    "definition": "To supply with something necessary in order to carry out a specific action or task; to provide with (e.g. weapons, provisions, munitions, rigging).",
+    "example": "",
+    "sublist": 7
+  },
+  {
+    "word": "equivalent",
+    "partOfSpeech": "adjective",
+    "definition": "Similar or identical in value, meaning or effect; virtually equal.",
+    "example": "To burn calories, a thirty-minute jog is equivalent to a couple of hamburgers.",
+    "sublist": 5
+  },
+  {
+    "word": "erode",
+    "partOfSpeech": "verb",
+    "definition": "To wear away by abrasion, corrosion, or chemical reaction.",
+    "example": "The cliff is gradually being eroded by the waves.",
+    "sublist": 9
+  },
+  {
+    "word": "error",
+    "partOfSpeech": "noun",
+    "definition": "The state, quality, or condition of being wrong.",
+    "example": "",
+    "sublist": 4
+  },
+  {
+    "word": "establish",
+    "partOfSpeech": "verb",
+    "definition": "To make stable or firm; to confirm.",
+    "example": "",
+    "sublist": 1
+  },
+  {
+    "word": "estate",
+    "partOfSpeech": "noun",
+    "definition": "The collective property and liabilities of someone, especially a deceased person.",
+    "example": "",
+    "sublist": 6
+  },
+  {
+    "word": "estimate",
+    "partOfSpeech": "noun",
+    "definition": "A rough calculation or assessment of the value, size, or cost of something.",
+    "example": "",
+    "sublist": 1
+  },
+  {
+    "word": "ethic",
+    "partOfSpeech": "adjective",
+    "definition": "Moral, relating to morals.",
+    "example": "",
+    "sublist": 9
+  },
+  {
+    "word": "ethnic",
+    "partOfSpeech": "adjective",
+    "definition": "Of or relating to a group of people having common racial, ancestral, national, religious or cultural origins.",
+    "example": "",
+    "sublist": 4
+  },
+  {
+    "word": "evaluate",
+    "partOfSpeech": "verb",
+    "definition": "To draw conclusions from examining; to assess; to appraise.",
+    "example": "It will take several years to evaluate the material gathered in the survey.",
+    "sublist": 2
+  },
+  {
+    "word": "eventual",
+    "partOfSpeech": "adjective",
+    "definition": "Finally resulting or occurring (after a period of time); inevitable.",
+    "example": "",
+    "sublist": 8
+  },
+  {
+    "word": "evident",
+    "partOfSpeech": "adjective",
+    "definition": "Obviously true by simple observation.",
+    "example": "It was evident she was angry, after she slammed the door.",
+    "sublist": 1
+  },
+  {
+    "word": "evolve",
+    "partOfSpeech": "verb",
+    "definition": "To move (something) in regular procession through a system.",
+    "example": "Over several years the author evolved the story originally drafted as a novella into a real epic.",
+    "sublist": 5
+  },
+  {
+    "word": "exceed",
+    "partOfSpeech": "verb",
+    "definition": "To be larger, greater than (something).",
+    "example": "The company's 2005 revenue exceeds that of 2004.",
+    "sublist": 6
+  },
+  {
+    "word": "exclude",
+    "partOfSpeech": "verb",
+    "definition": "To bar (someone or something) from entering; to keep out.",
+    "example": "",
+    "sublist": 3
+  },
+  {
+    "word": "exhibit",
+    "partOfSpeech": "verb",
+    "definition": "To display or show (something) for others to see, especially at an exhibition or contest.",
+    "example": "He wanted to exhibit his baseball cards.",
+    "sublist": 8
+  },
+  {
+    "word": "expand",
+    "partOfSpeech": "verb",
+    "definition": "To change (something) from a smaller form or size to a larger one; to spread out or lay open.",
+    "example": "You can expand this compact umbrella to cover a large table.",
+    "sublist": 5
+  },
+  {
+    "word": "expert",
+    "partOfSpeech": "adjective",
+    "definition": "Extraordinary capable or knowledgeable.",
+    "example": "I am expert at making a simple situation complex.",
+    "sublist": 6
+  },
+  {
+    "word": "explicit",
+    "partOfSpeech": "adjective",
+    "definition": "Very specific, clear, or detailed.",
+    "example": "I gave explicit instructions for him to stay here, but he followed me, anyway.",
+    "sublist": 6
+  },
+  {
+    "word": "exploit",
+    "partOfSpeech": "noun",
+    "definition": "A heroic or extraordinary deed.",
+    "example": "",
+    "sublist": 8
+  },
+  {
+    "word": "export",
+    "partOfSpeech": "adjective",
+    "definition": "Of or relating to exportation or exports.",
+    "example": "",
+    "sublist": 1
+  },
+  {
+    "word": "expose",
+    "partOfSpeech": "verb",
+    "definition": "To reveal, uncover, make visible, bring to light, introduce (to).",
+    "example": "",
+    "sublist": 5
+  },
+  {
+    "word": "external",
+    "partOfSpeech": "adjective",
+    "definition": "Outside of something; on the exterior.",
+    "example": "This building has some external pipework.",
+    "sublist": 5
+  },
+  {
+    "word": "extract",
+    "partOfSpeech": "noun",
+    "definition": "Something that is extracted or drawn out.",
+    "example": "",
+    "sublist": 7
+  },
+  {
+    "word": "facilitate",
+    "partOfSpeech": "verb",
+    "definition": "To make easy or easier.",
+    "example": "",
+    "sublist": 5
+  },
+  {
+    "word": "factor",
+    "partOfSpeech": "noun",
+    "definition": "A doer, maker; a person who does things for another person or organization.",
+    "example": "The factor of the trading post bought the furs.",
+    "sublist": 1
+  },
+  {
+    "word": "feature",
+    "partOfSpeech": "noun",
+    "definition": "One's structure or make-up: form, shape, bodily proportions.",
+    "example": "",
+    "sublist": 2
+  },
+  {
+    "word": "federal",
+    "partOfSpeech": "adjective",
+    "definition": "Pertaining to a league or treaty; derived from an agreement or covenant between parties, especially between nations.",
+    "example": "",
+    "sublist": 6
+  },
+  {
+    "word": "fee",
+    "partOfSpeech": "noun",
+    "definition": "An amount charged for a privilege.",
+    "example": "late fee",
+    "sublist": 6
+  },
+  {
+    "word": "file",
+    "partOfSpeech": "noun",
+    "definition": "A collection of papers collated and archived together.",
+    "example": "",
+    "sublist": 7
+  },
+  {
+    "word": "final",
+    "partOfSpeech": "noun",
+    "definition": "A final examination; a test or examination given at the end of a term or class; the test that concludes a class.",
+    "example": "",
+    "sublist": 2
+  },
+  {
+    "word": "finance",
+    "partOfSpeech": "noun",
+    "definition": "The management of money and other assets.",
+    "example": "",
+    "sublist": 1
+  },
+  {
+    "word": "finite",
+    "partOfSpeech": "adjective",
+    "definition": "Having an end or limit; constrained by bounds; whose number of elements is a natural number.",
+    "example": "",
+    "sublist": 7
+  },
+  {
+    "word": "flexible",
+    "partOfSpeech": "adjective",
+    "definition": "Capable of being flexed or bent without breaking; able to be turned or twisted without breaking.",
+    "example": "",
+    "sublist": 6
+  },
+  {
+    "word": "fluctuate",
+    "partOfSpeech": "verb",
+    "definition": "To vary irregularly; to swing.",
+    "example": "",
+    "sublist": 8
+  },
+  {
+    "word": "focus",
+    "partOfSpeech": "noun",
+    "definition": "A point at which reflected or refracted rays of light converge.",
+    "example": "The heat of sunlight at the focus of a magnifying glass can easily set dry leaves on fire.",
+    "sublist": 2
+  },
+  {
+    "word": "format",
+    "partOfSpeech": "noun",
+    "definition": "The layout of a publication or document.",
+    "example": "",
+    "sublist": 9
+  },
+  {
+    "word": "formula",
+    "partOfSpeech": "noun",
+    "definition": "Any mathematical rule expressed symbolically.",
+    "example": "x = − b ± b 2 − 4 a c 2 a {\\displaystyle x={\\frac {-b\\pm {\\sqrt {b^{2}-4ac}}}{2a}}} is a formula for finding the roots of the quadratic equation ax + bx + c = 0.",
+    "sublist": 1
+  },
+  {
+    "word": "forthcoming",
+    "partOfSpeech": "adjective",
+    "definition": "Approaching or about to take place.",
+    "example": "I shall vote in the forthcoming election.",
+    "sublist": 10
+  },
+  {
+    "word": "foundation",
+    "partOfSpeech": "noun",
+    "definition": "The act of founding, fixing, establishing, or beginning to erect.",
+    "example": "The foundation of his institute has been wrought with difficulty.",
+    "sublist": 7
+  },
+  {
+    "word": "found",
+    "partOfSpeech": "verb",
+    "definition": "simple past and past participle of find",
+    "example": "",
+    "sublist": 9
+  },
+  {
+    "word": "framework",
+    "partOfSpeech": "noun",
+    "definition": "A support structure comprising joined parts or conglomerated particles and intervening open spaces of similar or larger size.",
+    "example": "",
+    "sublist": 3
+  },
+  {
+    "word": "function",
+    "partOfSpeech": "noun",
+    "definition": "What something does or is used for.",
+    "example": "",
+    "sublist": 1
+  },
+  {
+    "word": "fund",
+    "partOfSpeech": "noun",
+    "definition": "A sum or source of money.",
+    "example": "the fund of a bank, commercial house, manufacturing corporation, etc.",
+    "sublist": 3
+  },
+  {
+    "word": "fundamental",
+    "partOfSpeech": "noun",
+    "definition": "A basic truth, elementary concept, principle, rule, or law. An individual fundamental will often serve as a building block used to form a complex idea.",
+    "example": "",
+    "sublist": 5
+  },
+  {
+    "word": "furthermore",
+    "partOfSpeech": "adverb",
+    "definition": "In addition; besides; further; what's more (i.e. to denote additional information).",
+    "example": "He skillfully took charge of the event, and furthermore, he stayed late after it to clean up.",
+    "sublist": 6
+  },
+  {
+    "word": "gender",
+    "partOfSpeech": "noun",
+    "definition": "Class; kind.",
+    "example": "",
+    "sublist": 6
+  },
+  {
+    "word": "generate",
+    "partOfSpeech": "verb",
+    "definition": "To bring into being; give rise to.",
+    "example": "The discussion generated an uproar.",
+    "sublist": 5
+  },
+  {
+    "word": "generation",
+    "partOfSpeech": "noun",
+    "definition": "The act of creating something or bringing something into being; production, creation.",
+    "example": "",
+    "sublist": 5
+  },
+  {
+    "word": "globe",
+    "partOfSpeech": "noun",
+    "definition": "Any spherical (or nearly spherical) object. The eyeball.",
+    "example": "the globe of a lamp",
+    "sublist": 7
+  },
+  {
+    "word": "goal",
+    "partOfSpeech": "noun",
+    "definition": "A result that one is attempting to achieve.",
+    "example": "My lifelong goal is to get into a Hollywood movie.",
+    "sublist": 4
+  },
+  {
+    "word": "grade",
+    "partOfSpeech": "noun",
+    "definition": "A rating.",
+    "example": "This fine-grade coin from 1837 is worth a good amount.",
+    "sublist": 7
+  },
+  {
+    "word": "grant",
+    "partOfSpeech": "verb",
+    "definition": "To give (permission or wish).",
+    "example": "He was granted permission to attend the meeting.",
+    "sublist": 4
+  },
+  {
+    "word": "guarantee",
+    "partOfSpeech": "noun",
+    "definition": "Anything that assures a certain outcome.",
+    "example": "Can you give me a guarantee that he will be fit for the match?",
+    "sublist": 7
+  },
+  {
+    "word": "guideline",
+    "partOfSpeech": "noun",
+    "definition": "A non-specific rule or principle that provides direction to action or behaviour.",
+    "example": "He considered the Ten Commandments more as a guideline than a requirement.",
+    "sublist": 8
+  },
+  {
+    "word": "hence",
+    "partOfSpeech": "adverb",
+    "definition": "From here, from this place, away.",
+    "example": "I'm going hence, because you have insulted me.",
+    "sublist": 4
+  },
+  {
+    "word": "hierarchy",
+    "partOfSpeech": "noun",
+    "definition": "A body of authoritative officials organized in nested ranks.",
+    "example": "",
+    "sublist": 7
+  },
+  {
+    "word": "highlight",
+    "partOfSpeech": "noun",
+    "definition": "An area or a spot in a drawing, painting, or photograph that is strongly illuminated.",
+    "example": "",
+    "sublist": 8
+  },
+  {
+    "word": "hypothesis",
+    "partOfSpeech": "noun",
+    "definition": "A tentative conjecture explaining an observation, phenomenon or scientific problem and that can be tested by further observation, investigation, or experimentation.",
+    "example": "",
+    "sublist": 4
+  },
+  {
+    "word": "identical",
+    "partOfSpeech": "adjective",
+    "definition": "Bearing full likeness by having precisely the same set of characteristics; indistinguishable.",
+    "example": "My car is identical with the one my mom has just bought.",
+    "sublist": 7
+  },
+  {
+    "word": "identify",
+    "partOfSpeech": "verb",
+    "definition": "To establish the identity of someone or something.",
+    "example": "It was hard to identify the shoplifter because the CCTV records didn't have a clear image.",
+    "sublist": 1
+  },
+  {
+    "word": "ideology",
+    "partOfSpeech": "noun",
+    "definition": "Doctrine, philosophy, body of beliefs or principles belonging to an individual or group.",
+    "example": "A dictatorship bans things, that do not conform to its ideology, to secure its reign.",
+    "sublist": 7
+  },
+  {
+    "word": "ignorance",
+    "partOfSpeech": "noun",
+    "definition": "The condition of being uninformed or uneducated; lack of knowledge or information.",
+    "example": "She shows total ignorance about the topic at hand.",
+    "sublist": 6
+  },
+  {
+    "word": "illustrate",
+    "partOfSpeech": "verb",
+    "definition": "To clarify something by giving, or serving as, an example or a comparison.",
+    "example": "We illustrate our definitions by including quotations or simple examples.",
+    "sublist": 3
+  },
+  {
+    "word": "image",
+    "partOfSpeech": "noun",
+    "definition": "A visual or other representation of the external form of something in art.",
+    "example": "The Bible forbids the worship of graven images.",
+    "sublist": 5
+  },
+  {
+    "word": "immigrate",
+    "partOfSpeech": "verb",
+    "definition": "To move into a foreign country to stay permanently.",
+    "example": "",
+    "sublist": 3
+  },
+  {
+    "word": "impact",
+    "partOfSpeech": "noun",
+    "definition": "The striking of one body against another; collision.",
+    "example": "",
+    "sublist": 2
+  },
+  {
+    "word": "implement",
+    "partOfSpeech": "verb",
+    "definition": "To bring about; to put into practice; to carry out.",
+    "example": "It’s a good thought, but it will be a difficult thing to implement.",
+    "sublist": 4
+  },
+  {
+    "word": "implicate",
+    "partOfSpeech": "verb",
+    "definition": "To show to be connected or involved in an unfavorable or criminal way.",
+    "example": "The evidence implicates involvement of top management in the scheme.",
+    "sublist": 4
+  },
+  {
+    "word": "implicit",
+    "partOfSpeech": "adjective",
+    "definition": "Suggested indirectly, without being directly expressed.",
+    "example": "Poets often leave behind an implicit message within their words.",
+    "sublist": 8
+  },
+  {
+    "word": "imply",
+    "partOfSpeech": "verb",
+    "definition": "To have as a necessary consequence; to lead to (something) as a consequence.",
+    "example": "Correlation does not imply causation",
+    "sublist": 3
+  },
+  {
+    "word": "impose",
+    "partOfSpeech": "verb",
+    "definition": "To physically lay or place (something) on another thing; to deposit, to put, to set. To lay or place (one's hands) on someone as a blessing, during rites of confirmation, ordination, etc. To lay (columns or pages of type, or printing plates) arranged in a proper order on the bed of a press or an imposing stone and secure them in a chase in preparation for printing. To apply, enforce, or establish (something, often regarded as burdensome as a restriction or tax: see verb sense&nbsp;1.2.2) with authority.",
+    "example": "Congress imposed new tariffs.",
+    "sublist": 4
+  },
+  {
+    "word": "incentive",
+    "partOfSpeech": "noun",
+    "definition": "Something that motivates, rouses, or encourages.",
+    "example": "I have no incentive to do housework right now.",
+    "sublist": 6
+  },
+  {
+    "word": "incidence",
+    "partOfSpeech": "noun",
+    "definition": "The act of something happening; occurrence.",
+    "example": "",
+    "sublist": 6
+  },
+  {
+    "word": "incline",
+    "partOfSpeech": "verb",
+    "definition": "To bend or move (something) out of a given plane or direction, often the horizontal or vertical.",
+    "example": "He had to incline his body against the gusts to avoid being blown down in the storm.",
+    "sublist": 10
+  },
+  {
+    "word": "income",
+    "partOfSpeech": "noun",
+    "definition": "Money one earns by working or by capitalising on the work of others.",
+    "example": "",
+    "sublist": 1
+  },
+  {
+    "word": "incorporate",
+    "partOfSpeech": "verb",
+    "definition": "To include (something) as a part.",
+    "example": "The design of his house incorporates a spiral staircase.",
+    "sublist": 6
+  },
+  {
+    "word": "index",
+    "partOfSpeech": "noun",
+    "definition": "An alphabetical listing of items and their location.",
+    "example": "The index of a book lists words or expressions and the pages of the book upon which they are to be found.",
+    "sublist": 6
+  },
+  {
+    "word": "indicate",
+    "partOfSpeech": "verb",
+    "definition": "To point out; to discover; to direct to a knowledge of; to show; to make known.",
+    "example": "The guard blew his whistle to indicate imminent departure.",
+    "sublist": 1
+  },
+  {
+    "word": "individual",
+    "partOfSpeech": "noun",
+    "definition": "A person considered alone, rather than as belonging to a group of people.",
+    "example": "He is an unusual individual.",
+    "sublist": 1
+  },
+  {
+    "word": "induce",
+    "partOfSpeech": "verb",
+    "definition": "To lead by persuasion or influence; incite or prevail upon.",
+    "example": "",
+    "sublist": 8
+  },
+  {
+    "word": "inevitable",
+    "partOfSpeech": "adjective",
+    "definition": "Impossible to avoid or prevent.",
+    "example": "We were going so fast that the collision was inevitable.",
+    "sublist": 8
+  },
+  {
+    "word": "infer",
+    "partOfSpeech": "verb",
+    "definition": "To introduce (something) as a reasoned conclusion; to conclude by reasoning or deduction, as from premises or evidence.",
+    "example": "",
+    "sublist": 7
+  },
+  {
+    "word": "infrastructure",
+    "partOfSpeech": "noun",
+    "definition": "An underlying base or foundation for a building, organization, or system.",
+    "example": "The parasitic tyranny's infrastructure depends on secrecy in order to be effective.",
+    "sublist": 8
+  },
+  {
+    "word": "inherent",
+    "partOfSpeech": "adjective",
+    "definition": "Naturally as part or consequence of something.",
+    "example": "",
+    "sublist": 9
+  },
+  {
+    "word": "inhibit",
+    "partOfSpeech": "verb",
+    "definition": "To hold in or hold back; to keep in check; restrain.",
+    "example": "inhibit someone's freedom",
+    "sublist": 6
+  },
+  {
+    "word": "initial",
+    "partOfSpeech": "adjective",
+    "definition": "Chronologically first, early; of or pertaining to the beginning, cause or origin.",
+    "example": "Our initial admiration for their efficiency gave way to disgust about their methods.",
+    "sublist": 3
+  },
+  {
+    "word": "initiate",
+    "partOfSpeech": "verb",
+    "definition": "To begin; to start.",
+    "example": "",
+    "sublist": 6
+  },
+  {
+    "word": "injure",
+    "partOfSpeech": "verb",
+    "definition": "To wound or cause physical harm to a living creature.",
+    "example": "The rugby team's star player got injured in a violent collision.",
+    "sublist": 2
+  },
+  {
+    "word": "innovate",
+    "partOfSpeech": "verb",
+    "definition": "To alter, to change into something new; to revolutionize.",
+    "example": "",
+    "sublist": 7
+  },
+  {
+    "word": "input",
+    "partOfSpeech": "noun",
+    "definition": "The act or process of putting in; infusion.",
+    "example": "",
+    "sublist": 6
+  },
+  {
+    "word": "insert",
+    "partOfSpeech": "verb",
+    "definition": "To put in between or into.",
+    "example": "In order to withdraw money from a cash machine, you have to insert your debit card.",
+    "sublist": 7
+  },
+  {
+    "word": "insight",
+    "partOfSpeech": "noun",
+    "definition": "A sight or view of the interior of anything; a deep inspection or view; introspection; frequently used with into.",
+    "example": "",
+    "sublist": 9
+  },
+  {
+    "word": "inspect",
+    "partOfSpeech": "verb",
+    "definition": "To examine critically or carefully; especially, to search out problems or determine condition; to scrutinize.",
+    "example": "Inspect the system for leaks.",
+    "sublist": 8
+  },
+  {
+    "word": "instance",
+    "partOfSpeech": "noun",
+    "definition": "Urgency of manner or words; an urgent request; insistence.",
+    "example": "",
+    "sublist": 3
+  },
+  {
+    "word": "institute",
+    "partOfSpeech": "noun",
+    "definition": "An organization founded to promote a cause",
+    "example": "I work in a medical research institute.",
+    "sublist": 2
+  },
+  {
+    "word": "instruct",
+    "partOfSpeech": "verb",
+    "definition": "To teach by giving instructions.",
+    "example": "Listen carefully when someone instructs you how to assemble the furniture.",
+    "sublist": 6
+  },
+  {
+    "word": "integral",
+    "partOfSpeech": "adjective",
+    "definition": "Constituting a whole together with other parts or factors; not omittable or removable.",
+    "example": "",
+    "sublist": 9
+  },
+  {
+    "word": "integrate",
+    "partOfSpeech": "verb",
+    "definition": "To include as a constituent part or functionality.",
+    "example": "They were keen to integrate their new skills into the performance.",
+    "sublist": 4
+  },
+  {
+    "word": "integrity",
+    "partOfSpeech": "noun",
+    "definition": "Steadfast adherence to a strict moral or ethical code.",
+    "example": "",
+    "sublist": 10
+  },
+  {
+    "word": "intelligence",
+    "partOfSpeech": "noun",
+    "definition": "The capacity of mind, especially to understand principles, truths, facts or meanings, acquire knowledge, and apply it to practice; the ability to comprehend and learn; the ability to process sentient experience to generate true beliefs with a justified degree of confidence.",
+    "example": "",
+    "sublist": 6
+  },
+  {
+    "word": "intense",
+    "partOfSpeech": "adjective",
+    "definition": "Of a characteristic: extreme or very high or strong in degree; severe; also, excessive, towering.",
+    "example": "",
+    "sublist": 8
+  },
+  {
+    "word": "interact",
+    "partOfSpeech": "verb",
+    "definition": "To act upon each other. To engage in communication and other shared activities (with someone).",
+    "example": "The way staff interact with each other during breaks can play an important role in the workplace.",
+    "sublist": 3
+  },
+  {
+    "word": "intermediate",
+    "partOfSpeech": "adjective",
+    "definition": "Being between two extremes, or in the middle of a range.",
+    "example": "",
+    "sublist": 9
+  },
+  {
+    "word": "internal",
+    "partOfSpeech": "adjective",
+    "definition": "Of or situated on the inside.",
+    "example": "We saw the internal compartments of the machine.",
+    "sublist": 4
+  },
+  {
+    "word": "interpret",
+    "partOfSpeech": "verb",
+    "definition": "To decode the meaning of a topic and then act, whether to continue researching the topic, follow through, act in opposition, or further the understanding through sharing an interpretation.",
+    "example": "",
+    "sublist": 1
+  },
+  {
+    "word": "interval",
+    "partOfSpeech": "noun",
+    "definition": "A distance in space.",
+    "example": "",
+    "sublist": 6
+  },
+  {
+    "word": "intervene",
+    "partOfSpeech": "verb",
+    "definition": "To become involved in a situation, so as to alter or prevent an action. [with in]",
+    "example": "The police had to be called to intervene in the fight.",
+    "sublist": 7
+  },
+  {
+    "word": "intrinsic",
+    "partOfSpeech": "adjective",
+    "definition": "Innate, inherent, inseparable from the thing itself, essential.",
+    "example": "the intrinsic value of gold or silver",
+    "sublist": 10
+  },
+  {
+    "word": "invest",
+    "partOfSpeech": "verb",
+    "definition": "To spend money, time, or energy on something, especially for some benefit or purpose; used with in.",
+    "example": "We'd like to thank all the contributors who have invested countless hours into this event.",
+    "sublist": 2
+  },
+  {
+    "word": "investigate",
+    "partOfSpeech": "verb",
+    "definition": "To inquire into or study in order to ascertain facts or information.",
+    "example": "to investigate the causes of natural phenomena",
+    "sublist": 4
+  },
+  {
+    "word": "invoke",
+    "partOfSpeech": "verb",
+    "definition": "To call upon (a person, a god) for help, assistance or guidance.",
+    "example": "",
+    "sublist": 10
+  },
+  {
+    "word": "involve",
+    "partOfSpeech": "verb",
+    "definition": "To have (something) as a component or a related part; to comprise, to include.",
+    "example": "My job involves forecasting economic trends.",
+    "sublist": 1
+  },
+  {
+    "word": "isolate",
+    "partOfSpeech": "verb",
+    "definition": "To set apart or cut off from others.",
+    "example": "",
+    "sublist": 7
+  },
+  {
+    "word": "issue",
+    "partOfSpeech": "noun",
+    "definition": "The action or an instance of flowing or coming out, an outflow, particularly: A movement of soldiers towards an enemy, a sortie. The outflow of a bodily fluid, particularly in abnormal amounts.",
+    "example": "The technique minimizes the issue of blood from the incision.",
+    "sublist": 1
+  },
+  {
+    "word": "item",
+    "partOfSpeech": "noun",
+    "definition": "A distinct physical object.",
+    "example": "Tweezers are great for manipulating small items.",
+    "sublist": 2
+  },
+  {
+    "word": "job",
+    "partOfSpeech": "symbol",
+    "definition": "ISO 639-3 language code for Joba.",
+    "example": "",
+    "sublist": 4
+  },
+  {
+    "word": "journal",
+    "partOfSpeech": "noun",
+    "definition": "A diary or daily record of a person, organization, vessel etc.; daybook.",
+    "example": "",
+    "sublist": 2
+  },
+  {
+    "word": "justify",
+    "partOfSpeech": "verb",
+    "definition": "To provide an acceptable explanation for.",
+    "example": "How can you justify spending so much money on clothes?",
+    "sublist": 3
+  },
+  {
+    "word": "label",
+    "partOfSpeech": "noun",
+    "definition": "A small ticket or sign giving information about something to which it is attached or intended to be attached.",
+    "example": "We laughed at her because the label was still on her new sweater.",
+    "sublist": 4
+  },
+  {
+    "word": "labour",
+    "partOfSpeech": "noun",
+    "definition": "An effort expended on a particular task; toil, work.",
+    "example": "",
+    "sublist": 1
+  },
+  {
+    "word": "layer",
+    "partOfSpeech": "noun",
+    "definition": "A single thickness of some material covering a surface.",
+    "example": "Wrap the loaf in two layers of aluminum foil before putting it in the oven.",
+    "sublist": 3
+  },
+  {
+    "word": "lecture",
+    "partOfSpeech": "noun",
+    "definition": "A spoken lesson or exposition, usually delivered to a group.",
+    "example": "During class today the professor delivered an interesting lecture.",
+    "sublist": 6
+  },
+  {
+    "word": "legal",
+    "partOfSpeech": "adjective",
+    "definition": "Relating to the law or to lawyers.",
+    "example": "legal profession",
+    "sublist": 1
+  },
+  {
+    "word": "legislate",
+    "partOfSpeech": "verb",
+    "definition": "To pass laws (including the amending or repeal of existing laws).",
+    "example": "If they can't get people to do the right thing by talking then they will try to legislate and enforce the statutes.",
+    "sublist": 1
+  },
+  {
+    "word": "levy",
+    "partOfSpeech": "verb",
+    "definition": "To impose (a tax or fine) to collect monies due, or to confiscate property.",
+    "example": "to levy a tax",
+    "sublist": 10
+  },
+  {
+    "word": "liberal",
+    "partOfSpeech": "adjective",
+    "definition": "Pertaining to those arts and sciences the study of which is considered to provide general knowledge, as opposed to vocational/occupational, technical or mechanical training.",
+    "example": "He had a full education studying the liberal arts.",
+    "sublist": 5
+  },
+  {
+    "word": "licence",
+    "partOfSpeech": "noun",
+    "definition": "UK, Canada, Australia, South Africa, Ireland, New Zealand, Malaysia, and Singapore standard spelling of license.",
+    "example": "",
+    "sublist": 5
+  },
+  {
+    "word": "likewise",
+    "partOfSpeech": "adverb",
+    "definition": "In a similar manner.",
+    "example": "Public transportation is virtually inaccessible in this country; likewise, its hospitals are also not very user-friendly.",
+    "sublist": 10
+  },
+  {
+    "word": "link",
+    "partOfSpeech": "noun",
+    "definition": "A connection between places, people, events, things, or ideas.",
+    "example": "The mayor’s assistant serves as the link to the media.",
+    "sublist": 3
+  },
+  {
+    "word": "locate",
+    "partOfSpeech": "verb",
+    "definition": "To place; to set in a particular spot or position.",
+    "example": "",
+    "sublist": 3
+  },
+  {
+    "word": "logic",
+    "partOfSpeech": "noun",
+    "definition": "A method of human thought that involves thinking in a linear, step-by-step manner about how a problem can be solved. Logic is the basis of many principles including the scientific method.",
+    "example": "",
+    "sublist": 5
+  },
+  {
+    "word": "maintain",
+    "partOfSpeech": "verb",
+    "definition": "To keep up; to preserve; to uphold (a state, condition etc.).",
+    "example": "maintain contact",
+    "sublist": 2
+  },
+  {
+    "word": "major",
+    "partOfSpeech": "adjective",
+    "definition": "Greater in dignity, rank, importance, significance, or interest. Greater in number, quantity, or extent.",
+    "example": "the major part of the assembly",
+    "sublist": 1
+  },
+  {
+    "word": "manipulate",
+    "partOfSpeech": "verb",
+    "definition": "To move, arrange or operate something using the hands",
+    "example": "",
+    "sublist": 8
+  },
+  {
+    "word": "manual",
+    "partOfSpeech": "noun",
+    "definition": "Synonym of handbook.",
+    "example": "",
+    "sublist": 9
+  },
+  {
+    "word": "margin",
+    "partOfSpeech": "noun",
+    "definition": "The edge of the paper, typically left blank when printing but sometimes used for annotations etc.",
+    "example": "",
+    "sublist": 5
+  },
+  {
+    "word": "mature",
+    "partOfSpeech": "adjective",
+    "definition": "Fully developed; grown up in terms of physical appearance, behaviour or thinking; ripe.",
+    "example": "She is quite mature for her age.",
+    "sublist": 9
+  },
+  {
+    "word": "maximise",
+    "partOfSpeech": "verb",
+    "definition": "Non-Oxford British English standard spelling of maximize.",
+    "example": "",
+    "sublist": 3
+  },
+  {
+    "word": "mechanism",
+    "partOfSpeech": "noun",
+    "definition": "Any mechanical means for the conversion or control of motion, or the transmission or control of power.",
+    "example": "",
+    "sublist": 4
+  },
+  {
+    "word": "media",
+    "partOfSpeech": "noun",
+    "definition": "The middle layer of the wall of a blood vessel or lymph vessel which is composed of connective and muscular tissue.",
+    "example": "",
+    "sublist": 7
+  },
+  {
+    "word": "mediate",
+    "partOfSpeech": "verb",
+    "definition": "To resolve differences, or to bring about a settlement, between conflicting parties.",
+    "example": "Negotiators managed to mediate a ceasefire.",
+    "sublist": 9
+  },
+  {
+    "word": "medical",
+    "partOfSpeech": "adjective",
+    "definition": "Of or pertaining to the practice of medicine.",
+    "example": "medical doctor; medical student",
+    "sublist": 5
+  },
+  {
+    "word": "medium",
+    "partOfSpeech": "noun",
+    "definition": "The material of the surrounding environment, e.g. solid, liquid, gas, vacuum, or a specific substance such as a solvent.",
+    "example": "",
+    "sublist": 9
+  },
+  {
+    "word": "mental",
+    "partOfSpeech": "adjective",
+    "definition": "Of or relating to the mind or specifically the total emotional and intellectual response of an individual to external reality. Occurring or experienced in the mind.",
+    "example": "mental science",
+    "sublist": 5
+  },
+  {
+    "word": "method",
+    "partOfSpeech": "noun",
+    "definition": "A process by which a task is completed; a way of doing something (followed by the adposition of, to or for before the purpose of the process).",
+    "example": "If one method doesn't work, you should ask a friend to help you.",
+    "sublist": 1
+  },
+  {
+    "word": "migrate",
+    "partOfSpeech": "verb",
+    "definition": "To relocate periodically from one region to another, usually according to the seasons.",
+    "example": "Twice a year the geese migrate — from Florida to Canada and back again.",
+    "sublist": 6
+  },
+  {
+    "word": "military",
+    "partOfSpeech": "adjective",
+    "definition": "Characteristic of members of the armed forces.",
+    "example": "She was dishonorably discharged from all military duties.",
+    "sublist": 9
+  },
+  {
+    "word": "minimal",
+    "partOfSpeech": "adjective",
+    "definition": "The smallest possible amount, quantity, or degree.",
+    "example": "With minimal effort, you won't be able to achieve all your dreams.",
+    "sublist": 9
+  },
+  {
+    "word": "minimise",
+    "partOfSpeech": "verb",
+    "definition": "Non-Oxford British English standard spelling of minimize.",
+    "example": "",
+    "sublist": 8
+  },
+  {
+    "word": "minimum",
+    "partOfSpeech": "noun",
+    "definition": "The lowest limit.",
+    "example": "We prefer candidates with a minimum of 4 years experience in the field.",
+    "sublist": 6
+  },
+  {
+    "word": "ministry",
+    "partOfSpeech": "noun",
+    "definition": "Government department, at the administrative level normally headed by a minister (or equivalent rank, e.g. secretary of state), who holds it as portfolio, especially in a constitutional monarchy, but also as a polity",
+    "example": "She works for the ministry of finance.",
+    "sublist": 6
+  },
+  {
+    "word": "minor",
+    "partOfSpeech": "adjective",
+    "definition": "Lesser, smaller in importance, size, degree, seriousness, or significance compared to another option, particularly",
+    "example": "of minor importance",
+    "sublist": 3
+  },
+  {
+    "word": "mode",
+    "partOfSpeech": "noun",
+    "definition": "One of several common scales in modern Western music, one of which corresponds to the modern major scale and one to the natural minor scale. One of several ancient Greek scales.",
+    "example": "",
+    "sublist": 7
+  },
+  {
+    "word": "modify",
+    "partOfSpeech": "verb",
+    "definition": "To change part of.",
+    "example": "Her publisher advised her to modify a few parts of the book to make it easier to read.",
+    "sublist": 5
+  },
+  {
+    "word": "monitor",
+    "partOfSpeech": "noun",
+    "definition": "Someone who watches over something; a person in charge of something or someone.",
+    "example": "The camp monitors look after the children during the night, when the teachers are asleep.",
+    "sublist": 5
+  },
+  {
+    "word": "motive",
+    "partOfSpeech": "noun",
+    "definition": "An idea or communication that makes one want to act, especially from spiritual sources; a divine prompting.",
+    "example": "",
+    "sublist": 6
+  },
+  {
+    "word": "mutual",
+    "partOfSpeech": "adjective",
+    "definition": "Having the same relationship, each to each other.",
+    "example": "They were mutual enemies.",
+    "sublist": 9
+  },
+  {
+    "word": "negate",
+    "partOfSpeech": "verb",
+    "definition": "To deny the existence, evidence, or truth of; to contradict.",
+    "example": "The investigation tending to negate any supernatural influences.",
+    "sublist": 3
+  },
+  {
+    "word": "network",
+    "partOfSpeech": "noun",
+    "definition": "Any interconnected group or system.",
+    "example": "A network of roads crisscrossed the country.",
+    "sublist": 5
+  },
+  {
+    "word": "neutral",
+    "partOfSpeech": "adjective",
+    "definition": "Not taking sides in a conflict such as war; nonaligned.",
+    "example": "",
+    "sublist": 6
+  },
+  {
+    "word": "nevertheless",
+    "partOfSpeech": "adverb",
+    "definition": "In spite of what preceded; yet.",
+    "example": "",
+    "sublist": 6
+  },
+  {
+    "word": "nonetheless",
+    "partOfSpeech": "adverb",
+    "definition": "Nevertheless.",
+    "example": "",
+    "sublist": 10
+  },
+  {
+    "word": "norm",
+    "partOfSpeech": "noun",
+    "definition": "That which is normal or typical.",
+    "example": "Unemployment is the norm in this part of the country.",
+    "sublist": 9
+  },
+  {
+    "word": "normal",
+    "partOfSpeech": "adjective",
+    "definition": "According to norms or rules or to a regular pattern.",
+    "example": "Organize the data into third normal form.",
+    "sublist": 2
+  },
+  {
+    "word": "notion",
+    "partOfSpeech": "noun",
+    "definition": "Mental apprehension of whatever may be known, thought, or imagined; idea, concept.",
+    "example": "",
+    "sublist": 5
+  },
+  {
+    "word": "notwithstanding",
+    "partOfSpeech": "adverb",
+    "definition": "Nevertheless, all the same.",
+    "example": "He, notwithstanding, persisted in his inquiries.",
+    "sublist": 10
+  },
+  {
+    "word": "nuclear",
+    "partOfSpeech": "adjective",
+    "definition": "Pertaining to the nucleus of an atom.",
+    "example": "",
+    "sublist": 8
+  },
+  {
+    "word": "objective",
+    "partOfSpeech": "adjective",
+    "definition": "Of or relating to a material object, actual existence or reality.",
+    "example": "",
+    "sublist": 5
+  },
+  {
+    "word": "obtain",
+    "partOfSpeech": "verb",
+    "definition": "To get hold of; to gain possession of, to procure; to acquire, in any way.",
+    "example": "obtain permission",
+    "sublist": 2
+  },
+  {
+    "word": "obvious",
+    "partOfSpeech": "adjective",
+    "definition": "Easily discovered, seen, or understood; self-explanatory.",
+    "example": "",
+    "sublist": 4
+  },
+  {
+    "word": "occupy",
+    "partOfSpeech": "verb",
+    "definition": "To take or use. To fill.",
+    "example": "The film occupied three hours of my time.",
+    "sublist": 4
+  },
+  {
+    "word": "occur",
+    "partOfSpeech": "verb",
+    "definition": "To happen or take place.",
+    "example": "The liftoff will occur in exactly twelve seconds.",
+    "sublist": 1
+  },
+  {
+    "word": "odd",
+    "partOfSpeech": "adjective",
+    "definition": "Differing from what is usual, ordinary or expected.",
+    "example": "She slept in, which was very odd.",
+    "sublist": 10
+  },
+  {
+    "word": "offset",
+    "partOfSpeech": "noun",
+    "definition": "Anything that acts as counterbalance; a compensating equivalent.",
+    "example": "Today's victory was an offset to yesterday's defeat.",
+    "sublist": 8
+  },
+  {
+    "word": "ongoing",
+    "partOfSpeech": "adjective",
+    "definition": "Continuing, permanent, lasting.",
+    "example": "",
+    "sublist": 10
+  },
+  {
+    "word": "option",
+    "partOfSpeech": "noun",
+    "definition": "One of a set of choices that can be made.",
+    "example": "",
+    "sublist": 4
+  },
+  {
+    "word": "orient",
+    "partOfSpeech": "proper noun",
+    "definition": "Usually preceded by the: alternative letter-case form of Orient (“a region or a part of the world to the east of a certain place; countries of Asia, the East (especially East Asia)”)",
+    "example": "",
+    "sublist": 5
+  },
+  {
+    "word": "outcome",
+    "partOfSpeech": "noun",
+    "definition": "That which is produced or occurs as a result of an event or process.",
+    "example": "A quality automobile is the outcome of the work of skilled engineers and thousands of workers.",
+    "sublist": 3
+  },
+  {
+    "word": "output",
+    "partOfSpeech": "noun",
+    "definition": "That which is produced by something, especially that which is produced within a particular time period or from a particular effort. Production; quantity produced, created, or completed.",
+    "example": "The factory increased its output this year.",
+    "sublist": 4
+  },
+  {
+    "word": "overall",
+    "partOfSpeech": "adjective",
+    "definition": "All-encompassing, all around.",
+    "example": "",
+    "sublist": 4
+  },
+  {
+    "word": "overlap",
+    "partOfSpeech": "verb",
+    "definition": "To extend over and partly cover something.",
+    "example": "The mouse-mat overlapped the edge of the desk.",
+    "sublist": 9
+  },
+  {
+    "word": "overseas",
+    "partOfSpeech": "adjective",
+    "definition": "Abroad, especially across the sea.",
+    "example": "Overseas branches of the company are doing well.",
+    "sublist": 6
+  },
+  {
+    "word": "panel",
+    "partOfSpeech": "noun",
+    "definition": "A (usually) rectangular section of a surface, or of a covering or of a wall, fence etc.",
+    "example": "Behind the picture was a panel on the wall.",
+    "sublist": 10
+  },
+  {
+    "word": "paradigm",
+    "partOfSpeech": "noun",
+    "definition": "A pattern, a way of doing something; especially a pattern of thought, a system of beliefs, a conceptual framework.",
+    "example": "Thomas Kuhn's landmark “The Structure of Scientific Revolutions” got people talking about paradigm shifts, to the point the word itself now suggests an incomplete or biased perspective.",
+    "sublist": 7
+  },
+  {
+    "word": "paragraph",
+    "partOfSpeech": "noun",
+    "definition": "A passage in text that starts on a new line, the first line sometimes being indented, and usually marks a change of topic.",
+    "example": "opening paragraph",
+    "sublist": 8
+  },
+  {
+    "word": "parallel",
+    "partOfSpeech": "adjective",
+    "definition": "Equally distant from one another at all points.",
+    "example": "The horizontal lines on my notebook paper are parallel.",
+    "sublist": 4
+  },
+  {
+    "word": "parameter",
+    "partOfSpeech": "noun",
+    "definition": "A value kept constant during an experiment, equation, calculation, or similar, but varied over other versions of the experiment, equation, calculation, etc.",
+    "example": "",
+    "sublist": 4
+  },
+  {
+    "word": "participate",
+    "partOfSpeech": "verb",
+    "definition": "To join in, to take part, to involve oneself (in something).",
+    "example": "",
+    "sublist": 2
+  },
+  {
+    "word": "partner",
+    "partOfSpeech": "noun",
+    "definition": "Either of a pair of people or things that belong together.",
+    "example": "",
+    "sublist": 3
+  },
+  {
+    "word": "passive",
+    "partOfSpeech": "adjective",
+    "definition": "Being subjected to an action without producing a reaction.",
+    "example": "",
+    "sublist": 9
+  },
+  {
+    "word": "perceive",
+    "partOfSpeech": "verb",
+    "definition": "To become aware of, through the physical senses, to see; to understand.",
+    "example": "",
+    "sublist": 2
+  },
+  {
+    "word": "percent",
+    "partOfSpeech": "adverb",
+    "definition": "For every hundred (used with preceding numeral to form a noun phrase expressing a proportion).",
+    "example": "",
+    "sublist": 1
+  },
+  {
+    "word": "period",
+    "partOfSpeech": "noun",
+    "definition": "A length of time.",
+    "example": "There was a period of confusion following the announcement.",
+    "sublist": 1
+  },
+  {
+    "word": "persist",
+    "partOfSpeech": "verb",
+    "definition": "To go on stubbornly or resolutely.",
+    "example": "",
+    "sublist": 10
+  },
+  {
+    "word": "perspective",
+    "partOfSpeech": "noun",
+    "definition": "A view, vista or outlook.",
+    "example": "",
+    "sublist": 5
+  },
+  {
+    "word": "phase",
+    "partOfSpeech": "noun",
+    "definition": "A distinguishable part of a sequence or cycle occurring over time.",
+    "example": "",
+    "sublist": 4
+  },
+  {
+    "word": "phenomenon",
+    "partOfSpeech": "noun",
+    "definition": "A thing or being, event or process, perceptible through senses; or a fact or occurrence thereof.",
+    "example": "",
+    "sublist": 7
+  },
+  {
+    "word": "philosophy",
+    "partOfSpeech": "noun",
+    "definition": "An academic discipline that seeks truth through reasoning rather than empiricism, often attempting to provide explanations relating to general concepts such as existence and rationality.",
+    "example": "Philosophy is often divided into five major branches: logic, metaphysics, epistemology, ethics and aesthetics.",
+    "sublist": 3
+  },
+  {
+    "word": "physical",
+    "partOfSpeech": "adjective",
+    "definition": "Of medicine. Pertaining to the field of medicine; medical. That practises medicine; pertaining to doctors, physicianly. Medicinal; good for the health, curative, therapeutic.",
+    "example": "",
+    "sublist": 3
+  },
+  {
+    "word": "plus",
+    "partOfSpeech": "preposition",
+    "definition": "And; sum of the previous one and the following one.",
+    "example": "Two plus two equals four.",
+    "sublist": 8
+  },
+  {
+    "word": "policy",
+    "partOfSpeech": "noun",
+    "definition": "A principle of behaviour, conduct which an entity (government, organization, etc.) applies or seeks to follow, especially as formally expressed by an authoritative body.",
+    "example": "The Communist Party has a policy of returning power to the workers.",
+    "sublist": 1
+  },
+  {
+    "word": "portion",
+    "partOfSpeech": "noun",
+    "definition": "An allocated amount.",
+    "example": "",
+    "sublist": 9
+  },
+  {
+    "word": "pose",
+    "partOfSpeech": "noun",
+    "definition": "Common cold, head cold; catarrh.",
+    "example": "",
+    "sublist": 10
+  },
+  {
+    "word": "positive",
+    "partOfSpeech": "adjective",
+    "definition": "Included, present, characterized by affirmation.",
+    "example": "",
+    "sublist": 2
+  },
+  {
+    "word": "potential",
+    "partOfSpeech": "noun",
+    "definition": "A currently unrealized ability (with the most common adposition being to).",
+    "example": "Even from a young age it was clear that she had the potential to become a great musician.",
+    "sublist": 2
+  },
+  {
+    "word": "practitioner",
+    "partOfSpeech": "noun",
+    "definition": "A person who practices a profession or art, especially law or medicine.",
+    "example": "",
+    "sublist": 8
+  },
+  {
+    "word": "precede",
+    "partOfSpeech": "verb",
+    "definition": "To go before, go in front of.",
+    "example": "Cultural genocide precedes physical genocide.",
+    "sublist": 6
+  },
+  {
+    "word": "precise",
+    "partOfSpeech": "adjective",
+    "definition": "Both exact and accurate.",
+    "example": "precise definition",
+    "sublist": 5
+  },
+  {
+    "word": "predict",
+    "partOfSpeech": "verb",
+    "definition": "To make a prediction: to forecast, foretell, or estimate a future event on the basis of knowledge and reasoning; to prophesy a future event on the basis of mystical knowledge or power.",
+    "example": "",
+    "sublist": 4
+  },
+  {
+    "word": "predominant",
+    "partOfSpeech": "adjective",
+    "definition": "Common or widespread; prevalent.",
+    "example": "",
+    "sublist": 8
+  },
+  {
+    "word": "preliminary",
+    "partOfSpeech": "adjective",
+    "definition": "In preparation for the main matter; initial, introductory, preparatory.",
+    "example": "These are just the preliminary results.",
+    "sublist": 9
+  },
+  {
+    "word": "presume",
+    "partOfSpeech": "verb",
+    "definition": "To be so presumptuous as (to do something) without proper authority or permission [with to (+ infinitive)].",
+    "example": "I don't want to pretend to be an authority on this line of business, so I would never presume to tell you how to run your own company.",
+    "sublist": 6
+  },
+  {
+    "word": "previous",
+    "partOfSpeech": "adjective",
+    "definition": "Prior; occurring before something else, either in time or order.",
+    "example": "He is no better than the previous Prime Minister.",
+    "sublist": 2
+  },
+  {
+    "word": "primary",
+    "partOfSpeech": "adjective",
+    "definition": "First or earliest in a group or series.",
+    "example": "Children attend primary school, and teenagers attend secondary school.",
+    "sublist": 2
+  },
+  {
+    "word": "prime",
+    "partOfSpeech": "adjective",
+    "definition": "First in importance, degree, or rank.",
+    "example": "Our prime concern here is to keep the community safe.",
+    "sublist": 5
+  },
+  {
+    "word": "principal",
+    "partOfSpeech": "adjective",
+    "definition": "Primary; most important; first level in importance.",
+    "example": "Smith is the principal architect of this design.",
+    "sublist": 4
+  },
+  {
+    "word": "principle",
+    "partOfSpeech": "noun",
+    "definition": "A fundamental assumption, fundamental law or guiding belief.",
+    "example": "We need some sort of principles to reason from.",
+    "sublist": 1
+  },
+  {
+    "word": "prior",
+    "partOfSpeech": "adjective",
+    "definition": "Coming before in order or time; earlier, former, previous.",
+    "example": "His prior residence was smaller than his current one.",
+    "sublist": 4
+  },
+  {
+    "word": "priority",
+    "partOfSpeech": "noun",
+    "definition": "An item's relative importance.",
+    "example": "He set his e-mail message's priority to high.",
+    "sublist": 7
+  },
+  {
+    "word": "proceed",
+    "partOfSpeech": "verb",
+    "definition": "To move, pass, or go forward or onward; to advance; to carry on.",
+    "example": "to proceed on a journey",
+    "sublist": 1
+  },
+  {
+    "word": "process",
+    "partOfSpeech": "noun",
+    "definition": "A series of events leading to a result or product.",
+    "example": "This product of last month's quality standards committee is quite good, even though the process was flawed.",
+    "sublist": 1
+  },
+  {
+    "word": "professional",
+    "partOfSpeech": "noun",
+    "definition": "A person who belongs to a profession.",
+    "example": "",
+    "sublist": 4
+  },
+  {
+    "word": "prohibit",
+    "partOfSpeech": "verb",
+    "definition": "To forbid, disallow, or proscribe officially; to make illegal or illicit.",
+    "example": "The restaurant prohibits smoking on the patio.",
+    "sublist": 7
+  },
+  {
+    "word": "project",
+    "partOfSpeech": "noun",
+    "definition": "A planned endeavor, usually with a specific goal and accomplished in several steps or stages.",
+    "example": "",
+    "sublist": 4
+  },
+  {
+    "word": "promote",
+    "partOfSpeech": "verb",
+    "definition": "To raise (someone) to a more important, responsible, or remunerative job or rank.",
+    "example": "He promoted his clerk to office manager.",
+    "sublist": 4
+  },
+  {
+    "word": "proportion",
+    "partOfSpeech": "noun",
+    "definition": "A quantity of something that is part of the whole amount or number.",
+    "example": "",
+    "sublist": 3
+  },
+  {
+    "word": "prospect",
+    "partOfSpeech": "noun",
+    "definition": "The region which the eye overlooks at one time; view; scene; outlook.",
+    "example": "",
+    "sublist": 8
+  },
+  {
+    "word": "protocol",
+    "partOfSpeech": "noun",
+    "definition": "The minutes, or official record, of a negotiation or transaction; especially a document drawn up officially which forms the legal basis for subsequent agreements based on it.",
+    "example": "",
+    "sublist": 9
+  },
+  {
+    "word": "psychology",
+    "partOfSpeech": "noun",
+    "definition": "The study of the human mind.",
+    "example": "",
+    "sublist": 5
+  },
+  {
+    "word": "publication",
+    "partOfSpeech": "noun",
+    "definition": "The act of publishing printed or other matter.",
+    "example": "",
+    "sublist": 7
+  },
+  {
+    "word": "publish",
+    "partOfSpeech": "verb",
+    "definition": "To issue (something, such as printed work) for distribution and/or sale.",
+    "example": "The Times published the investigative piece about the governor both in print and online.",
+    "sublist": 3
+  },
+  {
+    "word": "purchase",
+    "partOfSpeech": "noun",
+    "definition": "The acquisition of title to, or property in, anything for a price; buying for money or its equivalent.",
+    "example": "They offer a free hamburger with the purchase of a drink.",
+    "sublist": 2
+  },
+  {
+    "word": "pursue",
+    "partOfSpeech": "verb",
+    "definition": "To follow urgently, originally with intent to capture or harm; to chase.",
+    "example": "pursue one's dreams",
+    "sublist": 5
+  },
+  {
+    "word": "qualitative",
+    "partOfSpeech": "adjective",
+    "definition": "Of descriptions or distinctions based on some quality rather than on some quantity.",
+    "example": "",
+    "sublist": 9
+  },
+  {
+    "word": "quote",
+    "partOfSpeech": "noun",
+    "definition": "A statement attributed to a person; a quotation.",
+    "example": "She loved reading quotes of famous people.",
+    "sublist": 7
+  },
+  {
+    "word": "radical",
+    "partOfSpeech": "adjective",
+    "definition": "Favoring fundamental change, or change at the root cause of a matter.",
+    "example": "His beliefs are radical.",
+    "sublist": 8
+  },
+  {
+    "word": "random",
+    "partOfSpeech": "noun",
+    "definition": "A roving motion; course without definite direction; lack of rule or method; chance.",
+    "example": "",
+    "sublist": 8
+  },
+  {
+    "word": "range",
+    "partOfSpeech": "noun",
+    "definition": "A line or series of mountains, buildings, etc.",
+    "example": "",
+    "sublist": 2
+  },
+  {
+    "word": "ratio",
+    "partOfSpeech": "noun",
+    "definition": "A number representing a comparison between two named things.",
+    "example": "",
+    "sublist": 5
+  },
+  {
+    "word": "rational",
+    "partOfSpeech": "adjective",
+    "definition": "Capable of reasoning.",
+    "example": "Man is a rational creature.",
+    "sublist": 6
+  },
+  {
+    "word": "react",
+    "partOfSpeech": "verb",
+    "definition": "To act in response.",
+    "example": "How did she react to the news?",
+    "sublist": 3
+  },
+  {
+    "word": "recover",
+    "partOfSpeech": "verb",
+    "definition": "To get back, to regain (a physical thing; in astronomy and navigation, sight of a thing or a signal).",
+    "example": "After days of inquiries, he finally recovered his lost wallet.",
+    "sublist": 6
+  },
+  {
+    "word": "refine",
+    "partOfSpeech": "verb",
+    "definition": "To purify; reduce to a fine, unmixed, or pure state; to free from impurities.",
+    "example": "to refine gold",
+    "sublist": 9
+  },
+  {
+    "word": "regime",
+    "partOfSpeech": "noun",
+    "definition": "Mode of rule or management.",
+    "example": "a prison regime",
+    "sublist": 4
+  },
+  {
+    "word": "region",
+    "partOfSpeech": "noun",
+    "definition": "Any considerable and connected part of a space or surface; specifically, a tract of land or sea of considerable but indefinite extent; a country; a district; in a broad sense, a place without special reference to location or extent but viewed as an entity for geographical, social or cultural reasons.",
+    "example": "the equatorial regions",
+    "sublist": 2
+  },
+  {
+    "word": "register",
+    "partOfSpeech": "noun",
+    "definition": "A formal recording of names, events, transactions, etc.",
+    "example": "The teacher took the register by calling out each child's name.",
+    "sublist": 3
+  },
+  {
+    "word": "regulate",
+    "partOfSpeech": "verb",
+    "definition": "To dictate policy.",
+    "example": "",
+    "sublist": 2
+  },
+  {
+    "word": "reinforce",
+    "partOfSpeech": "verb",
+    "definition": "To strengthen, especially by addition or augmentation.",
+    "example": "He reinforced the handle with a metal rod and a bit of tape.",
+    "sublist": 8
+  },
+  {
+    "word": "reject",
+    "partOfSpeech": "verb",
+    "definition": "To refuse to accept; to forswear.",
+    "example": "She even rejected my improved offer.",
+    "sublist": 5
+  },
+  {
+    "word": "relax",
+    "partOfSpeech": "verb",
+    "definition": "To make something loose.",
+    "example": "to relax a rope or cord",
+    "sublist": 9
+  },
+  {
+    "word": "release",
+    "partOfSpeech": "noun",
+    "definition": "The event of setting (someone or something) free (e.g. hostages, slaves, prisoners, caged animals, hooked or stuck mechanisms).",
+    "example": "",
+    "sublist": 7
+  },
+  {
+    "word": "relevant",
+    "partOfSpeech": "adjective",
+    "definition": "Related, connected, or pertinent to a topic. Directly related, connected, or pertinent, with important ramifications or implications.",
+    "example": "His mother provided some relevant background information concerning his medical condition.",
+    "sublist": 2
+  },
+  {
+    "word": "reluctance",
+    "partOfSpeech": "noun",
+    "definition": "Unwillingness to do something.",
+    "example": "Our new dog shows reluctance to go on walks, preferring to be indoors.",
+    "sublist": 10
+  },
+  {
+    "word": "rely",
+    "partOfSpeech": "verb",
+    "definition": "To trust; to have confidence in; to depend.",
+    "example": "",
+    "sublist": 3
+  },
+  {
+    "word": "remove",
+    "partOfSpeech": "verb",
+    "definition": "To delete.",
+    "example": "",
+    "sublist": 3
+  },
+  {
+    "word": "require",
+    "partOfSpeech": "verb",
+    "definition": "To demand, to insist upon (having); to call for authoritatively.",
+    "example": "",
+    "sublist": 1
+  },
+  {
+    "word": "research",
+    "partOfSpeech": "noun",
+    "definition": "Diligent inquiry or examination to seek or revise facts, principles, theories, applications, etc. (that are currently available, or that are familiar to one's self).",
+    "example": "The research station that houses Wang and his team is outside Lijiang, a city of about 1.2 million people.",
+    "sublist": 1
+  },
+  {
+    "word": "reside",
+    "partOfSpeech": "verb",
+    "definition": "To dwell permanently or for a considerable time; to have a settled abode for a time; to remain for a long time.",
+    "example": "He still resides at his parents' house.",
+    "sublist": 2
+  },
+  {
+    "word": "resolve",
+    "partOfSpeech": "verb",
+    "definition": "To find a solution to (a problem).",
+    "example": "",
+    "sublist": 4
+  },
+  {
+    "word": "resource",
+    "partOfSpeech": "noun",
+    "definition": "Something that one uses to achieve an objective, e.g. raw materials or personnel.",
+    "example": "",
+    "sublist": 2
+  },
+  {
+    "word": "respond",
+    "partOfSpeech": "verb",
+    "definition": "To say something in return; to answer; to reply.",
+    "example": "to respond to a question or an argument",
+    "sublist": 1
+  },
+  {
+    "word": "restore",
+    "partOfSpeech": "verb",
+    "definition": "To reestablish, or bring back into existence.",
+    "example": "to restore harmony among those who are at variance",
+    "sublist": 8
+  },
+  {
+    "word": "restrain",
+    "partOfSpeech": "verb",
+    "definition": "To control or keep in check.",
+    "example": "",
+    "sublist": 9
+  },
+  {
+    "word": "restrict",
+    "partOfSpeech": "verb",
+    "definition": "To restrain within boundaries; to limit; to confine",
+    "example": "After suffering diahrroea, the patient was restricted to a diet of rice, cold meat, and yoghurt.",
+    "sublist": 2
+  },
+  {
+    "word": "retain",
+    "partOfSpeech": "verb",
+    "definition": "Often followed by from: to hold back (someone or something); to check, to prevent, to restrain, to stop. To hold back (a pupil) instead of allowing them to advance to the next class or year; to keep back. Of a thing: to hold or keep (something) inside it; to contain. To hold back (tissue or a substance, especially urine) in the body or a body organ. To hold (something) secure; to prevent (something) from becoming detached or separated. To keep (something) in control or possession; to continue having (something); to keep back. To keep (something) in the mind; to recall, to remember. To keep (something) in place or use, instead of removing or abolishing it; to preserve. To engage or hire (someone), especially temporarily. To employ (someone, especially a lawyer) by paying a retainer (“fee one pays to reserve another person's time for services”); specifically, to engage (a barrister) by making an initial payment to secure their services if needed. To keep (someone) in one's pay or service; also, to maintain (someone) as a dependent or follower. To control or restrain (oneself); to exercise self-control over (oneself). To keep (someone) in custody; to prevent (someone) from leaving. To declare (a sin) not forgiven.",
+    "example": "",
+    "sublist": 4
+  },
+  {
+    "word": "reveal",
+    "partOfSpeech": "noun",
+    "definition": "The outer side of a window or door frame.",
+    "example": "",
+    "sublist": 6
+  },
+  {
+    "word": "revenue",
+    "partOfSpeech": "noun",
+    "definition": "The income returned by an investment.",
+    "example": "",
+    "sublist": 5
+  },
+  {
+    "word": "reverse",
+    "partOfSpeech": "adjective",
+    "definition": "Opposite, contrary; going in the opposite direction.",
+    "example": "We ate the meal in reverse order, starting with dessert and ending with the starter.",
+    "sublist": 7
+  },
+  {
+    "word": "revise",
+    "partOfSpeech": "verb",
+    "definition": "To review, alter and amend, especially of written material.",
+    "example": "This statute should be revised.",
+    "sublist": 8
+  },
+  {
+    "word": "revolution",
+    "partOfSpeech": "noun",
+    "definition": "A political upheaval in a government or state characterized by great change.",
+    "example": "The revolution had completely transformed the monarchy into a republic.",
+    "sublist": 9
+  },
+  {
+    "word": "rigid",
+    "partOfSpeech": "adjective",
+    "definition": "Stiff, rather than flexible.",
+    "example": "",
+    "sublist": 9
+  },
+  {
+    "word": "role",
+    "partOfSpeech": "noun",
+    "definition": "A character or part played by a performer or actor.",
+    "example": "My neighbor was the lead role in last year's village play.",
+    "sublist": 1
+  },
+  {
+    "word": "route",
+    "partOfSpeech": "noun",
+    "definition": "A course or way which is traveled or passed.",
+    "example": "The route was used so much that it formed a rut.",
+    "sublist": 9
+  },
+  {
+    "word": "scenario",
+    "partOfSpeech": "noun",
+    "definition": "An outline or model of an expected or supposed sequence of events.",
+    "example": "",
+    "sublist": 9
+  },
+  {
+    "word": "schedule",
+    "partOfSpeech": "noun",
+    "definition": "A procedural plan, usually but not necessarily tabular in nature, indicating a sequence of operations and the planned times at which those operations are to occur.",
+    "example": "To complete on time, we must follow the schedule.",
+    "sublist": 8
+  },
+  {
+    "word": "scheme",
+    "partOfSpeech": "noun",
+    "definition": "An artful deviation from the ordinary arrangement of words.",
+    "example": "",
+    "sublist": 3
+  },
+  {
+    "word": "scope",
+    "partOfSpeech": "noun",
+    "definition": "The breadth, depth or reach of a subject; the extent of applicability or relevance; a domain, purview or remit.",
+    "example": "Environmental impacts lie outside the scope of this report.",
+    "sublist": 6
+  },
+  {
+    "word": "section",
+    "partOfSpeech": "noun",
+    "definition": "A cutting; a part cut out from the rest of something.",
+    "example": "",
+    "sublist": 1
+  },
+  {
+    "word": "sector",
+    "partOfSpeech": "noun",
+    "definition": "A section. (Can we add an example for this sense?)",
+    "example": "",
+    "sublist": 1
+  },
+  {
+    "word": "secure",
+    "partOfSpeech": "adjective",
+    "definition": "Free from attack or danger; protected.",
+    "example": "",
+    "sublist": 2
+  },
+  {
+    "word": "seek",
+    "partOfSpeech": "verb",
+    "definition": "To try to find; to look for; to search for.",
+    "example": "I seek wisdom.",
+    "sublist": 2
+  },
+  {
+    "word": "select",
+    "partOfSpeech": "adjective",
+    "definition": "Privileged, specially selected.",
+    "example": "Only a select few were allowed into the premiere.",
+    "sublist": 2
+  },
+  {
+    "word": "sequence",
+    "partOfSpeech": "noun",
+    "definition": "A set of things next to each other in a set order; a series.",
+    "example": "An alphabet follows a sequence.",
+    "sublist": 3
+  },
+  {
+    "word": "series",
+    "partOfSpeech": "noun",
+    "definition": "A number of things that follow on one after the other or are connected one after the other.",
+    "example": "A series of seemingly inconsequential events led cumulatively to the fall of the company.",
+    "sublist": 4
+  },
+  {
+    "word": "sex",
+    "partOfSpeech": "noun",
+    "definition": "A category into which sexually-reproducing organisms are divided on the basis of their reproductive roles in their species; the system of such categories, which can differ by organism or by taxonomic branch.",
+    "example": "The effect of the medication is dependent upon age, sex, and other factors.",
+    "sublist": 3
+  },
+  {
+    "word": "shift",
+    "partOfSpeech": "noun",
+    "definition": "A movement to do something, a beginning.",
+    "example": "",
+    "sublist": 3
+  },
+  {
+    "word": "significant",
+    "partOfSpeech": "adjective",
+    "definition": "Signifying something; carrying meaning.",
+    "example": "a significant word or sound",
+    "sublist": 1
+  },
+  {
+    "word": "similar",
+    "partOfSpeech": "adjective",
+    "definition": "Having traits or characteristics in common; alike, allied, comparable.",
+    "example": "My new car is quite similar to my old one, except it has a bit more space in the back.",
+    "sublist": 1
+  },
+  {
+    "word": "simulate",
+    "partOfSpeech": "verb",
+    "definition": "To model, replicate, duplicate the behavior, appearance or properties of.",
+    "example": "We will use a smoke machine to simulate the fog you will actually encounter.",
+    "sublist": 7
+  },
+  {
+    "word": "site",
+    "partOfSpeech": "noun",
+    "definition": "The place where anything is fixed; situation; local position",
+    "example": "the site of a city or of a house",
+    "sublist": 2
+  },
+  {
+    "word": "so-called",
+    "partOfSpeech": "adjective",
+    "definition": "So named; commonly called.",
+    "example": "the so-called Ising mode",
+    "sublist": 10
+  },
+  {
+    "word": "sole",
+    "partOfSpeech": "adjective",
+    "definition": "Unmarried (especially of a woman); widowed.",
+    "example": "",
+    "sublist": 7
+  },
+  {
+    "word": "somewhat",
+    "partOfSpeech": "adverb",
+    "definition": "To a limited extent or degree; not completely.",
+    "example": "The crowd was somewhat larger than expected, perhaps due to the good weather.",
+    "sublist": 7
+  },
+  {
+    "word": "source",
+    "partOfSpeech": "noun",
+    "definition": "The person, place, or thing from which something (information, goods, etc.) comes or is acquired.",
+    "example": "The accused refused to reveal the source of the illegal drugs she was selling.",
+    "sublist": 1
+  },
+  {
+    "word": "specific",
+    "partOfSpeech": "adjective",
+    "definition": "Explicit or definite.",
+    "example": "",
+    "sublist": 1
+  },
+  {
+    "word": "specify",
+    "partOfSpeech": "verb",
+    "definition": "To state explicitly, or in detail, or as a condition.",
+    "example": "",
+    "sublist": 3
+  },
+  {
+    "word": "sphere",
+    "partOfSpeech": "noun",
+    "definition": "A surface in three dimensions consisting of all points equidistant from a center. .",
+    "example": "",
+    "sublist": 9
+  },
+  {
+    "word": "stable",
+    "partOfSpeech": "noun",
+    "definition": "A building, wing or dependency set apart and adapted for lodging and feeding (and training) ungulates, especially horses.",
+    "example": "There were stalls for fourteen horses in the squire's stables.",
+    "sublist": 5
+  },
+  {
+    "word": "statistic",
+    "partOfSpeech": "noun",
+    "definition": "A single item in a statistical study.",
+    "example": "",
+    "sublist": 4
+  },
+  {
+    "word": "status",
+    "partOfSpeech": "noun",
+    "definition": "A person’s condition, position or standing relative to that of others.",
+    "example": "Superstition is highly correlated with economic status.",
+    "sublist": 4
+  },
+  {
+    "word": "straightforward",
+    "partOfSpeech": "adjective",
+    "definition": "Proceeding in a straight course or manner; not deviating.",
+    "example": "",
+    "sublist": 10
+  },
+  {
+    "word": "strategy",
+    "partOfSpeech": "noun",
+    "definition": "The science and art of military command as applied to the overall planning and conduct of warfare.",
+    "example": "",
+    "sublist": 2
+  },
+  {
+    "word": "stress",
+    "partOfSpeech": "noun",
+    "definition": "A physical, chemical, infective agent aggressing an organism.",
+    "example": "",
+    "sublist": 4
+  },
+  {
+    "word": "structure",
+    "partOfSpeech": "noun",
+    "definition": "A cohesive whole built up of distinct parts.",
+    "example": "The birds had built an amazing structure out of sticks and various discarded items.",
+    "sublist": 1
+  },
+  {
+    "word": "style",
+    "partOfSpeech": "noun",
+    "definition": "Senses relating to a thin, pointed object. A sharp stick used for writing on clay tablets or other surfaces; a stylus; an instrument used to write with ink; a pen. A tool with a sharp point used in engraving; a burin, a graver, a stylet, a stylus. The gnomon or pin of a sundial, the shadow of which indicates the hour. The stalk that connects the stigma(s) to the ovary in a pistil of a flower.",
+    "example": "the anal styles of insects",
+    "sublist": 5
+  },
+  {
+    "word": "submit",
+    "partOfSpeech": "verb",
+    "definition": "To yield or give way to another.",
+    "example": "They will not submit to the destruction of their rights.",
+    "sublist": 7
+  },
+  {
+    "word": "subordinate",
+    "partOfSpeech": "adjective",
+    "definition": "Placed in a lower class, rank, or position.",
+    "example": "",
+    "sublist": 9
+  },
+  {
+    "word": "subsequent",
+    "partOfSpeech": "adjective",
+    "definition": "Following in time; coming or being after something else at any time, indefinitely.",
+    "example": "Growth was dampened by a softening of the global economy in 2001, but picked up in the subsequent years due to strong growth in China.",
+    "sublist": 4
+  },
+  {
+    "word": "subsidy",
+    "partOfSpeech": "noun",
+    "definition": "Financial support or assistance, such as a grant.",
+    "example": "Manufacturing firms are supported by government subsidies in some countries.",
+    "sublist": 6
+  },
+  {
+    "word": "substitute",
+    "partOfSpeech": "verb",
+    "definition": "To use in place of something else, with the same function.",
+    "example": "I had no shallots so I substituted onion.",
+    "sublist": 5
+  },
+  {
+    "word": "successor",
+    "partOfSpeech": "noun",
+    "definition": "A person or thing that immediately follows another in holding an office or title.",
+    "example": "George W. Bush was successor to Bill Clinton as President of the US.",
+    "sublist": 7
+  },
+  {
+    "word": "sufficient",
+    "partOfSpeech": "determiner",
+    "definition": "An adequate quantity of; enough.",
+    "example": "We have sufficient supplies to last the winter.",
+    "sublist": 3
+  },
+  {
+    "word": "sum",
+    "partOfSpeech": "symbol",
+    "definition": "Former ISO 639-3 language code for Sumo-Mayangna.",
+    "example": "",
+    "sublist": 4
+  },
+  {
+    "word": "summary",
+    "partOfSpeech": "adjective",
+    "definition": "Concise, brief, or presented in a condensed form; presenting information in such a form.",
+    "example": "A summary review is in the appendix.",
+    "sublist": 4
+  },
+  {
+    "word": "supplement",
+    "partOfSpeech": "noun",
+    "definition": "Something added; especially, such an addition added to make up for a deficiency.",
+    "example": "",
+    "sublist": 9
+  },
+  {
+    "word": "survey",
+    "partOfSpeech": "noun",
+    "definition": "The act of surveying; a general view.",
+    "example": "",
+    "sublist": 2
+  },
+  {
+    "word": "survive",
+    "partOfSpeech": "verb",
+    "definition": "Of a person, to continue to live; to remain alive.",
+    "example": "Whether by a miracle or by good luck, all twenty passengers survived.",
+    "sublist": 7
+  },
+  {
+    "word": "suspend",
+    "partOfSpeech": "verb",
+    "definition": "To halt something temporarily.",
+    "example": "The meeting was suspended for lunch.",
+    "sublist": 9
+  },
+  {
+    "word": "sustain",
+    "partOfSpeech": "verb",
+    "definition": "To maintain, or keep in existence.",
+    "example": "The professor had trouble sustaining students’ interest until the end of her lectures.",
+    "sublist": 5
+  },
+  {
+    "word": "symbol",
+    "partOfSpeech": "noun",
+    "definition": "A character or glyph representing an idea, concept or object.",
+    "example": "\"$\" is the symbol for dollars in the US and some other countries.",
+    "sublist": 5
+  },
+  {
+    "word": "tape",
+    "partOfSpeech": "noun",
+    "definition": "Flexible material in a roll with a sticky surface on one or both sides; adhesive tape.",
+    "example": "Hand me some tape. I need to fix a tear in this paper.",
+    "sublist": 6
+  },
+  {
+    "word": "target",
+    "partOfSpeech": "noun",
+    "definition": "A butt or mark to shoot at, as for practice, or to test the accuracy of a firearm, or the force of a projectile.",
+    "example": "Take careful aim at the target.",
+    "sublist": 5
+  },
+  {
+    "word": "task",
+    "partOfSpeech": "noun",
+    "definition": "A piece of work done as part of one’s duties.",
+    "example": "daily task",
+    "sublist": 3
+  },
+  {
+    "word": "team",
+    "partOfSpeech": "noun",
+    "definition": "A set of draught animals, such as two horses in front of a carriage.",
+    "example": "",
+    "sublist": 9
+  },
+  {
+    "word": "technical",
+    "partOfSpeech": "adjective",
+    "definition": "Specifically related to a particular discipline.",
+    "example": "Particle physics uses the word spin in a technical sense.",
+    "sublist": 3
+  },
+  {
+    "word": "technique",
+    "partOfSpeech": "noun",
+    "definition": "The practical aspects of a given art, occupation etc.; formal requirements.",
+    "example": "",
+    "sublist": 3
+  },
+  {
+    "word": "technology",
+    "partOfSpeech": "noun",
+    "definition": "The combined application of science and art in practical ways in industry, as for example in designing new machines.",
+    "example": "Humankind relies on technology to keep average standard of living higher than it would otherwise be.",
+    "sublist": 3
+  },
+  {
+    "word": "temporary",
+    "partOfSpeech": "adjective",
+    "definition": "Not permanent; existing only for a period or periods of time.",
+    "example": "Sally was put in temporary charge of the department while they searched for a full-time replacement.",
+    "sublist": 9
+  },
+  {
+    "word": "tense",
+    "partOfSpeech": "noun",
+    "definition": "The property of indicating the point in time at which an action or state of being occurs or exists.",
+    "example": "Dyirbal verbs are not inflected for tense.",
+    "sublist": 8
+  },
+  {
+    "word": "terminate",
+    "partOfSpeech": "verb",
+    "definition": "To end something, especially when left in an incomplete state.",
+    "example": "to terminate a process before its completion",
+    "sublist": 8
+  },
+  {
+    "word": "text",
+    "partOfSpeech": "noun",
+    "definition": "A writing consisting of multiple glyphs, characters, symbols or sentences.",
+    "example": "",
+    "sublist": 2
+  },
+  {
+    "word": "theme",
+    "partOfSpeech": "noun",
+    "definition": "A subject, now especially of a talk or an artistic piece; a topic.",
+    "example": "",
+    "sublist": 8
+  },
+  {
+    "word": "theory",
+    "partOfSpeech": "noun",
+    "definition": "A description of an event or system that is considered to be accurate.",
+    "example": "",
+    "sublist": 1
+  },
+  {
+    "word": "thereby",
+    "partOfSpeech": "adverb",
+    "definition": "By it; by that; by that means, or as a consequence of that.",
+    "example": "I enrolled in Old English classes and thereby learned much about Germanic languages.",
+    "sublist": 8
+  },
+  {
+    "word": "thesis",
+    "partOfSpeech": "noun",
+    "definition": "Senses relating to logic, rhetoric, etc. A proposition or statement supported by arguments. A lengthy essay written to establish the validity of a thesis (sense 1.1), especially one submitted in order to complete the requirements for a non-doctoral degree in the US and a doctoral degree in the UK; a dissertation. A conjecture, especially one too vague to be formally stated or verified but useful as a working convention. An affirmation, or distinction from a supposition or hypothesis. In the dialectical method of Georg Wilhelm Friedrich Hegel: the initial stage of reasoning where a formal statement of a point is developed; this is followed by antithesis and synthesis.",
+    "example": "",
+    "sublist": 7
+  },
+  {
+    "word": "topic",
+    "partOfSpeech": "noun",
+    "definition": "A subject; a theme; a category or general area of interest.",
+    "example": "A society where a topic cannot be discussed, does not have free speech.",
+    "sublist": 7
+  },
+  {
+    "word": "trace",
+    "partOfSpeech": "noun",
+    "definition": "An act of tracing.",
+    "example": "Your cell phone company can put a trace on your line.",
+    "sublist": 6
+  },
+  {
+    "word": "tradition",
+    "partOfSpeech": "noun",
+    "definition": "A part of culture that is passed from person to person or generation to generation, possibly differing in detail from family to family, such as the way to celebrate holidays.",
+    "example": "",
+    "sublist": 2
+  },
+  {
+    "word": "transfer",
+    "partOfSpeech": "verb",
+    "definition": "To move or pass from one place, person or thing to another.",
+    "example": "to transfer the laws of one country to another; to transfer suspicion",
+    "sublist": 2
+  },
+  {
+    "word": "transform",
+    "partOfSpeech": "verb",
+    "definition": "To change greatly the appearance or form of.",
+    "example": "The alchemists sought to transform lead into gold.",
+    "sublist": 6
+  },
+  {
+    "word": "transit",
+    "partOfSpeech": "noun",
+    "definition": "The act of passing over, across, or through something.",
+    "example": "",
+    "sublist": 5
+  },
+  {
+    "word": "transmit",
+    "partOfSpeech": "verb",
+    "definition": "To send or convey from one person, place or thing to another.",
+    "example": "",
+    "sublist": 7
+  },
+  {
+    "word": "transport",
+    "partOfSpeech": "verb",
+    "definition": "To carry or bear from one place to another; to remove; to convey.",
+    "example": "to transport goods; to transport troops",
+    "sublist": 6
+  },
+  {
+    "word": "trend",
+    "partOfSpeech": "noun",
+    "definition": "An inclination in a particular direction.",
+    "example": "the trend of a coastline",
+    "sublist": 5
+  },
+  {
+    "word": "trigger",
+    "partOfSpeech": "noun",
+    "definition": "A finger-operated lever used to fire a gun.",
+    "example": "Just pull the trigger.",
+    "sublist": 9
+  },
+  {
+    "word": "ultimate",
+    "partOfSpeech": "adjective",
+    "definition": "Final; last in a series.",
+    "example": "",
+    "sublist": 7
+  },
+  {
+    "word": "undergo",
+    "partOfSpeech": "verb",
+    "definition": "To experience; to pass through a phase.",
+    "example": "The project is undergoing great changes.",
+    "sublist": 10
+  },
+  {
+    "word": "underlie",
+    "partOfSpeech": "verb",
+    "definition": "To lie in a position directly beneath something. (Can we add an example for this sense?)",
+    "example": "",
+    "sublist": 6
+  },
+  {
+    "word": "undertake",
+    "partOfSpeech": "verb",
+    "definition": "To take upon oneself; to start, to embark on (a specific task etc.).",
+    "example": "",
+    "sublist": 4
+  },
+  {
+    "word": "uniform",
+    "partOfSpeech": "noun",
+    "definition": "Alternative letter-case form of Uniform of the ICAO/NATO radiotelephony alphabet.",
+    "example": "",
+    "sublist": 8
+  },
+  {
+    "word": "unify",
+    "partOfSpeech": "verb",
+    "definition": "Cause to become one; make into a unit; consolidate; merge; combine.",
+    "example": "",
+    "sublist": 9
+  },
+  {
+    "word": "unique",
+    "partOfSpeech": "adjective",
+    "definition": "Being the only one of its kind; unequaled, unparalleled or unmatched.",
+    "example": "Every person has a unique life, therefore every person has a unique journey.",
+    "sublist": 7
+  },
+  {
+    "word": "utilise",
+    "partOfSpeech": "verb",
+    "definition": "To make use of; to use.",
+    "example": "",
+    "sublist": 6
+  },
+  {
+    "word": "valid",
+    "partOfSpeech": "adjective",
+    "definition": "Well-grounded or justifiable, pertinent.",
+    "example": "I will believe him as soon as he offers a valid answer.",
+    "sublist": 3
+  },
+  {
+    "word": "vary",
+    "partOfSpeech": "verb",
+    "definition": "To change with time or a similar parameter.",
+    "example": "He varies his magic tricks so as to minimize the possibility that any given audience member will see the same trick twice.",
+    "sublist": 1
+  },
+  {
+    "word": "vehicle",
+    "partOfSpeech": "noun",
+    "definition": "A conveyance: a spacious device for carrying or transporting substances, objects, people or animals.",
+    "example": "",
+    "sublist": 8
+  },
+  {
+    "word": "version",
+    "partOfSpeech": "noun",
+    "definition": "A specific form or variation of something.",
+    "example": "",
+    "sublist": 5
+  },
+  {
+    "word": "via",
+    "partOfSpeech": "noun",
+    "definition": "A main road or highway, especially in ancient Rome. (Mainly used in set phrases, below.)",
+    "example": "",
+    "sublist": 8
+  },
+  {
+    "word": "violate",
+    "partOfSpeech": "verb",
+    "definition": "To break or disregard (a rule or convention).",
+    "example": "Drinking-and-driving violates the law.",
+    "sublist": 9
+  },
+  {
+    "word": "virtual",
+    "partOfSpeech": "adjective",
+    "definition": "In effect or essence, rather than in fact or reality; also, imitated, simulated.",
+    "example": "In fact a defeat on the battlefield, Tet was a virtual victory for the North, owing to its effect on public opinion.",
+    "sublist": 8
+  },
+  {
+    "word": "visible",
+    "partOfSpeech": "adjective",
+    "definition": "Able to be seen.",
+    "example": "When the sun rises, the world becomes visible.",
+    "sublist": 7
+  },
+  {
+    "word": "vision",
+    "partOfSpeech": "noun",
+    "definition": "The sense or ability of sight.",
+    "example": "",
+    "sublist": 9
+  },
+  {
+    "word": "visual",
+    "partOfSpeech": "adjective",
+    "definition": "Related to or affecting the vision.",
+    "example": "",
+    "sublist": 8
+  },
+  {
+    "word": "volume",
+    "partOfSpeech": "noun",
+    "definition": "A three-dimensional measure of space that comprises a length, a width and a height. It is measured in units of cubic centimeters in metric, cubic inches or cubic feet in English measurement.",
+    "example": "The room is 9×12×8, so its volume is 864 cubic feet.",
+    "sublist": 3
+  },
+  {
+    "word": "voluntary",
+    "partOfSpeech": "adjective",
+    "definition": "Done, given, or acting of one's own free will.",
+    "example": "",
+    "sublist": 7
+  },
+  {
+    "word": "welfare",
+    "partOfSpeech": "noun",
+    "definition": "Health, safety, happiness and prosperity; well-being in any respect.",
+    "example": "",
+    "sublist": 5
+  },
+  {
+    "word": "whereas",
+    "partOfSpeech": "adverb",
+    "definition": "Where (that).",
+    "example": "",
+    "sublist": 5
+  },
+  {
+    "word": "whereby",
+    "partOfSpeech": "adverb",
+    "definition": "By what, in which direction; how.",
+    "example": "Whereby goest thou?",
+    "sublist": 10
+  },
+  {
+    "word": "widespread",
+    "partOfSpeech": "adjective",
+    "definition": "Affecting, or found throughout, a large area (e.g. the entire land or body); broad in extent; widely diffused.",
+    "example": "widespread belief",
+    "sublist": 8
+  }
+]
