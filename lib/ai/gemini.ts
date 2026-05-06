@@ -15,9 +15,15 @@ function client() {
   return _client;
 }
 
+// Google deprecated `gemini-1.5-flash` on the public v1beta endpoint; only the
+// rolling alias `gemini-flash-latest` is reachable for the free-tier key types
+// most users start with. Override via GEMINI_MODEL if you have access to a
+// specific pinned model.
+const MODEL = process.env.GEMINI_MODEL || "gemini-flash-latest";
+
 export async function geminiJson<T>(prompt: string): Promise<T> {
   const model = client().getGenerativeModel({
-    model: "gemini-1.5-flash",
+    model: MODEL,
     generationConfig: {
       temperature: 0.4,
       responseMimeType: "application/json",
@@ -30,7 +36,7 @@ export async function geminiJson<T>(prompt: string): Promise<T> {
 
 export async function geminiText(prompt: string): Promise<string> {
   const model = client().getGenerativeModel({
-    model: "gemini-1.5-flash",
+    model: MODEL,
     generationConfig: { temperature: 0.5 },
   });
   const result = await model.generateContent(prompt);
