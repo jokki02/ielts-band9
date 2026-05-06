@@ -1,11 +1,12 @@
-// IELTS Band 9 Prep — Prisma schema (SQLite, single-user app)
+// IELTS Band 9 Prep — Prisma schema (Postgres, single-user app)
 
 generator client {
-  provider = "prisma-client-js"
+  provider      = "prisma-client-js"
+  binaryTargets = ["native", "rhel-openssl-3.0.x"]
 }
 
 datasource db {
-  provider = "sqlite"
+  provider = "postgresql"
   url      = env("DATABASE_URL")
 }
 
