@@ -965,4 +965,190 @@ export const TASK2_PROMPTS: Task2Prompt[] = [
     source: SRC_LIZ_2024,
     sourceUrl: SRC_LIZ_2024_URL,
   },
+
+  // --- ADDITIONAL REPORTED PROMPTS (2023–2024 archives) -------------------
+  {
+    id: "t2-edu-extra-01",
+    type: "opinion",
+    topic: "education",
+    prompt:
+      "Some people believe that students should be taught practical skills such as money management at school. To what extent do you agree or disagree?",
+    bandLevel: 7.5,
+    keyVocabulary: [
+      "financial literacy",
+      "compound interest",
+      "budgeting",
+      "real-world readiness",
+      "core curriculum",
+    ],
+    commonMistakes: [
+      "Vague claims that schools 'teach nothing useful'.",
+      "Forgetting to address how this would fit into the existing curriculum.",
+    ],
+    band9Tips:
+      "Concede that academic subjects matter, then argue for an integrated approach (mathematics lessons taught through real-world budgeting examples).",
+    source: SRC_RECENT,
+    sourceUrl: SRC_RECENT_URL,
+  },
+  {
+    id: "t2-env-extra-01",
+    type: "discussion",
+    topic: "environment",
+    prompt:
+      "Some people believe that individual action is the best way to address climate change, while others argue that only government policy can make a real difference. Discuss both views and give your own opinion.",
+    bandLevel: 8,
+    keyVocabulary: [
+      "carbon footprint",
+      "systemic change",
+      "regulatory frameworks",
+      "behavioural shift",
+      "free-rider problem",
+    ],
+    commonMistakes: [
+      "Presenting one side as straw man.",
+      "Listing actions without acknowledging scale of impact.",
+    ],
+    band9Tips:
+      "Acknowledge that individual action signals demand but argue that legislation (carbon pricing, emissions standards) drives the structural shifts at the scale climate science demands.",
+    source: SRC_RECENT,
+    sourceUrl: SRC_RECENT_URL,
+  },
+  {
+    id: "t2-tech-extra-01",
+    type: "advantages-disadvantages",
+    topic: "technology",
+    prompt:
+      "More and more people are working remotely from home rather than commuting to an office. What are the advantages and disadvantages of this trend?",
+    bandLevel: 7.5,
+    keyVocabulary: [
+      "remote work",
+      "asynchronous collaboration",
+      "presenteeism",
+      "knowledge worker",
+      "work-life balance",
+    ],
+    commonMistakes: [
+      "Treating 'flexibility' as the only advantage.",
+      "Ignoring industries where remote work is impossible.",
+    ],
+    band9Tips:
+      "Use specific examples (Slack, Zoom, GitHub) and contrast knowledge work with service industries that cannot remote.",
+    source: SRC_RECENT,
+    sourceUrl: SRC_RECENT_URL,
+  },
+  {
+    id: "t2-society-extra-01",
+    type: "problem-solution",
+    topic: "society",
+    prompt:
+      "In many cities the gap between rich and poor has widened in recent years. What problems does this cause, and what solutions can you suggest?",
+    bandLevel: 8,
+    keyVocabulary: [
+      "income inequality",
+      "social mobility",
+      "progressive taxation",
+      "affordable housing",
+      "public services",
+    ],
+    commonMistakes: [
+      "Vague reference to 'the gap' without naming concrete metrics.",
+      "Listing solutions without explaining the mechanism.",
+    ],
+    band9Tips:
+      "Cite at least one concrete metric (Gini coefficient, ratio of top-decile to bottom-decile income) and propose a policy with the mechanism by which it reduces the gap.",
+    source: SRC_RECENT,
+    sourceUrl: SRC_RECENT_URL,
+  },
+  {
+    id: "t2-health-extra-01",
+    type: "discussion",
+    topic: "health",
+    prompt:
+      "Some people think that governments should focus on reducing healthcare costs by promoting healthier lifestyles, while others believe they should invest more in medical research and treatment. Discuss both views.",
+    bandLevel: 7.5,
+    keyVocabulary: [
+      "preventative medicine",
+      "non-communicable diseases",
+      "biomedical research",
+      "public-health campaigns",
+      "lifestyle interventions",
+    ],
+    commonMistakes: [
+      "Treating prevention and treatment as mutually exclusive.",
+      "Forgetting demographic differences (ageing populations).",
+    ],
+    band9Tips:
+      "Argue that long-run cost reduction comes from prevention but that ageing populations still require sustained R&D investment.",
+    source: SRC_RECENT,
+    sourceUrl: SRC_RECENT_URL,
+  },
+  {
+    id: "t2-media-extra-01",
+    type: "opinion",
+    topic: "media",
+    prompt:
+      "Social media has had a significant impact on how news is shared and consumed. Do you think this has been mostly positive or mostly negative?",
+    bandLevel: 8,
+    keyVocabulary: [
+      "filter bubble",
+      "citizen journalism",
+      "misinformation",
+      "algorithmic amplification",
+      "media literacy",
+    ],
+    commonMistakes: [
+      "Black-and-white framing of social media as good or bad.",
+      "Generalising 'young people' without nuance.",
+    ],
+    band9Tips:
+      "Concede genuine benefits (Arab Spring coverage, citizen journalism) before arguing that algorithmic amplification of misinformation outweighs them.",
+    source: SRC_RECENT,
+    sourceUrl: SRC_RECENT_URL,
+  },
+  {
+    id: "t2-work-extra-01",
+    type: "advantages-disadvantages",
+    topic: "work",
+    prompt:
+      "In some countries young people are increasingly choosing to start their own business rather than work for a company. What are the advantages and disadvantages of this trend?",
+    bandLevel: 7.5,
+    keyVocabulary: [
+      "entrepreneurship",
+      "venture capital",
+      "risk appetite",
+      "gig economy",
+      "career capital",
+    ],
+    commonMistakes: [
+      "Romanticising entrepreneurship as universally positive.",
+      "Ignoring failure rates.",
+    ],
+    band9Tips:
+      "Acknowledge the high failure rate of new ventures and argue that the experience still builds 'career capital' useful in subsequent employed roles.",
+    source: SRC_RECENT,
+    sourceUrl: SRC_RECENT_URL,
+  },
+  {
+    id: "t2-culture-extra-01",
+    type: "discussion",
+    topic: "culture",
+    prompt:
+      "Some people argue that traditional festivals and customs are losing importance in modern society, while others believe they are still relevant. Discuss both views and give your own opinion.",
+    bandLevel: 7.5,
+    keyVocabulary: [
+      "cultural identity",
+      "intangible heritage",
+      "globalisation",
+      "communal ritual",
+      "intergenerational transmission",
+    ],
+    commonMistakes: [
+      "Sweeping claims about 'modern life' without examples.",
+      "Ignoring evidence of festival revival in some communities.",
+    ],
+    band9Tips:
+      "Reference UNESCO's 2003 Convention for the Safeguarding of Intangible Cultural Heritage as evidence that festivals remain a recognised part of cultural identity.",
+    source: SRC_RECENT,
+    sourceUrl: SRC_RECENT_URL,
+  },
 ];

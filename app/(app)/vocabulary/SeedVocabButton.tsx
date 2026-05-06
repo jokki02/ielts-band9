@@ -6,12 +6,12 @@ import { toast } from "sonner";
 import { Button } from "@/components/ui/button";
 import { Sparkles } from "lucide-react";
 
-export function SeedVocabButton() {
+export function SeedVocabButton({ label }: { label?: string }) {
   const router = useRouter();
   const [busy, setBusy] = useState(false);
   return (
     <Button
-      variant="default"
+      variant="outline"
       disabled={busy}
       onClick={async () => {
         setBusy(true);
@@ -19,7 +19,11 @@ export function SeedVocabButton() {
           const res = await fetch("/api/vocabulary/seed", { method: "POST" });
           if (!res.ok) throw new Error((await res.json()).error || "Failed");
           const data = await res.json();
-          toast.success(`Seeded ${data.added} cards`);
+          if (data.added === 0) {
+            toast.info("Deck already up to date");
+          } else {
+            toast.success(`Seeded ${data.added} new cards`);
+          }
           router.refresh();
         } catch (err) {
           toast.error((err as Error).message);
@@ -29,7 +33,7 @@ export function SeedVocabButton() {
       }}
     >
       <Sparkles className="h-4 w-4" />
-      {busy ? "Seeding…" : "Seed vocabulary"}
+      {busy ? "Seeding…" : label || "Seed AWL deck"}
     </Button>
   );
 }

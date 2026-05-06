@@ -5,6 +5,7 @@ import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/com
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { BookOpen } from "lucide-react";
+import { DiscoverPanel } from "@/components/discover/DiscoverPanel";
 
 export default function ReadingHub() {
   return (
@@ -12,6 +13,7 @@ export default function ReadingHub() {
       <PageHeader
         title="Reading"
         description="Practise IELTS Academic reading passages with all 14 question types. Each passage is timed at 20 minutes."
+        actions={<DiscoverPanel module="reading" />}
       />
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
         {READING_PASSAGES.map((p) => (

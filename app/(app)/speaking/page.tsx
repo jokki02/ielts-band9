@@ -5,6 +5,7 @@ import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/com
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Mic } from "lucide-react";
+import { DiscoverPanel } from "@/components/discover/DiscoverPanel";
 
 export default function SpeakingHub() {
   return (
@@ -12,6 +13,7 @@ export default function SpeakingHub() {
       <PageHeader
         title="Speaking Simulator"
         description="Practise Parts 1, 2, and 3 with browser speech recognition + AI feedback on fluency, lexis, grammar, and pronunciation patterns."
+        actions={<DiscoverPanel module="speaking" />}
       />
 
       <h2 className="text-sm uppercase tracking-wider text-muted-foreground mb-2">

@@ -3,6 +3,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { TIPS } from "@/data/tips/tips";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
+import { DiscoverPanel } from "@/components/discover/DiscoverPanel";
 
 const MODULES = ["all", "writing", "reading", "listening", "speaking", "vocabulary", "general"] as const;
 
@@ -12,6 +13,7 @@ export default function TipsPage() {
       <PageHeader
         title="Tips Hub"
         description="Concentrated study advice paraphrased from official IELTS partners (British Council, IDP, Cambridge English) and respected examiner blogs (IELTS Liz, IELTS Simon). Every tip cites its source."
+        actions={<DiscoverPanel module="tips" />}
       />
       <Tabs defaultValue="all">
         <TabsList className="overflow-x-auto max-w-full">

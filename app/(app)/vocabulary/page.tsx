@@ -8,6 +8,7 @@ import { Badge } from "@/components/ui/badge";
 import { EmptyState } from "@/components/common/EmptyState";
 import { Library, Sparkles } from "lucide-react";
 import { SeedVocabButton } from "./SeedVocabButton";
+import { DiscoverPanel } from "@/components/discover/DiscoverPanel";
 
 export default async function VocabularyHub() {
   const user = await requireUser();
@@ -30,8 +31,9 @@ export default async function VocabularyHub() {
         title="Vocabulary"
         description="Learn high-band IELTS lexis with spaced-repetition flashcards (SM-2 algorithm)."
         actions={
-          <div className="flex gap-2">
-            {cards.length === 0 && <SeedVocabButton />}
+          <div className="flex gap-2 flex-wrap">
+            <SeedVocabButton />
+            <DiscoverPanel module="vocabulary" compact />
             {cards.length > 0 && (
               <Button asChild variant="gradient">
                 <Link href="/vocabulary/review">
@@ -47,7 +49,7 @@ export default async function VocabularyHub() {
         <EmptyState
           icon={<Library className="h-6 w-6" />}
           title="No vocabulary loaded yet"
-          description="Click 'Seed vocabulary' to add ~100 high-band IELTS words across topics."
+          description="Click 'Seed AWL deck' to add the full Coxhead Academic Word List (570 word families) plus hand-curated high-band collocations (~593 cards total)."
           action={<SeedVocabButton />}
         />
       ) : (

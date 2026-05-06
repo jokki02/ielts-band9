@@ -5,6 +5,7 @@ import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/com
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Headphones } from "lucide-react";
+import { DiscoverPanel } from "@/components/discover/DiscoverPanel";
 
 export default function ListeningHub() {
   return (
@@ -12,6 +13,7 @@ export default function ListeningHub() {
       <PageHeader
         title="Listening Lab"
         description="Real human-recorded TED-Ed lectures with verbatim transcripts and IELTS-style questions. Every track links to its original source under its open licence."
+        actions={<DiscoverPanel module="listening" />}
       />
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
         {LISTENING_TRACKS.map((t) => (

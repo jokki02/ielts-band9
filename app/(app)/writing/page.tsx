@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/button";
 import { PenLine, FileBarChart, History } from "lucide-react";
 import { TASK1_PROMPTS } from "@/data/writing/task1-prompts";
 import { TASK2_PROMPTS } from "@/data/writing/task2-prompts";
+import { DiscoverPanel } from "@/components/discover/DiscoverPanel";
 
 export default function WritingHubPage() {
   return (
@@ -13,11 +14,15 @@ export default function WritingHubPage() {
         title="Writing Studio"
         description="Practise IELTS Academic Task 1 and Task 2 with timed prompts and AI-powered Band 9 grading."
         actions={
-          <Button asChild variant="outline">
-            <Link href="/writing/history">
-              <History className="h-4 w-4" /> History
-            </Link>
-          </Button>
+          <div className="flex gap-2 flex-wrap">
+            <DiscoverPanel module="writing-task2" compact />
+            <DiscoverPanel module="writing-task1" compact />
+            <Button asChild variant="outline">
+              <Link href="/writing/history">
+                <History className="h-4 w-4" /> History
+              </Link>
+            </Button>
+          </div>
         }
       />
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
