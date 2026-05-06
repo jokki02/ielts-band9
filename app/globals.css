@@ -2,32 +2,205 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
+@layer base {
   :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+    /* Light mode tokens (rarely used - app defaults to dark) */
+    --background: 240 20% 98%;
+    --foreground: 222 47% 11%;
+    --card: 0 0% 100%;
+    --card-foreground: 222 47% 11%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 222 47% 11%;
+    --primary: 239 84% 60%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 250 84% 65%;
+    --secondary-foreground: 0 0% 100%;
+    --muted: 220 14% 95%;
+    --muted-foreground: 220 9% 46%;
+    --accent: 263 70% 65%;
+    --accent-foreground: 0 0% 100%;
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 220 13% 91%;
+    --input: 220 13% 91%;
+    --ring: 239 84% 60%;
+
+    --writing: 239 84% 60%;
+    --reading: 158 64% 40%;
+    --listening: 38 92% 50%;
+    --speaking: 330 81% 60%;
+    --vocabulary: 263 70% 65%;
+
+    --band-9: 158 64% 40%;
+    --band-8: 217 91% 60%;
+    --band-7: 38 92% 50%;
+    --band-6: 0 84% 60%;
+
+    --radius: 0.625rem;
+  }
+
+  .dark {
+    /* Dark mode (default) — Deep space palette */
+    --background: 240 21% 5%;        /* #0a0a0f */
+    --foreground: 210 40% 96%;       /* #f1f5f9 */
+    --card: 240 16% 8%;              /* #111118 */
+    --card-foreground: 210 40% 96%;
+    --popover: 240 16% 9%;
+    --popover-foreground: 210 40% 96%;
+    --primary: 239 84% 67%;          /* #6366f1 indigo */
+    --primary-foreground: 0 0% 100%;
+    --secondary: 250 84% 70%;        /* #8b5cf6 violet */
+    --secondary-foreground: 0 0% 100%;
+    --muted: 240 14% 14%;            /* #1a1a24 */
+    --muted-foreground: 215 20% 65%; /* #94a3b8 */
+    --accent: 250 84% 70%;
+    --accent-foreground: 0 0% 100%;
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 240 16% 20%;           /* #2a2a3a */
+    --input: 240 14% 14%;
+    --ring: 239 84% 67%;
+
+    --writing: 239 84% 67%;          /* indigo */
+    --reading: 158 64% 40%;          /* emerald */
+    --listening: 38 92% 50%;         /* amber */
+    --speaking: 330 81% 60%;         /* pink */
+    --vocabulary: 263 70% 65%;       /* violet */
+
+    --band-9: 158 64% 40%;
+    --band-8: 217 91% 60%;
+    --band-7: 38 92% 50%;
+    --band-6: 0 72% 51%;
+  }
+
+  /* Force dark mode by default */
+  html {
+    color-scheme: dark;
   }
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+@layer base {
+  * {
+    @apply border-border;
+  }
+  html,
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-feature-settings: "rlig" 1, "calt" 1, "ss01" 1;
+  }
+  body {
+    background:
+      radial-gradient(
+        1200px circle at 0% 0%,
+        hsl(239 84% 67% / 0.08),
+        transparent 40%
+      ),
+      radial-gradient(
+        1000px circle at 100% 100%,
+        hsl(263 70% 65% / 0.06),
+        transparent 45%
+      ),
+      hsl(var(--background));
+    min-height: 100vh;
+  }
+
+  ::selection {
+    @apply bg-primary/30 text-foreground;
+  }
 }
 
 @layer utilities {
+  .glass {
+    background-color: hsl(var(--card) / 0.6);
+    backdrop-filter: blur(12px) saturate(180%);
+    -webkit-backdrop-filter: blur(12px) saturate(180%);
+    border: 1px solid hsl(var(--border) / 0.5);
+  }
+
+  .scrollbar-thin {
+    scrollbar-width: thin;
+    scrollbar-color: hsl(var(--border)) transparent;
+  }
+
+  .scrollbar-thin::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+
+  .scrollbar-thin::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  .scrollbar-thin::-webkit-scrollbar-thumb {
+    background: hsl(var(--border));
+    border-radius: 3px;
+  }
+
+  .scrollbar-thin::-webkit-scrollbar-thumb:hover {
+    background: hsl(var(--muted-foreground));
+  }
+
   .text-balance {
     text-wrap: balance;
   }
+
+  .shimmer {
+    background: linear-gradient(
+      90deg,
+      hsl(var(--muted)) 0%,
+      hsl(var(--muted-foreground) / 0.1) 50%,
+      hsl(var(--muted)) 100%
+    );
+    background-size: 1000px 100%;
+    @apply animate-shimmer;
+  }
+
+  /* Card-3d flip support for flashcards */
+  .perspective,
+  .perspective-1000 {
+    perspective: 1200px;
+  }
+  .preserve-3d,
+  .transform-style-3d {
+    transform-style: preserve-3d;
+  }
+  .backface-hidden {
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+  }
+  .rotate-y-180 {
+    transform: rotateY(180deg);
+  }
+}
+
+/* Animated gradient progress fill */
+[data-radix-progress-indicator] {
+  transition: transform 0.4s ease-out;
+}
+
+/* TipTap editor */
+.ProseMirror {
+  outline: none;
+  min-height: 320px;
+}
+
+.ProseMirror p {
+  margin-bottom: 0.75rem;
+  line-height: 1.7;
+}
+
+.ProseMirror h1,
+.ProseMirror h2,
+.ProseMirror h3 {
+  font-weight: 600;
+  margin-top: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+
+.ProseMirror p.is-editor-empty:first-child::before {
+  content: attr(data-placeholder);
+  color: hsl(var(--muted-foreground));
+  pointer-events: none;
+  height: 0;
+  float: left;
 }

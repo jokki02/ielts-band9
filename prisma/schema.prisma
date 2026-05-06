@@ -1,0 +1,160 @@
+// IELTS Band 9 Prep — Prisma schema (Postgres, single-user app)
+
+generator client {
+  provider      = "prisma-client-js"
+  binaryTargets = ["native", "rhel-openssl-3.0.x"]
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id              String   @id @default(cuid())
+  name            String
+  email           String   @unique
+  currentBand     Float    @default(7.0)
+  targetBand      Float    @default(9.0)
+  examDate        DateTime?
+  studyStreak     Int      @default(0)
+  lastStudyDate   DateTime?
+  totalStudyMins  Int      @default(0)
+  createdAt       DateTime @default(now())
+
+  sessions        StudySession[]
+  writingAttempts WritingAttempt[]
+  readingAttempts ReadingAttempt[]
+  mockTests       MockTest[]
+  vocabCards      VocabCard[]
+  studyPlan       StudyPlan?
+  achievements    Achievement[]
+  settings        UserSettings?
+}
+
+model StudySession {
+  id        String   @id @default(cuid())
+  userId    String
+  module    String   // listening|reading|writing|speaking|vocabulary|mock
+  duration  Int      // minutes
+  score     Float?
+  date      DateTime @default(now())
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+}
+
+model WritingAttempt {
+  id              String   @id @default(cuid())
+  userId          String
+  taskType        String   // task1|task2
+  promptId        String?
+  prompt          String
+  userResponse    String
+  wordCount       Int
+  timeSpent       Int      // seconds
+
+  taskAchievement   Float?
+  coherenceCohesion Float?
+  lexicalResource   Float?
+  grammaticalRange  Float?
+  overallBand       Float?
+
+  feedback        String?  // JSON: detailed feedback
+  improvedVersion String?  // AI-generated Band 9 version
+  aiProvider      String?  // gemini|groq|heuristic
+
+  createdAt       DateTime @default(now())
+  user            User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+}
+
+model ReadingAttempt {
+  id          String   @id @default(cuid())
+  userId      String
+  passageId   String
+  answers     String   // JSON: {questionId: userAnswer}
+  results     String?  // JSON: per-question correct/incorrect with explanations
+  rawScore    Int
+  totalQs     Int
+  bandScore   Float
+  timeSpent   Int      // seconds
+  createdAt   DateTime @default(now())
+  user        User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+}
+
+model MockTest {
+  id            String   @id @default(cuid())
+  userId        String
+  testNumber    Int
+  status        String   @default("in_progress") // in_progress|completed
+
+  listeningBand Float?
+  readingBand   Float?
+  writingBand   Float?
+  speakingBand  Float?
+  overallBand   Float?
+
+  startedAt     DateTime @default(now())
+  completedAt   DateTime?
+  responses     String?  // JSON full test responses
+
+  user          User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+}
+
+model VocabCard {
+  id            String   @id @default(cuid())
+  userId        String
+  word          String
+  definition    String
+  pronunciation String?
+  partOfSpeech  String
+  bandLevel     Float
+  topic         String
+  exampleSent   String
+  collocations  String   // JSON array
+  synonyms      String   // JSON array
+  antonyms      String   // JSON array
+
+  // SM-2 spaced repetition
+  nextReview    DateTime @default(now())
+  interval      Int      @default(1)
+  easeFactor    Float    @default(2.5)
+  repetitions   Int      @default(0)
+  lastRating    Int?
+
+  createdAt     DateTime @default(now())
+  user          User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, word])
+}
+
+model StudyPlan {
+  id          String   @id @default(cuid())
+  userId      String   @unique
+  examDate    DateTime
+  weeklyPlan  String   // JSON
+  focusAreas  String   // JSON
+  updatedAt   DateTime @updatedAt
+  user        User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+}
+
+model Achievement {
+  id          String   @id @default(cuid())
+  userId      String
+  type        String
+  title       String
+  description String
+  icon        String
+  earnedAt    DateTime @default(now())
+  user        User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, type])
+}
+
+model UserSettings {
+  id              String  @id @default(cuid())
+  userId          String  @unique
+  darkMode        Boolean @default(true)
+  notifications   Boolean @default(true)
+  dailyGoalMins   Int     @default(60)
+  preferredAI     String  @default("gemini") // gemini|groq
+  user            User    @relation(fields: [userId], references: [id], onDelete: Cascade)
+}

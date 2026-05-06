@@ -27,6 +27,7 @@ yarn-error.log*
 
 # local env files
 .env*.local
+.env
 
 # vercel
 .vercel
@@ -34,3 +35,15 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+/app/generated/prisma
+
+# SQLite — created by prisma db push
+prisma/dev.db
+prisma/dev.db-journal
+prisma/migrations/dev.db
+
+# Local test plans / reports (kept on the dev box, not pushed)
+test-plan.md
+test-report.md
+
