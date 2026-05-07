@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { Home, PenLine, BookOpen, Library, BarChart3 } from "lucide-react";
+import { Home, PenLine, BookOpen, Library, DraftingCompass } from "lucide-react";
 import { cn } from "@/lib/utils";
 
 const NAV = [
@@ -10,7 +10,7 @@ const NAV = [
   { href: "/writing", label: "Writing", icon: PenLine },
   { href: "/reading", label: "Reading", icon: BookOpen },
   { href: "/vocabulary", label: "Vocab", icon: Library },
-  { href: "/progress", label: "Progress", icon: BarChart3 },
+  { href: "/designer", label: "Design", icon: DraftingCompass },
 ];
 
 export function MobileNav() {

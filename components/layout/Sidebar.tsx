@@ -4,6 +4,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import {
   Home,
+  DraftingCompass,
   PenLine,
   BookOpen,
   Headphones,
@@ -21,6 +22,7 @@ import { cn } from "@/lib/utils";
 
 const NAV = [
   { href: "/", label: "Dashboard", icon: Home },
+  { href: "/designer", label: "3D Designer", icon: DraftingCompass },
   { href: "/writing", label: "Writing", icon: PenLine },
   { href: "/reading", label: "Reading", icon: BookOpen },
   { href: "/listening", label: "Listening", icon: Headphones },
